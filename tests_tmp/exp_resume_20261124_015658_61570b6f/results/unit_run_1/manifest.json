@@ -1,0 +1,18 @@
+{
+  "run_id": "unit_run_1",
+  "run_kind": "unit_test",
+  "expected_configurations": 2,
+  "completed_configurations": 2,
+  "missing": [],
+  "per_scenario": {
+    "B1": {
+      "completed": 2,
+      "expected": 2
+    }
+  },
+  "network_fingerprint": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+  "network_semantic_fingerprint": "461febf43a90332f04f13d706cf8f34579202aab120a7716886f5f7e9f54fc25",
+  "updated_utc": "2026-11-23T20:26:59+00:00",
+  "status": "completed",
+  "finished_utc": "2026-11-23T20:26:59+00:00"
+}

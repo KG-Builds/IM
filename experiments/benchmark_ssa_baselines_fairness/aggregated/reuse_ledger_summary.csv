@@ -1,0 +1,5 @@
+status,source,reason,count
+completed_valid,new_computation,new computation,171
+completed_valid,new_computation,existing result has matching signature,9
+reused,prior_ssa_only,validated prior SSA-only result,57
+reused,prior_ssa_only,existing result has matching signature,3

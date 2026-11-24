@@ -1,0 +1,134 @@
+{
+  "run_id": "SMOKE_5000_reversed_20261124",
+  "run_kind": "SMOKE_TEST_5000_REVERSED",
+  "config": {
+    "run_id": "SMOKE_5000_reversed_20261124",
+    "run_kind": "SMOKE_TEST_5000_REVERSED",
+    "scenarios": [
+      "B1"
+    ],
+    "k_values": [
+      10
+    ],
+    "objective_ids": [
+      "O2",
+      "O3"
+    ],
+    "modes": [
+      "SSA only",
+      "SSA + Swap refinement"
+    ],
+    "master_seed": 42,
+    "ssa_population": 4,
+    "ssa_iterations": 2,
+    "ssa_mutation_rate": 0.2,
+    "optimization_mc_runs": 5,
+    "final_mc_runs": 10,
+    "pool_ratio": 10,
+    "random_pool_fraction": 0.3,
+    "swap_max_tests": 10,
+    "n_threads": 0,
+    "network_path": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/network/synthetic_network_5000_37500.csv",
+    "results_root": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/validation/smoke_results",
+    "resume": true,
+    "influence_direction": "reverse",
+    "expected_nodes": 5000,
+    "expected_edges": 37500
+  },
+  "network": {
+    "path": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/network/synthetic_network_5000_37500.csv",
+    "file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+    "trust_semantic_sha256": "576d00314530fc82c86d5a433e13a2ea64dbe135723350d936df21b082e2b20f",
+    "influence_direction": "reverse",
+    "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+    "node_count": 5000,
+    "edge_count": 37500,
+    "direction_check": {
+      "trust_edges": 37500,
+      "influence_edges": 37500,
+      "expected_influence_edges": 37500,
+      "missing_reversed_edges": 0,
+      "extra_influence_edges": 0,
+      "same_direction_edges": 0,
+      "reciprocal_trust_pairs": 0,
+      "all_trust_edges_reversed": true,
+      "influence_direction": "reverse_of_trust",
+      "examples_missing": [],
+      "examples_extra": []
+    },
+    "validation": {
+      "n_nodes": 5000,
+      "n_directed_arcs": 37500,
+      "n_underlying_unordered_pairs": 37500,
+      "n_reciprocal_arc_pairs": 0,
+      "n_duplicate_arcs": 0,
+      "n_self_loops": 0,
+      "n_positive": 18706,
+      "n_negative": 18794,
+      "probability_class_counts": {
+        "0.1": 11151,
+        "0.5": 14911,
+        "0.9": 11438
+      },
+      "strength_distribution": {
+        "1": 3728,
+        "2": 3689,
+        "3": 3734,
+        "4": 3679,
+        "5": 3753,
+        "6": 3681,
+        "7": 3798,
+        "8": 3818,
+        "9": 3848,
+        "10": 3772
+      },
+      "out_degree": {
+        "min": 0,
+        "max": 142,
+        "mean": 7.5,
+        "median": 6.0,
+        "std": 8.32824111082286
+      },
+      "in_degree": {
+        "min": 0,
+        "max": 146,
+        "mean": 7.5,
+        "median": 6.0,
+        "std": 8.448479153078381
+      },
+      "n_isolated": 0,
+      "n_sources": 9,
+      "n_sinks": 8,
+      "n_weak_components": 1,
+      "largest_weak_component": 5000,
+      "n_strong_components": 18,
+      "largest_strong_component": 4983,
+      "is_weakly_connected": true
+    },
+    "metadata_path": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/network/network_metadata.json"
+  },
+  "environment": {
+    "python": "3.14.10",
+    "executable": "/usr/bin/python3",
+    "platform": "Linux-7.2.5-200.fc44.x86_64-x86_64-with-glibc2.43",
+    "machine": "x86_64",
+    "processor": "",
+    "cpu_count": 8,
+    "timestamp": "2026-11-24T01:42:48+05:30",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "scipy": "1.16.2",
+    "pybind11": "3.1.0"
+  },
+  "cpp": {
+    "available": true,
+    "openmp": true,
+    "import_error": null
+  },
+  "evaluation_protocol": "paired_b_only_baseline_v1",
+  "started_utc": "2026-11-23T20:12:48+00:00",
+  "status": "completed",
+  "finished_utc": "2026-11-23T20:12:48+00:00"
+}

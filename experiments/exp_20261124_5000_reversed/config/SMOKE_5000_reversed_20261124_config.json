@@ -1,0 +1,35 @@
+{
+  "run_id": "SMOKE_5000_reversed_20261124",
+  "run_kind": "SMOKE_TEST_5000_REVERSED",
+  "scenarios": [
+    "B1"
+  ],
+  "k_values": [
+    10
+  ],
+  "objective_ids": [
+    "O2",
+    "O3"
+  ],
+  "modes": [
+    "SSA only",
+    "SSA + Swap refinement"
+  ],
+  "master_seed": 42,
+  "ssa_population": 4,
+  "ssa_iterations": 2,
+  "ssa_mutation_rate": 0.2,
+  "optimization_mc_runs": 5,
+  "final_mc_runs": 10,
+  "pool_ratio": 10,
+  "random_pool_fraction": 0.3,
+  "swap_max_tests": 10,
+  "n_threads": 0,
+  "network_path": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/network/synthetic_network_5000_37500.csv",
+  "results_root": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/validation/smoke_results",
+  "resume": true,
+  "influence_direction": "reverse",
+  "expected_nodes": 5000,
+  "expected_edges": 37500,
+  "created_local": "2026-11-24T01:42:47+05:30"
+}

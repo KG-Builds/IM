@@ -1,0 +1,43 @@
+2026-11-24 04:34:08,281 | INFO | Preprocessing cache miss: opponent_orders -> computing
+2026-11-24 04:34:08,285 | INFO | Preprocessing opponent_orders done in 0.00s
+2026-11-24 04:34:08,288 | INFO | Expected cells: 9
+2026-11-24 04:34:08,288 | INFO | Preprocessing cache miss: signed_pagerank -> computing
+2026-11-24 04:34:08,721 | INFO | Preprocessing signed_pagerank done in 0.42s
+2026-11-24 04:34:08,723 | INFO | Preprocessing cache miss: ncge_centrality -> computing
+2026-11-24 04:34:28,526 | INFO | Preprocessing ncge_centrality done in 19.79s
+2026-11-24 04:34:28,527 | INFO | Preprocessing cache miss: fibmm_communities -> computing
+2026-11-24 04:34:29,973 | INFO | Preprocessing fibmm_communities done in 1.43s
+2026-11-24 04:34:30,148 | INFO | RUN SSA_Notebook B1 K=10
+2026-11-24 04:34:30,279 | ERROR | FAILED SSA_Notebook B1 K=10: 'spread_A_se'
+Traceback (most recent call last):
+  File "/home/kushagragarg/im/IM_Experiment_Starter/IM_Synthetic_Experiment/experiments/benchmark_ssa_baselines_fairness/run_benchmark.py", line 893, in run_all
+    self.run_cell(method_id, scenario, k, force=force)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kushagragarg/im/IM_Experiment_Starter/IM_Synthetic_Experiment/experiments/benchmark_ssa_baselines_fairness/run_benchmark.py", line 820, in run_cell
+    "spread_A_se": float(metrics["spread_A_se"]),
+                         ~~~~~~~^^^^^^^^^^^^^^^
+KeyError: 'spread_A_se'
+2026-11-24 04:35:38,843 | INFO | Preprocessing cache hit: opponent_orders
+2026-11-24 04:35:38,846 | INFO | Expected cells: 9
+2026-11-24 04:35:38,850 | INFO | Preprocessing cache hit: signed_pagerank
+2026-11-24 04:35:38,854 | INFO | Preprocessing cache hit: ncge_centrality
+2026-11-24 04:35:38,856 | INFO | Preprocessing cache hit: fibmm_communities
+2026-11-24 04:35:38,962 | INFO | RUN SSA_Notebook B1 K=10
+2026-11-24 04:35:39,124 | INFO | DONE SSA_Notebook B1 K=10: NetAdv=22.600 (A=994.4 B=971.8) sel=0.08s eval=0.03s
+2026-11-24 04:35:39,127 | INFO | RUN Random B1 K=10
+2026-11-24 04:35:39,151 | INFO | DONE Random B1 K=10: NetAdv=-3.700 (A=972.2 B=975.9) sel=0.00s eval=0.01s
+2026-11-24 04:35:39,154 | INFO | RUN TopDegree B1 K=10
+2026-11-24 04:35:39,187 | INFO | DONE TopDegree B1 K=10: NetAdv=-0.100 (A=978.1 B=978.2) sel=0.01s eval=0.01s
+2026-11-24 04:35:39,190 | INFO | RUN SignedPageRank B1 K=10
+2026-11-24 04:35:39,219 | INFO | DONE SignedPageRank B1 K=10: NetAdv=-21.800 (A=970.7 B=992.5) sel=0.00s eval=0.01s
+2026-11-24 04:35:39,223 | INFO | RUN CRIEG B1 K=10
+2026-11-24 04:35:39,369 | INFO | DONE CRIEG B1 K=10: NetAdv=14.500 (A=993.2 B=978.7) sel=0.12s eval=0.01s
+2026-11-24 04:35:39,373 | INFO | RUN NCGE B1 K=10
+2026-11-24 04:35:40,366 | INFO | DONE NCGE B1 K=10: NetAdv=5.700 (A=980.2 B=974.5) sel=0.95s eval=0.01s
+2026-11-24 04:35:40,371 | INFO | RUN SignedGA B1 K=10
+2026-11-24 04:36:00,628 | INFO | DONE SignedGA B1 K=10: NetAdv=12.000 (A=1003.6 B=991.6) sel=20.22s eval=0.01s
+2026-11-24 04:36:00,632 | INFO | RUN CELF B1 K=10
+2026-11-24 04:36:01,569 | INFO | DONE CELF B1 K=10: NetAdv=15.500 (A=999.4 B=983.9) sel=0.86s eval=0.01s
+2026-11-24 04:36:01,573 | INFO | RUN FIBMM B1 K=10
+2026-11-24 04:36:02,410 | INFO | DONE FIBMM B1 K=10: NetAdv=-15.700 (A=980.5 B=996.2) sel=0.80s eval=0.01s
+2026-11-24 04:36:02,420 | INFO | Progress: 9/9 cells

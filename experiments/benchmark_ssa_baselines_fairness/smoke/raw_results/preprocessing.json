@@ -1,0 +1,27 @@
+{
+  "runtimes_sec": {},
+  "environment": {
+    "environment": {
+      "python": "3.14.10",
+      "executable": "/usr/bin/python",
+      "platform": "Linux-7.2.5-200.fc44.x86_64-x86_64-with-glibc2.43",
+      "machine": "x86_64",
+      "processor": "",
+      "cpu_count": 8,
+      "timestamp": "2026-11-24T04:36:02+05:30",
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "networkx": "3.7",
+      "matplotlib": "3.10.8",
+      "scipy": "1.16.2",
+      "pybind11": "3.1.0"
+    },
+    "cpp_available": true,
+    "openmp_available": true
+  },
+  "network": {
+    "file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+    "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9"
+  },
+  "updated_utc": "2026-11-23T23:06:02+00:00"
+}

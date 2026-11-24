@@ -1,0 +1,9 @@
+{
+  "name": "fibmm_communities",
+  "network_file_sha256": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+  "influence_semantic_sha256": "0c0f4e1f1d8a3abc0e2765941e94cfe233efbe32246c5b56c960f0c1ee7f7197",
+  "config_version": "1.0.0-1000",
+  "min_fraction": 0.005,
+  "seed": 42,
+  "projection": "undirected_unweighted_all_influence_edges"
+}

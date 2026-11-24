@@ -1,0 +1,2 @@
+scenario,K,objective_id,objective_name,mode,objective_validity,net_advantage,spread_A,spread_B,blocked_B
+B1,10,O3,Explicit blocking,SSA only,validated,13.6,985.0,971.4,20.399999999999977

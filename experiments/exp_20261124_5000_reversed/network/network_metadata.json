@@ -1,0 +1,105 @@
+{
+  "schema_version": 3,
+  "generated_utc": "2026-11-23T20:10:52+00:00",
+  "trust_file": "synthetic_network_5000_37500.csv",
+  "trust_file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+  "trust_semantic_sha256": "576d00314530fc82c86d5a433e13a2ea64dbe135723350d936df21b082e2b20f",
+  "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+  "trust_direction": "source_to_target (as recorded in the CSV)",
+  "influence_direction": "reverse_of_trust (target_to_source)",
+  "node_count": 5000,
+  "trust_arc_count": 37500,
+  "influence_arc_count": 37500,
+  "underlying_unordered_pairs": 37500,
+  "reciprocal_trust_pairs": 0,
+  "direction_check": {
+    "trust_edges": 37500,
+    "influence_edges": 37500,
+    "expected_influence_edges": 37500,
+    "missing_reversed_edges": 0,
+    "extra_influence_edges": 0,
+    "same_direction_edges": 0,
+    "reciprocal_trust_pairs": 0,
+    "all_trust_edges_reversed": true,
+    "influence_direction": "reverse_of_trust",
+    "examples_missing": [],
+    "examples_extra": []
+  },
+  "trust_validation": {
+    "n_nodes": 5000,
+    "n_directed_arcs": 37500,
+    "n_underlying_unordered_pairs": 37500,
+    "n_reciprocal_arc_pairs": 0,
+    "n_duplicate_arcs": 0,
+    "n_self_loops": 0,
+    "n_positive": 18706,
+    "n_negative": 18794,
+    "probability_class_counts": {
+      "0.1": 11151,
+      "0.5": 14911,
+      "0.9": 11438
+    },
+    "strength_distribution": {
+      "1": 3728,
+      "2": 3689,
+      "3": 3734,
+      "4": 3679,
+      "5": 3753,
+      "6": 3681,
+      "7": 3798,
+      "8": 3818,
+      "9": 3848,
+      "10": 3772
+    },
+    "out_degree": {
+      "min": 0,
+      "max": 142,
+      "mean": 7.5,
+      "median": 6.0,
+      "std": 8.32824111082286
+    },
+    "in_degree": {
+      "min": 0,
+      "max": 146,
+      "mean": 7.5,
+      "median": 6.0,
+      "std": 8.448479153078381
+    },
+    "n_isolated": 0,
+    "n_sources": 9,
+    "n_sinks": 8,
+    "n_weak_components": 1,
+    "largest_weak_component": 5000,
+    "n_strong_components": 18,
+    "largest_strong_component": 4983,
+    "is_weakly_connected": true
+  },
+  "influence_degree": {
+    "out": {
+      "min": 0,
+      "max": 146,
+      "mean": 7.5,
+      "median": 6.0,
+      "std": 8.448479153078381
+    },
+    "in": {
+      "min": 0,
+      "max": 142,
+      "mean": 7.5,
+      "median": 6.0,
+      "std": 8.32824111082286
+    }
+  },
+  "influence_connectivity": {
+    "n_weak_components": 1,
+    "largest_weak_component": 5000,
+    "n_strong_components": 18,
+    "largest_strong_component": 4983,
+    "is_weakly_connected": true
+  },
+  "notes": [
+    "The CSV is the trust network; influence edges are the exact reverse.",
+    "All downstream graph operations (diffusion, degree, PageRank, community ranking, candidate pool, SSA, Swap) use the influence graph.",
+    "The reversal is applied once at load time; no component reverses it again."
+  ]
+}

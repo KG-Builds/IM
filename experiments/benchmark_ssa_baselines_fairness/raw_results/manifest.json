@@ -1,0 +1,44 @@
+{
+  "experiment_id": "benchmark_ssa_baselines_fairness",
+  "experiment_version": "1.0.0",
+  "generated_utc": "2026-11-24T00:45:43+00:00",
+  "network": {
+    "path": "experiments/exp_20261124_5000_reversed/network/synthetic_network_5000_37500.csv",
+    "file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+    "trust_semantic_sha256": "576d00314530fc82c86d5a433e13a2ea64dbe135723350d936df21b082e2b20f",
+    "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+    "nodes": 5000,
+    "influence_arcs": 37500,
+    "influence_direction": "reverse_of_trust (target_to_source)"
+  },
+  "expected_cells": 240,
+  "completed_cells": 240,
+  "missing_cells": [],
+  "failed_cells": [],
+  "ledger_status_counts": {
+    "completed_valid": 180,
+    "reused": 60
+  },
+  "environment": {
+    "environment": {
+      "python": "3.14.10",
+      "executable": "/usr/bin/python",
+      "platform": "Linux-7.2.5-200.fc44.x86_64-x86_64-with-glibc2.43",
+      "machine": "x86_64",
+      "processor": "",
+      "cpu_count": 8,
+      "timestamp": "2026-11-24T06:15:43+05:30",
+      "numpy": "2.4.6",
+      "pandas": "2.3.3",
+      "networkx": "3.7",
+      "matplotlib": "3.10.8",
+      "scipy": "1.16.2",
+      "pybind11": "3.1.0"
+    },
+    "cpp_available": true,
+    "openmp_available": true
+  },
+  "config_path": "config/benchmark_config.json",
+  "results_path": "raw_results/results.csv",
+  "ledger_path": "raw_results/ledger.csv"
+}

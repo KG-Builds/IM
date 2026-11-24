@@ -1,0 +1,212 @@
+[
+  {
+    "original_path": "results/run_20261123_202600",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_results/run_20261123_202600",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "results/run_20261123_205500_reference_aligned",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_results/run_20261123_205500_reference_aligned",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "results/smoke",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_results/smoke",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/tables/SMOKE_TEST_20261123_202100_20261123_202038",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/tables/SMOKE_TEST_20261123_202100_20261123_202038",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/tables/SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100_20261123_205742",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/tables/SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100_20261123_205742",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/tables/SMOKE_TEST_dev_20261123_2015_20261123_201819",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/tables/SMOKE_TEST_dev_20261123_2015_20261123_201819",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/tables/run_20261123_202600_20261123_202328",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/tables/run_20261123_202600_20261123_202328",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/tables/run_20261123_202600_20261123_202728",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/tables/run_20261123_202600_20261123_202728",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/tables/run_20261123_205500_reference_aligned_20261123_205503",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/tables/run_20261123_205500_reference_aligned_20261123_205503",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/tables/run_20261123_205500_reference_aligned_20261123_210005",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/tables/run_20261123_205500_reference_aligned_20261123_210005",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/figures/SMOKE_TEST_20261123_202100_20261123_202038",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/figures/SMOKE_TEST_20261123_202100_20261123_202038",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/figures/SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100_20261123_205742",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/figures/SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100_20261123_205742",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/figures/SMOKE_TEST_dev_20261123_2015_20261123_201819",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/figures/SMOKE_TEST_dev_20261123_2015_20261123_201819",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/figures/run_20261123_202600_20261123_202328",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/figures/run_20261123_202600_20261123_202328",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/figures/run_20261123_202600_20261123_202728",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/figures/run_20261123_202600_20261123_202728",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/figures/run_20261123_205500_reference_aligned_20261123_205503",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/figures/run_20261123_205500_reference_aligned_20261123_205503",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "analysis/figures/run_20261123_205500_reference_aligned_20261123_210005",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_analysis/figures/run_20261123_205500_reference_aligned_20261123_210005",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "logs/run_20261123_202600.log",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_logs/run_20261123_202600.log",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "logs/run_20261123_205500_reference_aligned.log",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_logs/run_20261123_205500_reference_aligned.log",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "logs/full_run_console.log",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_logs/full_run_console.log",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "logs/full_run_reference_aligned_console.log",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_logs/full_run_reference_aligned_console.log",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "logs/SMOKE_TEST_20261123_202100.log",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_logs/SMOKE_TEST_20261123_202100.log",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "logs/SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100.log",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_logs/SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100.log",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "logs/SMOKE_TEST_dev_20261123_2015.log",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_logs/SMOKE_TEST_dev_20261123_2015.log",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "RESULTS_SUMMARY.md",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_reports/RESULTS_SUMMARY.md",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes (derived from old results)",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "RESULTS_SUMMARY_REFERENCE_ALIGNED.md",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_reports/RESULTS_SUMMARY_REFERENCE_ALIGNED.md",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes (derived from old results)",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "FINAL_AUDIT.md",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_reports/FINAL_AUDIT.md",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes (derived from old results)",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "FINAL_AUDIT_REFERENCE_ALIGNED.md",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_reports/FINAL_AUDIT_REFERENCE_ALIGNED.md",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes (derived from old results)",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "VALIDATION_GATE.md",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_reports/VALIDATION_GATE.md",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes (derived from old results)",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  },
+  {
+    "original_path": "VALIDATION_GATE_REFERENCE_ALIGNED.md",
+    "new_path": "experiments/exp_20261124_5000_reversed/to_be_discarded/old_reports/VALIDATION_GATE_REFERENCE_ALIGNED.md",
+    "reason": "Produced from the pre-correction 1000-node, same-direction simulation (or derived from those results). Not valid for the 5000-node, reverse-influence experiment.",
+    "confirmed_old_or_derived": "yes (derived from old results)",
+    "moved_utc": "2026-11-23T20:08:46Z"
+  }
+]

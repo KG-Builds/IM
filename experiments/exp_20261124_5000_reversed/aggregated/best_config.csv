@@ -1,0 +1,21 @@
+scenario,K,objective_id,objective_name,mode,objective_validity,net_advantage,spread_A,spread_B,blocked_B
+B1,10,O4,Combined influence-blocking,SSA only,validated,19.08,1000.47,981.39,19.24000000000001
+B1,20,O1,Original SSA,SSA + Swap refinement,validated,61.75,1028.62,966.87,27.33000000000004
+B1,30,O1,Original SSA,SSA only,validated,55.46,1017.89,962.43,44.49000000000001
+B1,40,O2,Competition-aware,SSA + Swap refinement,validated,77.87,1039.45,961.58,41.51999999999998
+B1,50,O4,Combined influence-blocking,SSA + Swap refinement,validated,85.3,1037.26,951.96,59.95999999999992
+B2,10,O4,Combined influence-blocking,SSA + Swap refinement,validated,32.7,988.88,956.18,24.950000000000045
+B2,20,O1,Original SSA,SSA only,validated,48.93,985.11,936.18,37.180000000000064
+B2,30,O3,Explicit blocking,SSA only,validated,56.53,984.55,928.02,35.55000000000007
+B2,40,O1,Original SSA,SSA only,validated,68.92,997.54,928.62,36.42999999999995
+B2,50,O5,Gain_A + blocking,SSA only,validated,67.85,976.44,908.59,52.38999999999999
+B3,10,O1,Original SSA,SSA only,validated,39.08,989.54,950.46,20.75
+B3,20,O4,Combined influence-blocking,SSA + Swap refinement,validated,46.82,986.58,939.76,28.32000000000005
+B3,30,O2,Competition-aware,SSA only,validated,68.85,1000.4,931.55,35.56000000000006
+B3,40,O6,Budget-aware,SSA + Swap refinement,validated,64.16,993.52,929.36,32.819999999999936
+B3,50,O5,Gain_A + blocking,SSA only,validated,76.54,986.23,909.69,53.059999999999945
+B4,10,O3,Explicit blocking,SSA only,validated,29.33,986.94,957.61,23.25
+B4,20,O3,Explicit blocking,SSA + Swap refinement,validated,57.82,995.44,937.62,37.91999999999996
+B4,30,O5,Gain_A + blocking,SSA only,validated,68.3,1004.7,936.4,55.90999999999997
+B4,40,O3,Explicit blocking,SSA only,validated,66.63,1003.23,936.6,50.89999999999998
+B4,50,O1,Original SSA,SSA + Swap refinement,validated,85.85,1012.9,927.05,65.75999999999999

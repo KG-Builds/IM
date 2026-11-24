@@ -1,0 +1,4 @@
+ssa_method,fibmm_method,net_advantage_wins,net_advantage_ties,net_advantage_losses,mean_net_advantage_difference,median_net_advantage_difference,mean_blocked_B_difference,median_blocked_B_difference
+SSA_O1,FIBMM,19,0,1,29.159499999999998,27.65,-0.6839999999999733,0.5050000000000523
+SSA_O4,FIBMM,20,0,0,24.5235,25.165,-1.2059999999999829,0.3799999999999937
+SSA_O6,FIBMM,20,0,0,28.5425,29.380000000000003,-1.1614999999999835,-0.9799999999999667

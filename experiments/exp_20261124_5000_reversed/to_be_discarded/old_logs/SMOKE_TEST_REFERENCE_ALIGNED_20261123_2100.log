@@ -1,0 +1,22 @@
+2026-11-23 20:57:38,858 | INFO | Run SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100 (SMOKE_TEST) starting: 4 expected configurations
+2026-11-23 20:57:38,859 | INFO | Scenario B1 (Random opponent): 0 existing rows
+2026-11-23 20:57:38,865 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-23 20:57:38,883 | INFO |   K=10 O2: SSA done in 0.01s (score=20.200000, evals=12)
+2026-11-23 20:57:38,898 | INFO |   K=10 O2 SSA only: NetAdv=11.900 (A=209.1 B=197.2) BlockedB=11.400 [validated]
+2026-11-23 20:57:38,920 | INFO |   K=10 O2 SSA + Swap refinement: NetAdv=6.100 (A=208.0 B=201.9) BlockedB=6.700 [validated]
+2026-11-23 20:57:38,933 | INFO |   K=10 O3: SSA done in 0.01s (score=34.200000, evals=12)
+2026-11-23 20:57:38,943 | INFO |   K=10 O3 SSA only: NetAdv=-0.800 (A=204.7 B=205.5) BlockedB=3.100 [validated]
+2026-11-23 20:57:38,962 | INFO |   K=10 O3 SSA + Swap refinement: NetAdv=-5.000 (A=206.2 B=211.2) BlockedB=0.000 [validated]
+2026-11-23 20:57:38,975 | INFO | Scenario B1 complete: 4/4 configurations
+2026-11-23 20:57:38,984 | INFO | Run SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100 finished: 4/4 configurations, status=completed
+2026-11-23 20:57:40,603 | INFO | Run SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100 (SMOKE_TEST) starting: 4 expected configurations
+2026-11-23 20:57:40,611 | INFO | Scenario B1 (Random opponent): 4 existing rows
+2026-11-23 20:57:40,617 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-23 20:57:40,618 | INFO |   K=10 O2: SSA loaded from checkpoint (score=20.200000)
+2026-11-23 20:57:40,618 | INFO |   K=10 O2 SSA only: already complete, skipping
+2026-11-23 20:57:40,618 | INFO |   K=10 O2 SSA + Swap refinement: already complete, skipping
+2026-11-23 20:57:40,618 | INFO |   K=10 O3: SSA loaded from checkpoint (score=34.200000)
+2026-11-23 20:57:40,618 | INFO |   K=10 O3 SSA only: already complete, skipping
+2026-11-23 20:57:40,618 | INFO |   K=10 O3 SSA + Swap refinement: already complete, skipping
+2026-11-23 20:57:40,631 | INFO | Scenario B1 complete: 4/4 configurations
+2026-11-23 20:57:40,640 | INFO | Run SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100 finished: 4/4 configurations, status=completed

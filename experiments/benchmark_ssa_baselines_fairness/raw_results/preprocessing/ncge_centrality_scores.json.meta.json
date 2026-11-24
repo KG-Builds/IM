@@ -1,0 +1,11 @@
+{
+  "name": "ncge_centrality",
+  "network_file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+  "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+  "config_version": "1.0.0",
+  "alpha": 0.5,
+  "beta": 0.3,
+  "gamma": 0.2,
+  "betweenness_samples": 200,
+  "centrality_seed": 42
+}

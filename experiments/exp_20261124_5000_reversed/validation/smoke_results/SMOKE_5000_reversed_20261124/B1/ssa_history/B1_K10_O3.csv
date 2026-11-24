@@ -1,0 +1,4 @@
+iteration,best_objective_score,mean_objective_score,worst_objective_score,unique_solutions
+0,37.19999999999993,14.849999999999966,0.0,4
+1,42.0,24.349999999999994,0.0,2
+2,42.0,23.099999999999966,2.7999999999999545,3

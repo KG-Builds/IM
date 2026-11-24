@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_ssa_baselines_fairness",
+  "method_id": "NCGE",
+  "scenario": "B2",
+  "K": 10,
+  "opponent_seed_set": [
+    15,
+    11,
+    1,
+    7,
+    5,
+    13,
+    17,
+    3,
+    10,
+    0
+  ],
+  "seed_set": [
+    186,
+    158,
+    36,
+    68,
+    54,
+    426,
+    32,
+    61,
+    72,
+    62
+  ],
+  "selection_info": {
+    "candidate_pool_size": 100,
+    "objective_evaluations": 212,
+    "unique_fitness_evaluations": 212,
+    "heap_refreshes": 111,
+    "final_objective": 1004.8666666666667,
+    "history": [
+      {
+        "step": 1,
+        "node": 186,
+        "objective": 1017.0333333333332,
+        "marginal_gain_at_acceptance": 50.09999999999991,
+        "heap_refreshes": 0,
+        "unique_fitness_evaluations": 101
+      },
+      {
+        "step": 2,
+        "node": 158,
+        "objective": 1012.4666666666666,
+        "marginal_gain_at_acceptance": -4.566666666666606,
+        "heap_refreshes": 93,
+        "unique_fitness_evaluations": 194
+      },
+      {
+        "step": 3,
+        "node": 36,
+        "objective": 1006.7333333333333,
+        "marginal_gain_at_acceptance": -5.733333333333235,
+        "heap_refreshes": 101,
+        "unique_fitness_evaluations": 202
+      },
+      {
+        "step": 4,
+        "node": 68,
+        "objective": 1004.4000000000001,
+        "marginal_gain_at_acceptance": -2.3333333333332575,
+        "heap_refreshes": 103,
+        "unique_fitness_evaluations": 204
+      },
+      {
+        "step": 5,
+        "node": 54,
+        "objective": 1011.1666666666666,
+        "marginal_gain_at_acceptance": 6.766666666666538,
+        "heap_refreshes": 104,
+        "unique_fitness_evaluations": 205
+      },
+      {
+        "step": 6,
+        "node": 426,
+        "objective": 998.1666666666666,
+        "marginal_gain_at_acceptance": -13.0,
+        "heap_refreshes": 105,
+        "unique_fitness_evaluations": 206
+      },
+      {
+        "step": 7,
+        "node": 32,
+        "objective": 1003.9999999999999,
+        "marginal_gain_at_acceptance": 5.8333333333332575,
+        "heap_refreshes": 106,
+        "unique_fitness_evaluations": 207
+      },
+      {
+        "step": 8,
+        "node": 61,
+        "objective": 988.4333333333332,
+        "marginal_gain_at_acceptance": -15.56666666666672,
+        "heap_refreshes": 107,
+        "unique_fitness_evaluations": 208
+      },
+      {
+        "step": 9,
+        "node": 72,
+        "objective": 1021.4666666666666,
+        "marginal_gain_at_acceptance": 33.03333333333342,
+        "heap_refreshes": 108,
+        "unique_fitness_evaluations": 209
+      },
+      {
+        "step": 10,
+        "node": 62,
+        "objective": 1004.8666666666667,
+        "marginal_gain_at_acceptance": -16.59999999999991,
+        "heap_refreshes": 111,
+        "unique_fitness_evaluations": 212
+      }
+    ]
+  },
+  "metrics": {
+    "spread_A": 961.16,
+    "spread_B": 959.5,
+    "net_advantage": 1.66,
+    "blocked_B": 21.629999999999995,
+    "baseline_B": 981.13,
+    "spread_A_se": 3.653052411229809,
+    "spread_B_se": 4.0000126262426985,
+    "net_advantage_se": 4.274051847125768,
+    "net_advantage_ci_low": -6.67,
+    "net_advantage_ci_high": 10.02,
+    "blocked_B_se": 5.06396768224963,
+    "blocked_B_ci_low": 11.76,
+    "blocked_B_ci_high": 31.33,
+    "ignorant": 3079.34,
+    "rounds": 35.22,
+    "from_cache": 0.0
+  },
+  "network_file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+  "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+  "config_signature_hash": "81bbb4beaca6dfc12141f9ff424760d9128addfc311b1ef6fd9c530cd0d20630",
+  "source": "new_computation",
+  "created_utc": "2026-11-23T23:15:20+00:00"
+}

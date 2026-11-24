@@ -1,0 +1,8 @@
+2026-11-24 01:55:51,825 | INFO | Run analysis_unit_run (unit_test) starting: 2 expected configurations
+2026-11-24 01:55:51,826 | INFO | Scenario B1 (Random opponent): 0 existing rows
+2026-11-24 01:55:51,835 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-24 01:55:51,963 | INFO |   K=10 O2: SSA done in 0.01s (score=23.000000, evals=6)
+2026-11-24 01:55:51,976 | INFO |   K=10 O2 SSA only: NetAdv=16.667 (A=218.0 B=201.3) BlockedB=14.167 [validated]
+2026-11-24 01:55:51,986 | INFO |   K=10 O2 SSA + Swap refinement: NetAdv=16.667 (A=218.0 B=201.3) BlockedB=14.167 [validated]
+2026-11-24 01:55:52,089 | INFO | Scenario B1 complete: 2/2 configurations
+2026-11-24 01:55:52,114 | INFO | Run analysis_unit_run finished: 2/2 configurations, status=completed

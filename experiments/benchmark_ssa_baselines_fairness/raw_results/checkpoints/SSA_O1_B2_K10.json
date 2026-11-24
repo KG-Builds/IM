@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_ssa_baselines_fairness",
+  "method_id": "SSA_O1",
+  "scenario": "B2",
+  "K": 10,
+  "opponent_seed_set": [
+    15,
+    11,
+    1,
+    7,
+    5,
+    13,
+    17,
+    3,
+    10,
+    0
+  ],
+  "seed_set": [
+    37,
+    52,
+    56,
+    324,
+    420,
+    493,
+    596,
+    1507,
+    1738,
+    4906
+  ],
+  "selection_info": {
+    "reused_from": "exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K10_O1_ssa_only.csv"
+  },
+  "metrics": {
+    "spread_A": 981.61,
+    "spread_B": 962.44,
+    "net_advantage": 19.17,
+    "blocked_B": 18.68999999999994,
+    "baseline_B": 981.13,
+    "spread_A_se": 4.289119308721132,
+    "spread_B_se": 3.8471114705278127,
+    "net_advantage_se": 4.887833896729736,
+    "net_advantage_ci_low": 9.769750000000002,
+    "net_advantage_ci_high": 28.77049999999999,
+    "blocked_B_se": 5.3241719610383615,
+    "blocked_B_ci_low": 8.1,
+    "blocked_B_ci_high": 29.28
+  },
+  "network_file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+  "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+  "config_signature_hash": "38ffa429c71f006a196cab7198c7dbc71da68bb2022f4d644fc0e0628a6e1982",
+  "source": "reused_prior_ssa_only",
+  "created_utc": "2026-11-23T23:14:21+00:00"
+}

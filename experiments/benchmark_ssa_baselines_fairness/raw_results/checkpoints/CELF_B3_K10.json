@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_ssa_baselines_fairness",
+  "method_id": "CELF",
+  "scenario": "B3",
+  "K": 10,
+  "opponent_seed_set": [
+    5,
+    1,
+    7,
+    15,
+    4,
+    14,
+    19,
+    13,
+    25,
+    11
+  ],
+  "seed_set": [
+    746,
+    2326,
+    159,
+    4541,
+    4836,
+    300,
+    545,
+    326,
+    432,
+    909
+  ],
+  "selection_info": {
+    "candidate_pool_size": 100,
+    "objective_evaluations": 208,
+    "unique_fitness_evaluations": 208,
+    "heap_refreshes": 107,
+    "final_objective": 1005.6000000000001,
+    "history": [
+      {
+        "step": 1,
+        "node": 746,
+        "objective": 1022.4333333333334,
+        "marginal_gain_at_acceptance": 54.63333333333344,
+        "heap_refreshes": 0,
+        "unique_fitness_evaluations": 101
+      },
+      {
+        "step": 2,
+        "node": 2326,
+        "objective": 1022.4000000000001,
+        "marginal_gain_at_acceptance": -0.03333333333330302,
+        "heap_refreshes": 80,
+        "unique_fitness_evaluations": 181
+      },
+      {
+        "step": 3,
+        "node": 159,
+        "objective": 1007.3666666666668,
+        "marginal_gain_at_acceptance": -15.033333333333303,
+        "heap_refreshes": 100,
+        "unique_fitness_evaluations": 201
+      },
+      {
+        "step": 4,
+        "node": 4541,
+        "objective": 1012.4000000000001,
+        "marginal_gain_at_acceptance": 5.033333333333303,
+        "heap_refreshes": 101,
+        "unique_fitness_evaluations": 202
+      },
+      {
+        "step": 5,
+        "node": 4836,
+        "objective": 1004.0,
+        "marginal_gain_at_acceptance": -8.400000000000091,
+        "heap_refreshes": 102,
+        "unique_fitness_evaluations": 203
+      },
+      {
+        "step": 6,
+        "node": 300,
+        "objective": 996.4333333333334,
+        "marginal_gain_at_acceptance": -7.566666666666606,
+        "heap_refreshes": 103,
+        "unique_fitness_evaluations": 204
+      },
+      {
+        "step": 7,
+        "node": 545,
+        "objective": 1016.7666666666668,
+        "marginal_gain_at_acceptance": 20.33333333333337,
+        "heap_refreshes": 104,
+        "unique_fitness_evaluations": 205
+      },
+      {
+        "step": 8,
+        "node": 326,
+        "objective": 1015.1333333333334,
+        "marginal_gain_at_acceptance": -1.6333333333333258,
+        "heap_refreshes": 105,
+        "unique_fitness_evaluations": 206
+      },
+      {
+        "step": 9,
+        "node": 432,
+        "objective": 1004.9666666666668,
+        "marginal_gain_at_acceptance": -10.166666666666629,
+        "heap_refreshes": 106,
+        "unique_fitness_evaluations": 207
+      },
+      {
+        "step": 10,
+        "node": 909,
+        "objective": 1005.6000000000001,
+        "marginal_gain_at_acceptance": 0.6333333333333258,
+        "heap_refreshes": 107,
+        "unique_fitness_evaluations": 208
+      }
+    ],
+    "pool_meta": {
+      "pool_size_target": 100,
+      "pool_size_actual": 100,
+      "n_ranked": 70,
+      "n_random": 30,
+      "random_fraction_requested": 0.3,
+      "random_fraction_actual": 0.3,
+      "n_eligible": 4990,
+      "n_opponent_seeds": 10,
+      "truncated": false,
+      "seed": 600045,
+      "pool_ratio": 10,
+      "ranking": "net_then_positive_then_negative_then_id",
+      "random_part_source": "ranked_remainder"
+    }
+  },
+  "metrics": {
+    "spread_A": 984.13,
+    "spread_B": 960.05,
+    "net_advantage": 24.08,
+    "blocked_B": 11.160000000000082,
+    "baseline_B": 971.21,
+    "spread_A_se": 3.7837412675549027,
+    "spread_B_se": 3.0135510446962566,
+    "net_advantage_se": 3.761143174594392,
+    "net_advantage_ci_low": 16.769750000000002,
+    "net_advantage_ci_high": 31.480499999999992,
+    "blocked_B_se": 5.330429512513864,
+    "blocked_B_ci_low": 0.59,
+    "blocked_B_ci_high": 21.54,
+    "ignorant": 3055.82,
+    "rounds": 34.94,
+    "from_cache": 0.0
+  },
+  "network_file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+  "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+  "config_signature_hash": "cdd526b854419088a10047f3d49271c4bf9b5ff55c08ed7b7c1aea0e322e14ca",
+  "source": "new_computation",
+  "created_utc": "2026-11-24T00:33:00+00:00"
+}

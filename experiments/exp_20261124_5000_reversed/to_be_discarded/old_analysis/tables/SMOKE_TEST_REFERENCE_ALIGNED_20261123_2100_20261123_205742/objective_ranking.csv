@@ -1,0 +1,5 @@
+objective_id,objective_name,objective_validity,mode,n_configs,net_advantage_mean,net_advantage_std,net_advantage_se,net_advantage_min,net_advantage_max,spread_A_mean,spread_B_mean,blocked_B_mean,ignorant_mean,rounds_mean,total_runtime_mean,ssa_runtime_mean,swap_runtime_mean,final_eval_runtime_mean,net_advantage_se_mean,rank_in_mode
+O2,Competition-aware,validated,SSA + Swap refinement,1,6.1,,,6.1,6.1,208.0,201.9,6.699999999999989,590.1,24.6,0.0255131560843437,0.0131101730512455,0.011551110073924,0.0008518729591742,5.222706833306525,1
+O3,Explicit blocking,validated,SSA + Swap refinement,1,-5.0,,,-5.0,-5.0,206.2,211.2,0.0,582.6,25.8,0.0187945810612291,0.0089578290935605,0.0089597119949758,0.0008770399726927,4.499382673705854,2
+O2,Competition-aware,validated,SSA only,1,11.9,,,11.9,11.9,209.1,197.2,11.400000000000006,593.7,25.3,0.0177927559707313,0.0131101730512455,0.0,0.0046825829194858,7.132788141159574,1
+O3,Explicit blocking,validated,SSA only,1,-0.8,,,-0.8,-0.8,204.7,205.5,3.0999999999999943,589.8,22.8,0.0100668161176145,0.0089578290935605,0.0,0.0011089870240539,3.3658414830304904,2

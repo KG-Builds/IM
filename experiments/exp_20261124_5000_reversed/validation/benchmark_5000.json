@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-11-24T01:42:34+05:30",
+  "network": {
+    "nodes": 5000,
+    "edges": 37500
+  },
+  "direction": "reverse_of_trust",
+  "threads": {
+    "1": {
+      "simulations": 1000,
+      "seconds": 0.6530134859494865,
+      "sims_per_sec": 1531.3619420064388
+    },
+    "2": {
+      "simulations": 1000,
+      "seconds": 0.3353088969597593,
+      "sims_per_sec": 2982.3246834992597,
+      "speedup_vs_serial": 1.9474982378050507
+    },
+    "4": {
+      "simulations": 1000,
+      "seconds": 0.18210668698884547,
+      "sims_per_sec": 5491.286544910087,
+      "speedup_vs_serial": 3.5858841690392476
+    },
+    "8": {
+      "simulations": 1000,
+      "seconds": 0.14081391203217208,
+      "sims_per_sec": 7101.571042011301,
+      "speedup_vs_serial": 4.637421661861727
+    }
+  },
+  "checksums_identical": true,
+  "estimate": {
+    "simulations_total": 443900,
+    "serial_seconds": 289.8726864129771,
+    "parallel8_seconds": 62.50729555108119,
+    "note": "upper bound; SSA small batches add Python overhead"
+  }
+}

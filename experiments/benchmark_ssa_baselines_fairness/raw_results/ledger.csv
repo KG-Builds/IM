@@ -1,0 +1,241 @@
+method_id,scenario,K,status,reason,source,selection_runtime_sec,final_mc_runs,timestamp
+SSA_O1,B1,10,reused,existing result has matching signature,reused_prior_ssa_only,0.635262741940096,100,2026-11-23T23:14:21+00:00
+SSA_O1,B1,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K20_O1_ssa_only.csv,0.6313202789751813,100,2026-11-23T23:14:21+00:00
+SSA_O1,B1,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K30_O1_ssa_only.csv,0.6418375069042668,100,2026-11-23T23:14:21+00:00
+SSA_O1,B1,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K40_O1_ssa_only.csv,0.6615810529328883,100,2026-11-23T23:14:21+00:00
+SSA_O1,B1,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K50_O1_ssa_only.csv,0.7011458829510957,100,2026-11-23T23:14:21+00:00
+SSA_O1,B2,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K10_O1_ssa_only.csv,0.6645074950065464,100,2026-11-23T23:14:21+00:00
+SSA_O1,B2,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K20_O1_ssa_only.csv,0.6583685419755057,100,2026-11-23T23:14:21+00:00
+SSA_O1,B2,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K30_O1_ssa_only.csv,0.6842782840831205,100,2026-11-23T23:14:21+00:00
+SSA_O1,B2,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K40_O1_ssa_only.csv,0.6986416329164058,100,2026-11-23T23:14:21+00:00
+SSA_O1,B2,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K50_O1_ssa_only.csv,0.7204375190194696,100,2026-11-23T23:14:21+00:00
+SSA_O1,B3,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K10_O1_ssa_only.csv,0.627177800051868,100,2026-11-23T23:14:21+00:00
+SSA_O1,B3,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K20_O1_ssa_only.csv,0.6626386109273881,100,2026-11-23T23:14:22+00:00
+SSA_O1,B3,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K30_O1_ssa_only.csv,0.6837535470258445,100,2026-11-23T23:14:22+00:00
+SSA_O1,B3,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K40_O1_ssa_only.csv,0.698263963102363,100,2026-11-23T23:14:22+00:00
+SSA_O1,B3,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K50_O1_ssa_only.csv,0.7358369870344177,100,2026-11-23T23:14:22+00:00
+SSA_O1,B4,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K10_O1_ssa_only.csv,0.6757260010344908,100,2026-11-23T23:14:22+00:00
+SSA_O1,B4,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K20_O1_ssa_only.csv,0.6606843760237098,100,2026-11-23T23:14:22+00:00
+SSA_O1,B4,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K30_O1_ssa_only.csv,0.668702874914743,100,2026-11-23T23:14:22+00:00
+SSA_O1,B4,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K40_O1_ssa_only.csv,0.6765664720442146,100,2026-11-23T23:14:22+00:00
+SSA_O1,B4,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K50_O1_ssa_only.csv,0.7069305999903008,100,2026-11-23T23:14:22+00:00
+SSA_O4,B1,10,reused,existing result has matching signature,reused_prior_ssa_only,0.6382423860486597,100,2026-11-23T23:14:22+00:00
+SSA_O4,B1,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K20_O4_ssa_only.csv,0.6511202120454982,100,2026-11-23T23:14:23+00:00
+SSA_O4,B1,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K30_O4_ssa_only.csv,0.6398939810460433,100,2026-11-23T23:14:23+00:00
+SSA_O4,B1,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K40_O4_ssa_only.csv,0.665495474007912,100,2026-11-23T23:14:23+00:00
+SSA_O4,B1,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K50_O4_ssa_only.csv,0.7281629259232432,100,2026-11-23T23:14:23+00:00
+SSA_O4,B2,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K10_O4_ssa_only.csv,0.6555573650402948,100,2026-11-23T23:14:23+00:00
+SSA_O4,B2,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K20_O4_ssa_only.csv,0.6674354519927874,100,2026-11-23T23:14:23+00:00
+SSA_O4,B2,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K30_O4_ssa_only.csv,0.691378935938701,100,2026-11-23T23:14:23+00:00
+SSA_O4,B2,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K40_O4_ssa_only.csv,0.6705579430563375,100,2026-11-23T23:14:23+00:00
+SSA_O4,B2,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K50_O4_ssa_only.csv,0.7350930169923231,100,2026-11-23T23:14:23+00:00
+SSA_O4,B3,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K10_O4_ssa_only.csv,0.6645510679809377,100,2026-11-23T23:14:23+00:00
+SSA_O4,B3,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K20_O4_ssa_only.csv,0.6550618240144104,100,2026-11-23T23:14:24+00:00
+SSA_O4,B3,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K30_O4_ssa_only.csv,0.6702745909569785,100,2026-11-23T23:14:24+00:00
+SSA_O4,B3,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K40_O4_ssa_only.csv,0.6731483939802274,100,2026-11-23T23:14:24+00:00
+SSA_O4,B3,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K50_O4_ssa_only.csv,0.7135363819543272,100,2026-11-23T23:14:24+00:00
+SSA_O4,B4,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K10_O4_ssa_only.csv,0.635940587031655,100,2026-11-23T23:14:24+00:00
+SSA_O4,B4,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K20_O4_ssa_only.csv,0.6709183109924197,100,2026-11-23T23:14:24+00:00
+SSA_O4,B4,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K30_O4_ssa_only.csv,0.6702801609644666,100,2026-11-23T23:14:24+00:00
+SSA_O4,B4,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K40_O4_ssa_only.csv,0.6924129200633615,100,2026-11-23T23:14:24+00:00
+SSA_O4,B4,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K50_O4_ssa_only.csv,0.712520070024766,100,2026-11-23T23:14:24+00:00
+SSA_O6,B1,10,reused,existing result has matching signature,reused_prior_ssa_only,0.6360718740615994,100,2026-11-23T23:14:24+00:00
+SSA_O6,B1,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K20_O6_ssa_only.csv,0.6448558020638302,100,2026-11-23T23:14:25+00:00
+SSA_O6,B1,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K30_O6_ssa_only.csv,0.6435785399517044,100,2026-11-23T23:14:25+00:00
+SSA_O6,B1,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K40_O6_ssa_only.csv,0.6808672599727288,100,2026-11-23T23:14:25+00:00
+SSA_O6,B1,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B1/mc_runs/B1_K50_O6_ssa_only.csv,0.701998666045256,100,2026-11-23T23:14:25+00:00
+SSA_O6,B2,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K10_O6_ssa_only.csv,0.6608847540337592,100,2026-11-23T23:14:25+00:00
+SSA_O6,B2,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K20_O6_ssa_only.csv,0.6569322909926996,100,2026-11-23T23:14:25+00:00
+SSA_O6,B2,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K30_O6_ssa_only.csv,0.69197163998615,100,2026-11-23T23:14:25+00:00
+SSA_O6,B2,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K40_O6_ssa_only.csv,0.7009070229250938,100,2026-11-23T23:14:25+00:00
+SSA_O6,B2,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B2/mc_runs/B2_K50_O6_ssa_only.csv,0.7149440690409392,100,2026-11-23T23:14:26+00:00
+SSA_O6,B3,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K10_O6_ssa_only.csv,0.6841744179837406,100,2026-11-23T23:14:26+00:00
+SSA_O6,B3,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K20_O6_ssa_only.csv,0.6663064480526373,100,2026-11-23T23:14:26+00:00
+SSA_O6,B3,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K30_O6_ssa_only.csv,0.6673731439514086,100,2026-11-23T23:14:26+00:00
+SSA_O6,B3,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K40_O6_ssa_only.csv,0.707761041005142,100,2026-11-23T23:14:26+00:00
+SSA_O6,B3,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B3/mc_runs/B3_K50_O6_ssa_only.csv,0.7178086549974978,100,2026-11-23T23:14:26+00:00
+SSA_O6,B4,10,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K10_O6_ssa_only.csv,0.6514000480528921,100,2026-11-23T23:14:26+00:00
+SSA_O6,B4,20,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K20_O6_ssa_only.csv,0.6524822129867971,100,2026-11-23T23:14:26+00:00
+SSA_O6,B4,30,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K30_O6_ssa_only.csv,0.6703637880273163,100,2026-11-23T23:14:26+00:00
+SSA_O6,B4,40,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K40_O6_ssa_only.csv,0.6971911260625347,100,2026-11-23T23:14:27+00:00
+SSA_O6,B4,50,reused,validated prior SSA-only result,exp_20261124_5000_reversed/raw_results/run_20261124_5000_reversed/B4/mc_runs/B4_K50_O6_ssa_only.csv,0.7139626530697569,100,2026-11-23T23:14:27+00:00
+SSA_Notebook,B1,10,completed_valid,existing result has matching signature,new_computation,0.6928062159568071,100,2026-11-23T23:14:27+00:00
+SSA_Notebook,B1,20,completed_valid,new computation,new_computation,0.8007482800167054,100,2026-11-23T23:14:28+00:00
+SSA_Notebook,B1,30,completed_valid,new computation,new_computation,0.7666400390444323,100,2026-11-23T23:14:29+00:00
+SSA_Notebook,B1,40,completed_valid,new computation,new_computation,0.7232027139980346,100,2026-11-23T23:14:29+00:00
+SSA_Notebook,B1,50,completed_valid,new computation,new_computation,0.7844846519874409,100,2026-11-23T23:14:30+00:00
+SSA_Notebook,B2,10,completed_valid,new computation,new_computation,0.6967875770060346,100,2026-11-23T23:14:31+00:00
+SSA_Notebook,B2,20,completed_valid,new computation,new_computation,0.73500782600604,100,2026-11-23T23:14:32+00:00
+SSA_Notebook,B2,30,completed_valid,new computation,new_computation,0.703403263934888,100,2026-11-23T23:14:33+00:00
+SSA_Notebook,B2,40,completed_valid,new computation,new_computation,0.7472154230345041,100,2026-11-23T23:14:34+00:00
+SSA_Notebook,B2,50,completed_valid,new computation,new_computation,0.7561447729822248,100,2026-11-23T23:14:35+00:00
+SSA_Notebook,B3,10,completed_valid,new computation,new_computation,0.6904521570540965,100,2026-11-23T23:14:36+00:00
+SSA_Notebook,B3,20,completed_valid,new computation,new_computation,0.7068302020197734,100,2026-11-23T23:14:36+00:00
+SSA_Notebook,B3,30,completed_valid,new computation,new_computation,0.70405589195434,100,2026-11-23T23:14:37+00:00
+SSA_Notebook,B3,40,completed_valid,new computation,new_computation,0.7166015760740265,100,2026-11-23T23:14:38+00:00
+SSA_Notebook,B3,50,completed_valid,new computation,new_computation,0.720233639003709,100,2026-11-23T23:14:39+00:00
+SSA_Notebook,B4,10,completed_valid,new computation,new_computation,0.7040396210504696,100,2026-11-23T23:14:40+00:00
+SSA_Notebook,B4,20,completed_valid,new computation,new_computation,0.7749980529770255,100,2026-11-23T23:14:41+00:00
+SSA_Notebook,B4,30,completed_valid,new computation,new_computation,0.7234529759734869,100,2026-11-23T23:14:42+00:00
+SSA_Notebook,B4,40,completed_valid,new computation,new_computation,0.7485318700782955,100,2026-11-23T23:14:42+00:00
+SSA_Notebook,B4,50,completed_valid,new computation,new_computation,0.7264918430009857,100,2026-11-23T23:14:43+00:00
+Random,B1,10,completed_valid,existing result has matching signature,new_computation,0.0024312239838764,100,2026-11-23T23:14:43+00:00
+Random,B1,20,completed_valid,new computation,new_computation,0.0042414100607857,100,2026-11-23T23:14:43+00:00
+Random,B1,30,completed_valid,new computation,new_computation,0.0049298349767923,100,2026-11-23T23:14:43+00:00
+Random,B1,40,completed_valid,new computation,new_computation,0.0052780000260099,100,2026-11-23T23:14:44+00:00
+Random,B1,50,completed_valid,new computation,new_computation,0.0059208399616181,100,2026-11-23T23:14:44+00:00
+Random,B2,10,completed_valid,new computation,new_computation,0.0027672071009874,100,2026-11-23T23:14:44+00:00
+Random,B2,20,completed_valid,new computation,new_computation,0.0035833219299092,100,2026-11-23T23:14:44+00:00
+Random,B2,30,completed_valid,new computation,new_computation,0.0074098210316151,100,2026-11-23T23:14:44+00:00
+Random,B2,40,completed_valid,new computation,new_computation,0.004670848022215,100,2026-11-23T23:14:44+00:00
+Random,B2,50,completed_valid,new computation,new_computation,0.0060267179505899,100,2026-11-23T23:14:44+00:00
+Random,B3,10,completed_valid,new computation,new_computation,0.0026642320444807,100,2026-11-23T23:14:44+00:00
+Random,B3,20,completed_valid,new computation,new_computation,0.003720901091583,100,2026-11-23T23:14:44+00:00
+Random,B3,30,completed_valid,new computation,new_computation,0.0058701239759102,100,2026-11-23T23:14:44+00:00
+Random,B3,40,completed_valid,new computation,new_computation,0.0053881879430264,100,2026-11-23T23:14:44+00:00
+Random,B3,50,completed_valid,new computation,new_computation,0.0054863221012055,100,2026-11-23T23:14:44+00:00
+Random,B4,10,completed_valid,new computation,new_computation,0.0027038770494982,100,2026-11-23T23:14:45+00:00
+Random,B4,20,completed_valid,new computation,new_computation,0.0040669520385563,100,2026-11-23T23:14:45+00:00
+Random,B4,30,completed_valid,new computation,new_computation,0.0045475449878722,100,2026-11-23T23:14:45+00:00
+Random,B4,40,completed_valid,new computation,new_computation,0.0051824800902977,100,2026-11-23T23:14:45+00:00
+Random,B4,50,completed_valid,new computation,new_computation,0.0057206630008295,100,2026-11-23T23:14:45+00:00
+TopDegree,B1,10,completed_valid,existing result has matching signature,new_computation,0.0072887740097939,100,2026-11-23T23:14:45+00:00
+TopDegree,B1,20,completed_valid,new computation,new_computation,0.0088948950869962,100,2026-11-23T23:14:45+00:00
+TopDegree,B1,30,completed_valid,new computation,new_computation,0.0138046020874753,100,2026-11-23T23:14:45+00:00
+TopDegree,B1,40,completed_valid,new computation,new_computation,0.0091471699997782,100,2026-11-23T23:14:45+00:00
+TopDegree,B1,50,completed_valid,new computation,new_computation,0.0108643410494551,100,2026-11-23T23:14:45+00:00
+TopDegree,B2,10,completed_valid,new computation,new_computation,0.0067477049306035,100,2026-11-23T23:14:45+00:00
+TopDegree,B2,20,completed_valid,new computation,new_computation,0.008570494945161,100,2026-11-23T23:14:45+00:00
+TopDegree,B2,30,completed_valid,new computation,new_computation,0.009773788973689,100,2026-11-23T23:14:45+00:00
+TopDegree,B2,40,completed_valid,new computation,new_computation,0.0097431309986859,100,2026-11-23T23:14:46+00:00
+TopDegree,B2,50,completed_valid,new computation,new_computation,0.0105225670849904,100,2026-11-23T23:14:46+00:00
+TopDegree,B3,10,completed_valid,new computation,new_computation,0.0074084580410271,100,2026-11-23T23:14:46+00:00
+TopDegree,B3,20,completed_valid,new computation,new_computation,0.00779846298974,100,2026-11-23T23:14:46+00:00
+TopDegree,B3,30,completed_valid,new computation,new_computation,0.0097198070725426,100,2026-11-23T23:14:46+00:00
+TopDegree,B3,40,completed_valid,new computation,new_computation,0.0108047180110588,100,2026-11-23T23:14:46+00:00
+TopDegree,B3,50,completed_valid,new computation,new_computation,0.0106906030559912,100,2026-11-23T23:14:46+00:00
+TopDegree,B4,10,completed_valid,new computation,new_computation,0.0064468899508938,100,2026-11-23T23:14:46+00:00
+TopDegree,B4,20,completed_valid,new computation,new_computation,0.0105035318993031,100,2026-11-23T23:14:46+00:00
+TopDegree,B4,30,completed_valid,new computation,new_computation,0.0087428690167143,100,2026-11-23T23:14:46+00:00
+TopDegree,B4,40,completed_valid,new computation,new_computation,0.0098459840519353,100,2026-11-23T23:14:46+00:00
+TopDegree,B4,50,completed_valid,new computation,new_computation,0.0095999520272016,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B1,10,completed_valid,existing result has matching signature,new_computation,0.0048418689984828,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B1,20,completed_valid,new computation,new_computation,0.0080737700918689,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B1,30,completed_valid,new computation,new_computation,0.0073205429362133,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B1,40,completed_valid,new computation,new_computation,0.0078376960009336,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B1,50,completed_valid,new computation,new_computation,0.0084460410289466,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B2,10,completed_valid,new computation,new_computation,0.0049030650407075,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B2,20,completed_valid,new computation,new_computation,0.0071553529705852,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B2,30,completed_valid,new computation,new_computation,0.0072820709319785,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B2,40,completed_valid,new computation,new_computation,0.0108157680369913,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B2,50,completed_valid,new computation,new_computation,0.0093352840049192,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B3,10,completed_valid,new computation,new_computation,0.0057781010400503,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B3,20,completed_valid,new computation,new_computation,0.0078594670630991,100,2026-11-23T23:14:47+00:00
+SignedPageRank,B3,30,completed_valid,new computation,new_computation,0.0078372559510171,100,2026-11-23T23:14:48+00:00
+SignedPageRank,B3,40,completed_valid,new computation,new_computation,0.0144959929166361,100,2026-11-23T23:14:48+00:00
+SignedPageRank,B3,50,completed_valid,new computation,new_computation,0.0082599510205909,100,2026-11-23T23:14:48+00:00
+SignedPageRank,B4,10,completed_valid,new computation,new_computation,0.0061060480074957,100,2026-11-23T23:14:48+00:00
+SignedPageRank,B4,20,completed_valid,new computation,new_computation,0.0080519990297034,100,2026-11-23T23:14:48+00:00
+SignedPageRank,B4,30,completed_valid,new computation,new_computation,0.0072223979514092,100,2026-11-23T23:14:48+00:00
+SignedPageRank,B4,40,completed_valid,new computation,new_computation,0.0076987340580672,100,2026-11-23T23:14:48+00:00
+SignedPageRank,B4,50,completed_valid,new computation,new_computation,0.0083121890202164,100,2026-11-23T23:14:48+00:00
+CRIEG,B1,10,completed_valid,existing result has matching signature,new_computation,1.7121793809346857,100,2026-11-23T23:14:48+00:00
+CRIEG,B1,20,completed_valid,new computation,new_computation,1.804795830976218,100,2026-11-23T23:14:50+00:00
+CRIEG,B1,30,completed_valid,new computation,new_computation,1.5541036850772798,100,2026-11-23T23:14:52+00:00
+CRIEG,B1,40,completed_valid,new computation,new_computation,1.5509851669194177,100,2026-11-23T23:14:53+00:00
+CRIEG,B1,50,completed_valid,new computation,new_computation,1.7300085060996937,100,2026-11-23T23:14:55+00:00
+CRIEG,B2,10,completed_valid,new computation,new_computation,0.2772046269383281,100,2026-11-23T23:14:56+00:00
+CRIEG,B2,20,completed_valid,new computation,new_computation,0.2969198300270363,100,2026-11-23T23:14:56+00:00
+CRIEG,B2,30,completed_valid,new computation,new_computation,0.252136813942343,100,2026-11-23T23:14:56+00:00
+CRIEG,B2,40,completed_valid,new computation,new_computation,0.2223489600000903,100,2026-11-23T23:14:57+00:00
+CRIEG,B2,50,completed_valid,new computation,new_computation,0.2266472380142659,100,2026-11-23T23:14:57+00:00
+CRIEG,B3,10,completed_valid,new computation,new_computation,0.26503457990475,100,2026-11-23T23:14:57+00:00
+CRIEG,B3,20,completed_valid,new computation,new_computation,0.2300452210474759,100,2026-11-23T23:14:57+00:00
+CRIEG,B3,30,completed_valid,new computation,new_computation,0.319705349043943,100,2026-11-23T23:14:58+00:00
+CRIEG,B3,40,completed_valid,new computation,new_computation,0.2527213940629735,100,2026-11-23T23:14:58+00:00
+CRIEG,B3,50,completed_valid,new computation,new_computation,0.2555281439563259,100,2026-11-23T23:14:59+00:00
+CRIEG,B4,10,completed_valid,new computation,new_computation,0.4016377569641918,100,2026-11-23T23:14:59+00:00
+CRIEG,B4,20,completed_valid,new computation,new_computation,0.4690936700208112,100,2026-11-23T23:15:00+00:00
+CRIEG,B4,30,completed_valid,new computation,new_computation,0.5031211400637403,100,2026-11-23T23:15:00+00:00
+CRIEG,B4,40,completed_valid,new computation,new_computation,0.63854703202378,100,2026-11-23T23:15:01+00:00
+CRIEG,B4,50,completed_valid,new computation,new_computation,0.6229930389672518,100,2026-11-23T23:15:02+00:00
+NCGE,B1,10,completed_valid,existing result has matching signature,new_computation,1.2031308090081438,100,2026-11-23T23:15:02+00:00
+NCGE,B1,20,completed_valid,new computation,new_computation,2.1177449389360845,100,2026-11-23T23:15:04+00:00
+NCGE,B1,30,completed_valid,new computation,new_computation,3.2923961560009047,100,2026-11-23T23:15:07+00:00
+NCGE,B1,40,completed_valid,new computation,new_computation,5.425499349017628,100,2026-11-23T23:15:13+00:00
+NCGE,B1,50,completed_valid,new computation,new_computation,6.106377794989385,100,2026-11-23T23:15:19+00:00
+NCGE,B2,10,completed_valid,new computation,new_computation,1.2191665690625086,100,2026-11-23T23:15:20+00:00
+NCGE,B2,20,completed_valid,new computation,new_computation,2.433566841064021,100,2026-11-23T23:15:23+00:00
+NCGE,B2,30,completed_valid,new computation,new_computation,3.727640000055544,100,2026-11-23T23:15:27+00:00
+NCGE,B2,40,completed_valid,new computation,new_computation,4.684014497906901,100,2026-11-23T23:15:31+00:00
+NCGE,B2,50,completed_valid,new computation,new_computation,6.062929990934208,100,2026-11-23T23:15:38+00:00
+NCGE,B3,10,completed_valid,new computation,new_computation,1.2866506749996915,100,2026-11-23T23:15:39+00:00
+NCGE,B3,20,completed_valid,new computation,new_computation,2.566226909053512,100,2026-11-23T23:15:42+00:00
+NCGE,B3,30,completed_valid,new computation,new_computation,3.824461392010562,100,2026-11-23T23:15:46+00:00
+NCGE,B3,40,completed_valid,new computation,new_computation,4.483028510003351,100,2026-11-23T23:15:50+00:00
+NCGE,B3,50,completed_valid,new computation,new_computation,6.122257260954939,100,2026-11-23T23:15:56+00:00
+NCGE,B4,10,completed_valid,new computation,new_computation,1.1115736520150676,100,2026-11-23T23:15:58+00:00
+NCGE,B4,20,completed_valid,new computation,new_computation,2.484125301940366,100,2026-11-23T23:16:00+00:00
+NCGE,B4,30,completed_valid,new computation,new_computation,3.800474010990001,100,2026-11-23T23:16:04+00:00
+NCGE,B4,40,completed_valid,new computation,new_computation,5.157429918996058,100,2026-11-23T23:16:09+00:00
+NCGE,B4,50,completed_valid,new computation,new_computation,6.242929715081118,100,2026-11-23T23:16:16+00:00
+SignedGA,B1,10,completed_valid,existing result has matching signature,new_computation,198.69950426998548,100,2026-11-23T23:16:16+00:00
+SignedGA,B1,20,completed_valid,new computation,new_computation,202.756534707034,100,2026-11-23T23:19:39+00:00
+SignedGA,B1,30,completed_valid,new computation,new_computation,205.3411928319838,100,2026-11-23T23:23:04+00:00
+SignedGA,B1,40,completed_valid,new computation,new_computation,206.11536048306152,100,2026-11-23T23:26:30+00:00
+SignedGA,B1,50,completed_valid,new computation,new_computation,219.3905925879953,100,2026-11-23T23:30:10+00:00
+SignedGA,B2,10,completed_valid,new computation,new_computation,288.10766577895265,100,2026-11-23T23:34:58+00:00
+SignedGA,B2,20,completed_valid,new computation,new_computation,289.9363726469456,100,2026-11-23T23:39:48+00:00
+SignedGA,B2,30,completed_valid,new computation,new_computation,285.885686244932,100,2026-11-23T23:44:34+00:00
+SignedGA,B2,40,completed_valid,new computation,new_computation,286.4143354060361,100,2026-11-23T23:49:20+00:00
+SignedGA,B2,50,completed_valid,new computation,new_computation,286.8458995810943,100,2026-11-23T23:54:07+00:00
+SignedGA,B3,10,completed_valid,new computation,new_computation,285.86158926796634,100,2026-11-23T23:58:53+00:00
+SignedGA,B3,20,completed_valid,new computation,new_computation,286.8419901219895,100,2026-11-24T00:03:40+00:00
+SignedGA,B3,30,completed_valid,new computation,new_computation,292.010441762046,100,2026-11-24T00:08:33+00:00
+SignedGA,B3,40,completed_valid,new computation,new_computation,222.3491452409653,100,2026-11-24T00:12:15+00:00
+SignedGA,B3,50,completed_valid,new computation,new_computation,199.5228553339839,100,2026-11-24T00:15:35+00:00
+SignedGA,B4,10,completed_valid,new computation,new_computation,199.0232464979636,100,2026-11-24T00:18:54+00:00
+SignedGA,B4,20,completed_valid,new computation,new_computation,199.9463600310264,100,2026-11-24T00:22:14+00:00
+SignedGA,B4,30,completed_valid,new computation,new_computation,199.72871997300533,100,2026-11-24T00:25:34+00:00
+SignedGA,B4,40,completed_valid,new computation,new_computation,199.27246667305008,100,2026-11-24T00:28:53+00:00
+SignedGA,B4,50,completed_valid,new computation,new_computation,199.3074952729512,100,2026-11-24T00:32:12+00:00
+CELF,B1,10,completed_valid,existing result has matching signature,new_computation,1.1272264709696174,100,2026-11-24T00:32:12+00:00
+CELF,B1,20,completed_valid,new computation,new_computation,2.413728015962988,100,2026-11-24T00:32:15+00:00
+CELF,B1,30,completed_valid,new computation,new_computation,3.495237785973586,100,2026-11-24T00:32:19+00:00
+CELF,B1,40,completed_valid,new computation,new_computation,6.449049368966371,100,2026-11-24T00:32:25+00:00
+CELF,B1,50,completed_valid,new computation,new_computation,7.807161241071299,100,2026-11-24T00:32:33+00:00
+CELF,B2,10,completed_valid,new computation,new_computation,1.4038168179104105,100,2026-11-24T00:32:35+00:00
+CELF,B2,20,completed_valid,new computation,new_computation,3.4918595280032605,100,2026-11-24T00:32:38+00:00
+CELF,B2,30,completed_valid,new computation,new_computation,4.850602537975647,100,2026-11-24T00:32:43+00:00
+CELF,B2,40,completed_valid,new computation,new_computation,6.325684961979277,100,2026-11-24T00:32:50+00:00
+CELF,B2,50,completed_valid,new computation,new_computation,7.815366426017135,100,2026-11-24T00:32:58+00:00
+CELF,B3,10,completed_valid,new computation,new_computation,1.8489957259735093,100,2026-11-24T00:33:00+00:00
+CELF,B3,20,completed_valid,new computation,new_computation,3.309925490990281,100,2026-11-24T00:33:03+00:00
+CELF,B3,30,completed_valid,new computation,new_computation,4.846785884001292,100,2026-11-24T00:33:08+00:00
+CELF,B3,40,completed_valid,new computation,new_computation,6.010377619997598,100,2026-11-24T00:33:14+00:00
+CELF,B3,50,completed_valid,new computation,new_computation,7.852084585931152,100,2026-11-24T00:33:22+00:00
+CELF,B4,10,completed_valid,new computation,new_computation,1.56172300002072,100,2026-11-24T00:33:24+00:00
+CELF,B4,20,completed_valid,new computation,new_computation,2.223143627052196,100,2026-11-24T00:33:26+00:00
+CELF,B4,30,completed_valid,new computation,new_computation,3.900132299982943,100,2026-11-24T00:33:31+00:00
+CELF,B4,40,completed_valid,new computation,new_computation,4.934053699951619,100,2026-11-24T00:33:36+00:00
+CELF,B4,50,completed_valid,new computation,new_computation,5.257457832922228,100,2026-11-24T00:33:41+00:00
+FIBMM,B1,10,completed_valid,existing result has matching signature,new_computation,201.6488424768904,100,2026-11-24T00:33:41+00:00
+FIBMM,B1,20,completed_valid,new computation,new_computation,145.50036379497033,100,2026-11-24T00:36:07+00:00
+FIBMM,B1,30,completed_valid,new computation,new_computation,82.38714883895591,100,2026-11-24T00:37:29+00:00
+FIBMM,B1,40,completed_valid,new computation,new_computation,71.6930170210544,100,2026-11-24T00:38:41+00:00
+FIBMM,B1,50,completed_valid,new computation,new_computation,64.69999884895515,100,2026-11-24T00:39:46+00:00
+FIBMM,B2,10,completed_valid,new computation,new_computation,32.73324463807512,100,2026-11-24T00:40:18+00:00
+FIBMM,B2,20,completed_valid,new computation,new_computation,21.32319954095874,100,2026-11-24T00:40:40+00:00
+FIBMM,B2,30,completed_valid,new computation,new_computation,18.473335123970173,100,2026-11-24T00:40:58+00:00
+FIBMM,B2,40,completed_valid,new computation,new_computation,13.599171394016594,100,2026-11-24T00:41:12+00:00
+FIBMM,B2,50,completed_valid,new computation,new_computation,10.39731870102696,100,2026-11-24T00:41:23+00:00
+FIBMM,B3,10,completed_valid,new computation,new_computation,33.7285237229662,100,2026-11-24T00:41:56+00:00
+FIBMM,B3,20,completed_valid,new computation,new_computation,21.90262073103804,100,2026-11-24T00:42:18+00:00
+FIBMM,B3,30,completed_valid,new computation,new_computation,19.35914852307178,100,2026-11-24T00:42:38+00:00
+FIBMM,B3,40,completed_valid,new computation,new_computation,14.03209979098756,100,2026-11-24T00:42:52+00:00
+FIBMM,B3,50,completed_valid,new computation,new_computation,10.776278064004146,100,2026-11-24T00:43:03+00:00
+FIBMM,B4,10,completed_valid,new computation,new_computation,51.21262880798895,100,2026-11-24T00:43:54+00:00
+FIBMM,B4,20,completed_valid,new computation,new_computation,39.55308639304712,100,2026-11-24T00:44:34+00:00
+FIBMM,B4,30,completed_valid,new computation,new_computation,29.57588933291845,100,2026-11-24T00:45:03+00:00
+FIBMM,B4,40,completed_valid,new computation,new_computation,21.509150373982266,100,2026-11-24T00:45:25+00:00
+FIBMM,B4,50,completed_valid,new computation,new_computation,17.958503289031796,100,2026-11-24T00:45:43+00:00

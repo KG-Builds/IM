@@ -1,0 +1,8 @@
+{
+  "note": "One-time preprocessing runtimes observed when the caches were first filled. The full run reused these caches; per-cell selection_runtime_sec excludes them.",
+  "opponent_orders_sec": 1.60,
+  "signed_pagerank_sec": 0.42,
+  "ncge_centrality_sec": 24.86,
+  "fibmm_communities_sec": 1.33,
+  "source": "logs/full_run_console.log and logs/run.log cache-miss entries"
+}

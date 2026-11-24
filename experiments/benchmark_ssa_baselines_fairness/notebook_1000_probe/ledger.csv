@@ -1,0 +1,11 @@
+method_id,scenario,K,status,reason,source,selection_runtime_sec,final_mc_runs,timestamp
+SSA_O1,B1,10,completed_valid,new computation,new_computation,0.1629905300214886,100,2026-11-24T09:13:43+00:00
+SSA_O4,B1,10,completed_valid,new computation,new_computation,0.1542965209810063,100,2026-11-24T09:13:43+00:00
+SSA_O6,B1,10,completed_valid,new computation,new_computation,0.1577664609067142,100,2026-11-24T09:13:44+00:00
+SSA_Notebook,B1,10,completed_valid,new computation,new_computation,0.1563083269866183,100,2026-11-24T09:13:44+00:00
+Random,B1,10,completed_valid,new computation,new_computation,0.0005483309505507,100,2026-11-24T09:13:44+00:00
+TopDegree,B1,10,completed_valid,new computation,new_computation,0.0012408840702846,100,2026-11-24T09:13:44+00:00
+SignedPageRank,B1,10,completed_valid,new computation,new_computation,0.0010661160340532,100,2026-11-24T09:13:44+00:00
+CRIEG,B1,10,completed_valid,new computation,new_computation,0.5535536910174415,100,2026-11-24T09:13:45+00:00
+NCGE,B1,10,completed_valid,new computation,new_computation,0.2061584870098158,100,2026-11-24T09:13:45+00:00
+SignedGA,B1,10,completed_valid,new computation,new_computation,2.619891074951738,100,2026-11-24T09:13:48+00:00

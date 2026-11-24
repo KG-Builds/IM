@@ -1,0 +1,37 @@
+test_candidate_pool (test_benchmark.TestNetworkIdentity.test_candidate_pool) ... ok
+test_counts_and_direction (test_benchmark.TestNetworkIdentity.test_counts_and_direction) ... ok
+test_hashes (test_benchmark.TestNetworkIdentity.test_hashes) ... ok
+test_opponent_orders_nested (test_benchmark.TestNetworkIdentity.test_opponent_orders_nested) ... ok
+test_one_row_validates (test_benchmark.TestPriorSSAReuse.test_one_row_validates) ... ok
+test_prior_rows_complete (test_benchmark.TestPriorSSAReuse.test_prior_rows_complete) ... ok
+test_metrics_identity (test_benchmark.TestResultUtilities.test_metrics_identity) ... ok
+test_signature_changes (test_benchmark.TestResultUtilities.test_signature_changes) ... ok
+test_smoke_results_if_present (test_benchmark.TestResultUtilities.test_smoke_results_if_present) ... ok
+test_celf_matches_greedy_for_additive_scorer (test_benchmark.TestSmallAlgorithms.test_celf_matches_greedy_for_additive_scorer) ... ok
+test_crieg (test_benchmark.TestSmallAlgorithms.test_crieg) ... ok
+test_fibmm (test_benchmark.TestSmallAlgorithms.test_fibmm) ... ok
+test_ncge_pool (test_benchmark.TestSmallAlgorithms.test_ncge_pool) ... ok
+test_random (test_benchmark.TestSmallAlgorithms.test_random) ... ok
+test_signed_ga (test_benchmark.TestSmallAlgorithms.test_signed_ga) ... ok
+test_signed_pagerank (test_benchmark.TestSmallAlgorithms.test_signed_pagerank) ... ok
+test_top_degree (test_benchmark.TestSmallAlgorithms.test_top_degree) ... ok
+test_code_cells_are_python (test_notebook.TestNotebookStructure.test_code_cells_are_python) ... ok
+test_fibm_documented (test_notebook.TestNotebookStructure.test_fibm_documented) ... ok
+test_no_placeholders (test_notebook.TestNotebookStructure.test_no_placeholders) ... ok
+test_no_swap_execution (test_notebook.TestNotebookStructure.test_no_swap_execution) ... ok
+test_notebook_exists_and_is_valid (test_notebook.TestNotebookStructure.test_notebook_exists_and_is_valid) ... ok
+test_required_sections (test_notebook.TestNotebookStructure.test_required_sections) ... ok
+test_safe_default_execution (test_notebook.TestNotebookStructure.test_safe_default_execution) ... ok
+test_code_cells_compile (test_notebook_1000.TestNotebook1000Structure.test_code_cells_compile) ... ok
+test_exists_and_valid (test_notebook_1000.TestNotebook1000Structure.test_exists_and_valid) ... ok
+test_fibm_documented (test_notebook_1000.TestNotebook1000Structure.test_fibm_documented) ... ok
+test_no_placeholders (test_notebook_1000.TestNotebook1000Structure.test_no_placeholders) ... ok
+test_no_swap_execution (test_notebook_1000.TestNotebook1000Structure.test_no_swap_execution) ... ok
+test_required_sections (test_notebook_1000.TestNotebook1000Structure.test_required_sections) ... ok
+test_safe_default_execution (test_notebook_1000.TestNotebook1000Structure.test_safe_default_execution) ... ok
+test_synthetic_1000_configuration (test_notebook_1000.TestNotebook1000Structure.test_synthetic_1000_configuration) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 9.549s
+
+OK

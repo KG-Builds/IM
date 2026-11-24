@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_1000_synthetic",
+  "method_id": "SignedPageRank",
+  "scenario": "B3",
+  "K": 10,
+  "opponent_seed_set": [
+    5,
+    2,
+    8,
+    0,
+    14,
+    11,
+    4,
+    10,
+    21,
+    1
+  ],
+  "seed_set": [
+    94,
+    111,
+    17,
+    45,
+    548,
+    176,
+    480,
+    389,
+    974,
+    103
+  ],
+  "selection_info": {
+    "ranking": "positive-layer minus negative-layer signed PageRank"
+  },
+  "metrics": {
+    "spread_A": 187.48,
+    "spread_B": 194.14,
+    "net_advantage": -6.66,
+    "blocked_B": 7.340000000000003,
+    "baseline_B": 201.48,
+    "spread_A_se": 1.6526978250757458,
+    "spread_B_se": 1.7367111609492398,
+    "net_advantage_se": 1.803208139943805,
+    "net_advantage_ci_low": -10.12,
+    "net_advantage_ci_high": -3.23,
+    "blocked_B_se": 2.1128381027624545,
+    "blocked_B_ci_low": 3.2297500000000023,
+    "blocked_B_ci_high": 11.51,
+    "ignorant": 618.38,
+    "rounds": 26.29,
+    "from_cache": 0.0
+  },
+  "network_file_sha256": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+  "influence_semantic_sha256": "0c0f4e1f1d8a3abc0e2765941e94cfe233efbe32246c5b56c960f0c1ee7f7197",
+  "config_signature_hash": "80ce8fb14aef3b53c90d941f3c23ff08f37eb3260a8b84d69596f802fff3d16f",
+  "source": "new_computation",
+  "created_utc": "2026-11-24T09:16:07+00:00"
+}

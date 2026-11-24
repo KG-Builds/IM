@@ -1,0 +1,453 @@
+2026-11-23 20:22:17,739 | INFO | Run run_20261123_202600 (full) starting: 240 expected configurations
+2026-11-23 20:22:17,740 | INFO | Scenario B1 (Random opponent): 0 existing rows
+2026-11-23 20:22:17,746 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-23 20:22:17,907 | INFO |   K=10 O1: SSA done in 0.15s (score=262.400000, evals=132)
+2026-11-23 20:22:17,946 | INFO |   K=10 O1 SSA only: NetAdv=15.720 (A=217.1 B=201.4) BlockedB=9.350 [provisional_blocked_b]
+2026-11-23 20:22:18,088 | INFO |   K=10 O1 SSA + Swap refinement: NetAdv=18.800 (A=219.8 B=201.0) BlockedB=9.770 [provisional_blocked_b]
+2026-11-23 20:22:18,302 | INFO |   K=10 O2: SSA done in 0.20s (score=25.866667, evals=132)
+2026-11-23 20:22:18,340 | INFO |   K=10 O2 SSA only: NetAdv=14.050 (A=211.2 B=197.1) BlockedB=13.620 [validated]
+2026-11-23 20:22:18,493 | INFO |   K=10 O2 SSA + Swap refinement: NetAdv=14.940 (A=211.2 B=196.2) BlockedB=14.540 [validated]
+2026-11-23 20:22:18,659 | INFO |   K=10 O3: SSA done in 0.15s (score=32.400000, evals=132)
+2026-11-23 20:22:18,698 | INFO |   K=10 O3 SSA only: NetAdv=11.080 (A=214.4 B=203.3) BlockedB=7.470 [provisional_blocked_b]
+2026-11-23 20:22:18,848 | INFO |   K=10 O3 SSA + Swap refinement: NetAdv=11.080 (A=214.4 B=203.3) BlockedB=7.470 [provisional_blocked_b]
+2026-11-23 20:22:19,006 | INFO |   K=10 O4: SSA done in 0.15s (score=284.600000, evals=132)
+2026-11-23 20:22:19,044 | INFO |   K=10 O4 SSA only: NetAdv=13.920 (A=213.0 B=199.1) BlockedB=11.630 [provisional_blocked_b]
+2026-11-23 20:22:19,192 | INFO |   K=10 O4 SSA + Swap refinement: NetAdv=13.920 (A=213.0 B=199.1) BlockedB=11.630 [provisional_blocked_b]
+2026-11-23 20:22:19,354 | INFO |   K=10 O5: SSA done in 0.15s (score=85.200000, evals=132)
+2026-11-23 20:22:19,392 | INFO |   K=10 O5 SSA only: NetAdv=5.410 (A=210.5 B=205.1) BlockedB=5.640 [provisional_blocked_b]
+2026-11-23 20:22:19,551 | INFO |   K=10 O5 SSA + Swap refinement: NetAdv=11.260 (A=209.1 B=197.9) BlockedB=12.870 [provisional_blocked_b]
+2026-11-23 20:22:19,705 | INFO |   K=10 O6: SSA done in 0.15s (score=233.650000, evals=132)
+2026-11-23 20:22:19,743 | INFO |   K=10 O6 SSA only: NetAdv=9.870 (A=210.1 B=200.2) BlockedB=10.570 [provisional_blocked_b]
+2026-11-23 20:22:19,896 | INFO |   K=10 O6 SSA + Swap refinement: NetAdv=9.870 (A=210.1 B=200.2) BlockedB=10.570 [provisional_blocked_b]
+2026-11-23 20:22:19,903 | INFO |   K=20: B seeds=20, pool=200 (ranked=140, random=60)
+2026-11-23 20:22:20,085 | INFO |   K=20 O1: SSA done in 0.17s (score=271.700000, evals=132)
+2026-11-23 20:22:20,130 | INFO |   K=20 O1 SSA only: NetAdv=17.940 (A=223.0 B=205.1) BlockedB=25.640 [provisional_blocked_b]
+2026-11-23 20:22:20,275 | INFO |   K=20 O1 SSA + Swap refinement: NetAdv=18.820 (A=221.2 B=202.4) BlockedB=28.280 [provisional_blocked_b]
+2026-11-23 20:22:20,458 | INFO |   K=20 O2: SSA done in 0.17s (score=32.333333, evals=132)
+2026-11-23 20:22:20,495 | INFO |   K=20 O2 SSA only: NetAdv=26.840 (A=226.7 B=199.8) BlockedB=30.870 [validated]
+2026-11-23 20:22:20,643 | INFO |   K=20 O2 SSA + Swap refinement: NetAdv=26.890 (A=229.0 B=202.1) BlockedB=28.580 [validated]
+2026-11-23 20:22:20,821 | INFO |   K=20 O3: SSA done in 0.16s (score=30.800000, evals=132)
+2026-11-23 20:22:20,858 | INFO |   K=20 O3 SSA only: NetAdv=4.080 (A=214.5 B=210.4) BlockedB=20.280 [provisional_blocked_b]
+2026-11-23 20:22:21,008 | INFO |   K=20 O3 SSA + Swap refinement: NetAdv=4.080 (A=214.5 B=210.4) BlockedB=20.280 [provisional_blocked_b]
+2026-11-23 20:22:21,195 | INFO |   K=20 O4: SSA done in 0.16s (score=278.733333, evals=132)
+2026-11-23 20:22:21,232 | INFO |   K=20 O4 SSA only: NetAdv=9.540 (A=217.6 B=208.1) BlockedB=22.600 [provisional_blocked_b]
+2026-11-23 20:22:21,385 | INFO |   K=20 O4 SSA + Swap refinement: NetAdv=9.540 (A=217.6 B=208.1) BlockedB=22.600 [provisional_blocked_b]
+2026-11-23 20:22:21,561 | INFO |   K=20 O5: SSA done in 0.17s (score=101.000000, evals=132)
+2026-11-23 20:22:21,599 | INFO |   K=20 O5 SSA only: NetAdv=20.220 (A=223.6 B=203.4) BlockedB=27.340 [provisional_blocked_b]
+2026-11-23 20:22:21,770 | INFO |   K=20 O5 SSA + Swap refinement: NetAdv=20.220 (A=223.6 B=203.4) BlockedB=27.340 [provisional_blocked_b]
+2026-11-23 20:22:21,941 | INFO |   K=20 O6: SSA done in 0.16s (score=238.100000, evals=132)
+2026-11-23 20:22:21,979 | INFO |   K=20 O6 SSA only: NetAdv=23.900 (A=224.0 B=200.1) BlockedB=30.610 [provisional_blocked_b]
+2026-11-23 20:22:22,122 | INFO |   K=20 O6 SSA + Swap refinement: NetAdv=24.480 (A=223.5 B=199.1) BlockedB=31.640 [provisional_blocked_b]
+2026-11-23 20:22:22,128 | INFO |   K=30: B seeds=30, pool=300 (ranked=210, random=90)
+2026-11-23 20:22:22,318 | INFO |   K=30 O1: SSA done in 0.19s (score=276.166667, evals=132)
+2026-11-23 20:22:22,365 | INFO |   K=30 O1 SSA only: NetAdv=13.360 (A=221.7 B=208.3) BlockedB=26.840 [provisional_blocked_b]
+2026-11-23 20:22:22,517 | INFO |   K=30 O1 SSA + Swap refinement: NetAdv=16.100 (A=226.8 B=210.8) BlockedB=24.420 [provisional_blocked_b]
+2026-11-23 20:22:22,708 | INFO |   K=30 O2: SSA done in 0.17s (score=26.400000, evals=132)
+2026-11-23 20:22:22,748 | INFO |   K=30 O2 SSA only: NetAdv=19.660 (A=228.9 B=209.3) BlockedB=25.890 [validated]
+2026-11-23 20:22:22,892 | INFO |   K=30 O2 SSA + Swap refinement: NetAdv=19.660 (A=228.9 B=209.3) BlockedB=25.890 [validated]
+2026-11-23 20:22:23,099 | INFO |   K=30 O3: SSA done in 0.20s (score=41.533333, evals=132)
+2026-11-23 20:22:23,149 | INFO |   K=30 O3 SSA only: NetAdv=9.810 (A=215.9 B=206.1) BlockedB=29.040 [provisional_blocked_b]
+2026-11-23 20:22:23,293 | INFO |   K=30 O3 SSA + Swap refinement: NetAdv=9.810 (A=215.9 B=206.1) BlockedB=29.040 [provisional_blocked_b]
+2026-11-23 20:22:23,479 | INFO |   K=30 O4: SSA done in 0.18s (score=291.000000, evals=132)
+2026-11-23 20:22:23,520 | INFO |   K=30 O4 SSA only: NetAdv=13.370 (A=225.8 B=212.5) BlockedB=22.710 [provisional_blocked_b]
+2026-11-23 20:22:23,667 | INFO |   K=30 O4 SSA + Swap refinement: NetAdv=11.600 (A=229.3 B=217.7) BlockedB=17.510 [provisional_blocked_b]
+2026-11-23 20:22:23,852 | INFO |   K=30 O5: SSA done in 0.17s (score=89.600000, evals=132)
+2026-11-23 20:22:23,893 | INFO |   K=30 O5 SSA only: NetAdv=7.260 (A=222.3 B=215.0) BlockedB=20.150 [provisional_blocked_b]
+2026-11-23 20:22:24,036 | INFO |   K=30 O5 SSA + Swap refinement: NetAdv=11.970 (A=223.6 B=211.6) BlockedB=23.550 [provisional_blocked_b]
+2026-11-23 20:22:24,236 | INFO |   K=30 O6: SSA done in 0.19s (score=291.916667, evals=132)
+2026-11-23 20:22:24,276 | INFO |   K=30 O6 SSA only: NetAdv=17.290 (A=228.9 B=211.6) BlockedB=23.580 [provisional_blocked_b]
+2026-11-23 20:22:24,439 | INFO |   K=30 O6 SSA + Swap refinement: NetAdv=21.640 (A=230.8 B=209.2) BlockedB=26.010 [provisional_blocked_b]
+2026-11-23 20:22:24,446 | INFO |   K=40: B seeds=40, pool=400 (ranked=280, random=120)
+2026-11-23 20:22:24,664 | INFO |   K=40 O1: SSA done in 0.20s (score=293.033333, evals=132)
+2026-11-23 20:22:24,705 | INFO |   K=40 O1 SSA only: NetAdv=26.360 (A=237.2 B=210.8) BlockedB=30.730 [provisional_blocked_b]
+2026-11-23 20:22:24,857 | INFO |   K=40 O1 SSA + Swap refinement: NetAdv=26.700 (A=236.9 B=210.2) BlockedB=31.420 [provisional_blocked_b]
+2026-11-23 20:22:25,077 | INFO |   K=40 O2: SSA done in 0.21s (score=29.933333, evals=132)
+2026-11-23 20:22:25,114 | INFO |   K=40 O2 SSA only: NetAdv=21.010 (A=236.6 B=215.6) BlockedB=26.030 [validated]
+2026-11-23 20:22:25,267 | INFO |   K=40 O2 SSA + Swap refinement: NetAdv=17.950 (A=235.7 B=217.8) BlockedB=23.830 [validated]
+2026-11-23 20:22:25,487 | INFO |   K=40 O3: SSA done in 0.20s (score=34.866667, evals=132)
+2026-11-23 20:22:25,525 | INFO |   K=40 O3 SSA only: NetAdv=5.870 (A=224.0 B=218.1) BlockedB=23.470 [provisional_blocked_b]
+2026-11-23 20:22:25,674 | INFO |   K=40 O3 SSA + Swap refinement: NetAdv=5.870 (A=224.0 B=218.1) BlockedB=23.470 [provisional_blocked_b]
+2026-11-23 20:22:25,892 | INFO |   K=40 O4: SSA done in 0.20s (score=311.066667, evals=132)
+2026-11-23 20:22:25,934 | INFO |   K=40 O4 SSA only: NetAdv=25.160 (A=235.2 B=210.1) BlockedB=31.500 [provisional_blocked_b]
+2026-11-23 20:22:26,085 | INFO |   K=40 O4 SSA + Swap refinement: NetAdv=23.310 (A=234.7 B=211.4) BlockedB=30.160 [provisional_blocked_b]
+2026-11-23 20:22:26,297 | INFO |   K=40 O5: SSA done in 0.20s (score=91.866667, evals=132)
+2026-11-23 20:22:26,337 | INFO |   K=40 O5 SSA only: NetAdv=16.380 (A=233.9 B=217.6) BlockedB=24.020 [provisional_blocked_b]
+2026-11-23 20:22:26,489 | INFO |   K=40 O5 SSA + Swap refinement: NetAdv=15.680 (A=235.3 B=219.6) BlockedB=21.950 [provisional_blocked_b]
+2026-11-23 20:22:26,701 | INFO |   K=40 O6: SSA done in 0.20s (score=294.800000, evals=132)
+2026-11-23 20:22:26,742 | INFO |   K=40 O6 SSA only: NetAdv=17.310 (A=233.9 B=216.6) BlockedB=24.950 [provisional_blocked_b]
+2026-11-23 20:22:26,894 | INFO |   K=40 O6 SSA + Swap refinement: NetAdv=18.760 (A=234.8 B=216.0) BlockedB=25.550 [provisional_blocked_b]
+2026-11-23 20:22:26,901 | INFO |   K=50: B seeds=50, pool=500 (ranked=350, random=150)
+2026-11-23 20:22:27,143 | INFO |   K=50 O1: SSA done in 0.23s (score=303.866667, evals=132)
+2026-11-23 20:22:27,187 | INFO |   K=50 O1 SSA only: NetAdv=18.280 (A=244.9 B=226.6) BlockedB=24.760 [provisional_blocked_b]
+2026-11-23 20:22:27,334 | INFO |   K=50 O1 SSA + Swap refinement: NetAdv=18.280 (A=244.9 B=226.6) BlockedB=24.760 [provisional_blocked_b]
+2026-11-23 20:22:27,584 | INFO |   K=50 O2: SSA done in 0.23s (score=34.666667, evals=132)
+2026-11-23 20:22:27,623 | INFO |   K=50 O2 SSA only: NetAdv=28.370 (A=249.9 B=221.5) BlockedB=29.870 [validated]
+2026-11-23 20:22:27,776 | INFO |   K=50 O2 SSA + Swap refinement: NetAdv=27.420 (A=248.7 B=221.3) BlockedB=30.080 [validated]
+2026-11-23 20:22:28,021 | INFO |   K=50 O3: SSA done in 0.23s (score=42.266667, evals=132)
+2026-11-23 20:22:28,062 | INFO |   K=50 O3 SSA only: NetAdv=31.020 (A=249.2 B=218.2) BlockedB=33.160 [provisional_blocked_b]
+2026-11-23 20:22:28,217 | INFO |   K=50 O3 SSA + Swap refinement: NetAdv=29.930 (A=247.9 B=218.0) BlockedB=33.410 [provisional_blocked_b]
+2026-11-23 20:22:28,468 | INFO |   K=50 O4: SSA done in 0.24s (score=327.600000, evals=132)
+2026-11-23 20:22:28,508 | INFO |   K=50 O4 SSA only: NetAdv=28.500 (A=244.6 B=216.1) BlockedB=35.330 [provisional_blocked_b]
+2026-11-23 20:22:28,671 | INFO |   K=50 O4 SSA + Swap refinement: NetAdv=30.650 (A=247.0 B=216.3) BlockedB=35.050 [provisional_blocked_b]
+2026-11-23 20:22:28,906 | INFO |   K=50 O5: SSA done in 0.22s (score=111.600000, evals=132)
+2026-11-23 20:22:28,947 | INFO |   K=50 O5 SSA only: NetAdv=22.420 (A=242.6 B=220.2) BlockedB=31.180 [provisional_blocked_b]
+2026-11-23 20:22:29,111 | INFO |   K=50 O5 SSA + Swap refinement: NetAdv=19.340 (A=241.0 B=221.7) BlockedB=29.690 [provisional_blocked_b]
+2026-11-23 20:22:29,349 | INFO |   K=50 O6: SSA done in 0.22s (score=361.616667, evals=132)
+2026-11-23 20:22:29,394 | INFO |   K=50 O6 SSA only: NetAdv=10.490 (A=238.6 B=228.1) BlockedB=23.250 [provisional_blocked_b]
+2026-11-23 20:22:29,546 | INFO |   K=50 O6 SSA + Swap refinement: NetAdv=10.490 (A=238.6 B=228.1) BlockedB=23.250 [provisional_blocked_b]
+2026-11-23 20:22:29,575 | INFO | Scenario B1 complete: 60/240 configurations
+2026-11-23 20:22:29,577 | INFO | Scenario B2 (Degree-based opponent): 0 existing rows
+2026-11-23 20:22:29,583 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-23 20:22:29,755 | INFO |   K=10 O1: SSA done in 0.16s (score=233.433333, evals=132)
+2026-11-23 20:22:29,797 | INFO |   K=10 O1 SSA only: NetAdv=14.180 (A=202.9 B=188.8) BlockedB=9.480 [provisional_blocked_b]
+2026-11-23 20:22:29,946 | INFO |   K=10 O1 SSA + Swap refinement: NetAdv=17.160 (A=203.6 B=186.4) BlockedB=11.810 [provisional_blocked_b]
+2026-11-23 20:22:30,115 | INFO |   K=10 O2: SSA done in 0.15s (score=27.200000, evals=132)
+2026-11-23 20:22:30,152 | INFO |   K=10 O2 SSA only: NetAdv=18.870 (A=202.6 B=183.8) BlockedB=14.480 [validated]
+2026-11-23 20:22:30,323 | INFO |   K=10 O2 SSA + Swap refinement: NetAdv=20.500 (A=205.6 B=185.1) BlockedB=13.190 [validated]
+2026-11-23 20:22:30,491 | INFO |   K=10 O3: SSA done in 0.16s (score=19.533333, evals=132)
+2026-11-23 20:22:30,529 | INFO |   K=10 O3 SSA only: NetAdv=20.470 (A=204.1 B=183.6) BlockedB=14.640 [provisional_blocked_b]
+2026-11-23 20:22:30,681 | INFO |   K=10 O3 SSA + Swap refinement: NetAdv=17.710 (A=204.0 B=186.2) BlockedB=12.000 [provisional_blocked_b]
+2026-11-23 20:22:30,855 | INFO |   K=10 O4: SSA done in 0.16s (score=249.133333, evals=132)
+2026-11-23 20:22:30,891 | INFO |   K=10 O4 SSA only: NetAdv=13.950 (A=202.6 B=188.6) BlockedB=9.630 [provisional_blocked_b]
+2026-11-23 20:22:31,043 | INFO |   K=10 O4 SSA + Swap refinement: NetAdv=16.800 (A=205.7 B=188.9) BlockedB=9.320 [provisional_blocked_b]
+2026-11-23 20:22:31,216 | INFO |   K=10 O5: SSA done in 0.16s (score=64.000000, evals=132)
+2026-11-23 20:22:31,252 | INFO |   K=10 O5 SSA only: NetAdv=9.370 (A=200.0 B=190.7) BlockedB=7.590 [provisional_blocked_b]
+2026-11-23 20:22:31,404 | INFO |   K=10 O5 SSA + Swap refinement: NetAdv=9.370 (A=200.0 B=190.7) BlockedB=7.590 [provisional_blocked_b]
+2026-11-23 20:22:31,567 | INFO |   K=10 O6: SSA done in 0.15s (score=198.250000, evals=132)
+2026-11-23 20:22:31,606 | INFO |   K=10 O6 SSA only: NetAdv=16.470 (A=202.6 B=186.1) BlockedB=12.110 [provisional_blocked_b]
+2026-11-23 20:22:31,789 | INFO |   K=10 O6 SSA + Swap refinement: NetAdv=20.050 (A=207.2 B=187.1) BlockedB=11.150 [provisional_blocked_b]
+2026-11-23 20:22:31,795 | INFO |   K=20: B seeds=20, pool=200 (ranked=140, random=60)
+2026-11-23 20:22:31,973 | INFO |   K=20 O1: SSA done in 0.17s (score=234.300000, evals=132)
+2026-11-23 20:22:32,013 | INFO |   K=20 O1 SSA only: NetAdv=18.570 (A=201.0 B=182.4) BlockedB=12.840 [provisional_blocked_b]
+2026-11-23 20:22:32,161 | INFO |   K=20 O1 SSA + Swap refinement: NetAdv=16.600 (A=201.4 B=184.8) BlockedB=10.470 [provisional_blocked_b]
+2026-11-23 20:22:32,344 | INFO |   K=20 O2: SSA done in 0.17s (score=32.533333, evals=132)
+2026-11-23 20:22:32,380 | INFO |   K=20 O2 SSA only: NetAdv=21.410 (A=207.8 B=186.4) BlockedB=8.840 [validated]
+2026-11-23 20:22:32,523 | INFO |   K=20 O2 SSA + Swap refinement: NetAdv=22.880 (A=205.5 B=182.6) BlockedB=12.660 [validated]
+2026-11-23 20:22:32,694 | INFO |   K=20 O3: SSA done in 0.16s (score=25.133333, evals=132)
+2026-11-23 20:22:32,729 | INFO |   K=20 O3 SSA only: NetAdv=12.370 (A=194.2 B=181.9) BlockedB=13.400 [provisional_blocked_b]
+2026-11-23 20:22:32,868 | INFO |   K=20 O3 SSA + Swap refinement: NetAdv=12.370 (A=194.2 B=181.9) BlockedB=13.400 [provisional_blocked_b]
+2026-11-23 20:22:33,040 | INFO |   K=20 O4: SSA done in 0.16s (score=237.666667, evals=132)
+2026-11-23 20:22:33,075 | INFO |   K=20 O4 SSA only: NetAdv=11.480 (A=191.9 B=180.4) BlockedB=14.880 [provisional_blocked_b]
+2026-11-23 20:22:33,229 | INFO |   K=20 O4 SSA + Swap refinement: NetAdv=9.620 (A=194.8 B=185.2) BlockedB=10.130 [provisional_blocked_b]
+2026-11-23 20:22:33,397 | INFO |   K=20 O5: SSA done in 0.16s (score=66.800000, evals=132)
+2026-11-23 20:22:33,433 | INFO |   K=20 O5 SSA only: NetAdv=18.910 (A=200.3 B=181.4) BlockedB=13.870 [provisional_blocked_b]
+2026-11-23 20:22:33,579 | INFO |   K=20 O5 SSA + Swap refinement: NetAdv=20.320 (A=201.1 B=180.7) BlockedB=14.550 [provisional_blocked_b]
+2026-11-23 20:22:33,755 | INFO |   K=20 O6: SSA done in 0.17s (score=199.850000, evals=132)
+2026-11-23 20:22:33,790 | INFO |   K=20 O6 SSA only: NetAdv=20.890 (A=198.8 B=177.9) BlockedB=17.420 [provisional_blocked_b]
+2026-11-23 20:22:33,934 | INFO |   K=20 O6 SSA + Swap refinement: NetAdv=20.640 (A=198.0 B=177.4) BlockedB=17.920 [provisional_blocked_b]
+2026-11-23 20:22:33,940 | INFO |   K=30: B seeds=30, pool=300 (ranked=210, random=90)
+2026-11-23 20:22:34,121 | INFO |   K=30 O1: SSA done in 0.17s (score=229.433333, evals=132)
+2026-11-23 20:22:34,162 | INFO |   K=30 O1 SSA only: NetAdv=20.740 (A=204.0 B=183.3) BlockedB=13.100 [provisional_blocked_b]
+2026-11-23 20:22:34,310 | INFO |   K=30 O1 SSA + Swap refinement: NetAdv=18.950 (A=197.9 B=179.0) BlockedB=17.410 [provisional_blocked_b]
+2026-11-23 20:22:34,495 | INFO |   K=30 O2: SSA done in 0.18s (score=28.733333, evals=132)
+2026-11-23 20:22:34,532 | INFO |   K=30 O2 SSA only: NetAdv=17.460 (A=203.6 B=186.2) BlockedB=10.210 [validated]
+2026-11-23 20:22:34,683 | INFO |   K=30 O2 SSA + Swap refinement: NetAdv=19.020 (A=202.4 B=183.4) BlockedB=13.000 [validated]
+2026-11-23 20:22:34,862 | INFO |   K=30 O3: SSA done in 0.17s (score=19.266667, evals=132)
+2026-11-23 20:22:34,899 | INFO |   K=30 O3 SSA only: NetAdv=18.270 (A=202.2 B=184.0) BlockedB=12.410 [provisional_blocked_b]
+2026-11-23 20:22:35,045 | INFO |   K=30 O3 SSA + Swap refinement: NetAdv=18.270 (A=202.2 B=184.0) BlockedB=12.410 [provisional_blocked_b]
+2026-11-23 20:22:35,231 | INFO |   K=30 O4: SSA done in 0.18s (score=239.066667, evals=132)
+2026-11-23 20:22:35,269 | INFO |   K=30 O4 SSA only: NetAdv=18.630 (A=203.5 B=184.9) BlockedB=11.460 [provisional_blocked_b]
+2026-11-23 20:22:35,417 | INFO |   K=30 O4 SSA + Swap refinement: NetAdv=18.630 (A=203.5 B=184.9) BlockedB=11.460 [provisional_blocked_b]
+2026-11-23 20:22:35,599 | INFO |   K=30 O5: SSA done in 0.17s (score=85.400000, evals=132)
+2026-11-23 20:22:35,634 | INFO |   K=30 O5 SSA only: NetAdv=21.810 (A=201.2 B=179.4) BlockedB=16.970 [provisional_blocked_b]
+2026-11-23 20:22:35,805 | INFO |   K=30 O5 SSA + Swap refinement: NetAdv=21.810 (A=201.2 B=179.4) BlockedB=16.970 [provisional_blocked_b]
+2026-11-23 20:22:35,998 | INFO |   K=30 O6: SSA done in 0.18s (score=237.566667, evals=132)
+2026-11-23 20:22:36,036 | INFO |   K=30 O6 SSA only: NetAdv=20.610 (A=199.9 B=179.3) BlockedB=17.030 [provisional_blocked_b]
+2026-11-23 20:22:36,188 | INFO |   K=30 O6 SSA + Swap refinement: NetAdv=19.170 (A=196.5 B=177.3) BlockedB=19.080 [provisional_blocked_b]
+2026-11-23 20:22:36,196 | INFO |   K=40: B seeds=40, pool=400 (ranked=280, random=120)
+2026-11-23 20:22:36,413 | INFO |   K=40 O1: SSA done in 0.21s (score=229.600000, evals=132)
+2026-11-23 20:22:36,455 | INFO |   K=40 O1 SSA only: NetAdv=26.650 (A=208.5 B=181.9) BlockedB=15.100 [provisional_blocked_b]
+2026-11-23 20:22:36,612 | INFO |   K=40 O1 SSA + Swap refinement: NetAdv=26.180 (A=210.1 B=183.9) BlockedB=13.090 [provisional_blocked_b]
+2026-11-23 20:22:36,815 | INFO |   K=40 O2: SSA done in 0.19s (score=22.933333, evals=132)
+2026-11-23 20:22:36,857 | INFO |   K=40 O2 SSA only: NetAdv=22.870 (A=205.3 B=182.4) BlockedB=14.550 [validated]
+2026-11-23 20:22:37,012 | INFO |   K=40 O2 SSA + Swap refinement: NetAdv=21.990 (A=201.9 B=179.9) BlockedB=17.040 [validated]
+2026-11-23 20:22:37,227 | INFO |   K=40 O3: SSA done in 0.20s (score=24.933333, evals=132)
+2026-11-23 20:22:37,266 | INFO |   K=40 O3 SSA only: NetAdv=15.260 (A=191.8 B=176.6) BlockedB=20.410 [provisional_blocked_b]
+2026-11-23 20:22:37,419 | INFO |   K=40 O3 SSA + Swap refinement: NetAdv=15.260 (A=191.8 B=176.6) BlockedB=20.410 [provisional_blocked_b]
+2026-11-23 20:22:37,632 | INFO |   K=40 O4: SSA done in 0.20s (score=240.066667, evals=132)
+2026-11-23 20:22:37,674 | INFO |   K=40 O4 SSA only: NetAdv=15.330 (A=198.0 B=182.7) BlockedB=14.300 [provisional_blocked_b]
+2026-11-23 20:22:37,816 | INFO |   K=40 O4 SSA + Swap refinement: NetAdv=15.330 (A=198.0 B=182.7) BlockedB=14.300 [provisional_blocked_b]
+2026-11-23 20:22:38,021 | INFO |   K=40 O5: SSA done in 0.20s (score=61.666667, evals=132)
+2026-11-23 20:22:38,062 | INFO |   K=40 O5 SSA only: NetAdv=12.120 (A=194.4 B=182.3) BlockedB=14.660 [provisional_blocked_b]
+2026-11-23 20:22:38,210 | INFO |   K=40 O5 SSA + Swap refinement: NetAdv=12.120 (A=194.4 B=182.3) BlockedB=14.660 [provisional_blocked_b]
+2026-11-23 20:22:38,417 | INFO |   K=40 O6: SSA done in 0.20s (score=240.650000, evals=132)
+2026-11-23 20:22:38,459 | INFO |   K=40 O6 SSA only: NetAdv=13.320 (A=198.3 B=185.0) BlockedB=11.970 [provisional_blocked_b]
+2026-11-23 20:22:38,609 | INFO |   K=40 O6 SSA + Swap refinement: NetAdv=13.670 (A=197.4 B=183.7) BlockedB=13.260 [provisional_blocked_b]
+2026-11-23 20:22:38,614 | INFO |   K=50: B seeds=50, pool=500 (ranked=350, random=150)
+2026-11-23 20:22:38,843 | INFO |   K=50 O1: SSA done in 0.22s (score=233.833333, evals=132)
+2026-11-23 20:22:38,892 | INFO |   K=50 O1 SSA only: NetAdv=21.570 (A=203.6 B=182.1) BlockedB=21.110 [provisional_blocked_b]
+2026-11-23 20:22:39,043 | INFO |   K=50 O1 SSA + Swap refinement: NetAdv=22.840 (A=203.3 B=180.4) BlockedB=22.740 [provisional_blocked_b]
+2026-11-23 20:22:39,273 | INFO |   K=50 O2: SSA done in 0.22s (score=33.133333, evals=132)
+2026-11-23 20:22:39,312 | INFO |   K=50 O2 SSA only: NetAdv=27.140 (A=216.3 B=189.2) BlockedB=13.980 [validated]
+2026-11-23 20:22:39,469 | INFO |   K=50 O2 SSA + Swap refinement: NetAdv=27.700 (A=215.9 B=188.2) BlockedB=14.950 [validated]
+2026-11-23 20:22:39,701 | INFO |   K=50 O3: SSA done in 0.22s (score=20.466667, evals=132)
+2026-11-23 20:22:39,741 | INFO |   K=50 O3 SSA only: NetAdv=11.700 (A=196.2 B=184.5) BlockedB=18.660 [provisional_blocked_b]
+2026-11-23 20:22:39,891 | INFO |   K=50 O3 SSA + Swap refinement: NetAdv=11.780 (A=194.8 B=183.0) BlockedB=20.200 [provisional_blocked_b]
+2026-11-23 20:22:40,119 | INFO |   K=50 O4: SSA done in 0.22s (score=245.200000, evals=132)
+2026-11-23 20:22:40,159 | INFO |   K=50 O4 SSA only: NetAdv=21.370 (A=200.3 B=178.9) BlockedB=24.260 [provisional_blocked_b]
+2026-11-23 20:22:40,310 | INFO |   K=50 O4 SSA + Swap refinement: NetAdv=20.080 (A=202.8 B=182.7) BlockedB=20.450 [provisional_blocked_b]
+2026-11-23 20:22:40,542 | INFO |   K=50 O5: SSA done in 0.22s (score=64.000000, evals=132)
+2026-11-23 20:22:40,582 | INFO |   K=50 O5 SSA only: NetAdv=17.210 (A=198.1 B=180.9) BlockedB=22.310 [provisional_blocked_b]
+2026-11-23 20:22:40,738 | INFO |   K=50 O5 SSA + Swap refinement: NetAdv=18.450 (A=200.0 B=181.5) BlockedB=21.660 [provisional_blocked_b]
+2026-11-23 20:22:40,962 | INFO |   K=50 O6: SSA done in 0.22s (score=289.050000, evals=132)
+2026-11-23 20:22:41,002 | INFO |   K=50 O6 SSA only: NetAdv=23.400 (A=211.1 B=187.7) BlockedB=15.470 [provisional_blocked_b]
+2026-11-23 20:22:41,155 | INFO |   K=50 O6 SSA + Swap refinement: NetAdv=22.230 (A=211.4 B=189.2) BlockedB=13.990 [provisional_blocked_b]
+2026-11-23 20:22:41,184 | INFO | Scenario B2 complete: 120/240 configurations
+2026-11-23 20:22:41,207 | INFO | Scenario B3 (Positive PageRank opponent): 0 existing rows
+2026-11-23 20:22:41,212 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-23 20:22:41,384 | INFO |   K=10 O1: SSA done in 0.16s (score=227.100000, evals=132)
+2026-11-23 20:22:41,429 | INFO |   K=10 O1 SSA only: NetAdv=18.130 (A=204.5 B=186.4) BlockedB=14.330 [provisional_blocked_b]
+2026-11-23 20:22:41,580 | INFO |   K=10 O1 SSA + Swap refinement: NetAdv=19.960 (A=204.9 B=184.9) BlockedB=15.800 [provisional_blocked_b]
+2026-11-23 20:22:41,753 | INFO |   K=10 O2: SSA done in 0.16s (score=21.666667, evals=132)
+2026-11-23 20:22:41,789 | INFO |   K=10 O2 SSA only: NetAdv=13.540 (A=201.4 B=187.9) BlockedB=12.860 [validated]
+2026-11-23 20:22:41,939 | INFO |   K=10 O2 SSA + Swap refinement: NetAdv=14.360 (A=200.7 B=186.3) BlockedB=14.420 [validated]
+2026-11-23 20:22:42,107 | INFO |   K=10 O3: SSA done in 0.16s (score=14.866667, evals=132)
+2026-11-23 20:22:42,148 | INFO |   K=10 O3 SSA only: NetAdv=10.720 (A=197.7 B=187.0) BlockedB=13.730 [provisional_blocked_b]
+2026-11-23 20:22:42,301 | INFO |   K=10 O3 SSA + Swap refinement: NetAdv=12.550 (A=201.1 B=188.6) BlockedB=12.180 [provisional_blocked_b]
+2026-11-23 20:22:42,471 | INFO |   K=10 O4: SSA done in 0.16s (score=228.133333, evals=132)
+2026-11-23 20:22:42,510 | INFO |   K=10 O4 SSA only: NetAdv=20.930 (A=207.1 B=186.1) BlockedB=14.590 [provisional_blocked_b]
+2026-11-23 20:22:42,666 | INFO |   K=10 O4 SSA + Swap refinement: NetAdv=21.860 (A=207.7 B=185.8) BlockedB=14.910 [provisional_blocked_b]
+2026-11-23 20:22:42,830 | INFO |   K=10 O5: SSA done in 0.15s (score=52.466667, evals=132)
+2026-11-23 20:22:42,867 | INFO |   K=10 O5 SSA only: NetAdv=12.830 (A=200.5 B=187.7) BlockedB=13.060 [provisional_blocked_b]
+2026-11-23 20:22:43,018 | INFO |   K=10 O5 SSA + Swap refinement: NetAdv=12.460 (A=198.1 B=185.6) BlockedB=15.130 [provisional_blocked_b]
+2026-11-23 20:22:43,183 | INFO |   K=10 O6: SSA done in 0.16s (score=177.000000, evals=132)
+2026-11-23 20:22:43,226 | INFO |   K=10 O6 SSA only: NetAdv=7.400 (A=194.3 B=186.9) BlockedB=13.840 [provisional_blocked_b]
+2026-11-23 20:22:43,378 | INFO |   K=10 O6 SSA + Swap refinement: NetAdv=9.220 (A=196.3 B=187.0) BlockedB=13.690 [provisional_blocked_b]
+2026-11-23 20:22:43,386 | INFO |   K=20: B seeds=20, pool=200 (ranked=140, random=60)
+2026-11-23 20:22:43,561 | INFO |   K=20 O1: SSA done in 0.17s (score=223.766667, evals=132)
+2026-11-23 20:22:43,601 | INFO |   K=20 O1 SSA only: NetAdv=16.630 (A=202.2 B=185.5) BlockedB=13.560 [provisional_blocked_b]
+2026-11-23 20:22:43,745 | INFO |   K=20 O1 SSA + Swap refinement: NetAdv=24.370 (A=207.6 B=183.2) BlockedB=15.850 [provisional_blocked_b]
+2026-11-23 20:22:43,907 | INFO |   K=20 O2: SSA done in 0.15s (score=33.000000, evals=132)
+2026-11-23 20:22:43,943 | INFO |   K=20 O2 SSA only: NetAdv=25.630 (A=209.1 B=183.4) BlockedB=15.660 [validated]
+2026-11-23 20:22:44,094 | INFO |   K=20 O2 SSA + Swap refinement: NetAdv=19.560 (A=205.3 B=185.8) BlockedB=13.340 [validated]
+2026-11-23 20:22:44,266 | INFO |   K=20 O3: SSA done in 0.16s (score=19.733333, evals=132)
+2026-11-23 20:22:44,302 | INFO |   K=20 O3 SSA only: NetAdv=15.200 (A=198.4 B=183.2) BlockedB=15.920 [provisional_blocked_b]
+2026-11-23 20:22:44,453 | INFO |   K=20 O3 SSA + Swap refinement: NetAdv=13.900 (A=198.2 B=184.3) BlockedB=14.750 [provisional_blocked_b]
+2026-11-23 20:22:44,624 | INFO |   K=20 O4: SSA done in 0.16s (score=243.000000, evals=132)
+2026-11-23 20:22:44,661 | INFO |   K=20 O4 SSA only: NetAdv=15.870 (A=198.4 B=182.6) BlockedB=16.520 [provisional_blocked_b]
+2026-11-23 20:22:44,818 | INFO |   K=20 O4 SSA + Swap refinement: NetAdv=15.870 (A=198.4 B=182.6) BlockedB=16.520 [provisional_blocked_b]
+2026-11-23 20:22:44,993 | INFO |   K=20 O5: SSA done in 0.17s (score=58.133333, evals=132)
+2026-11-23 20:22:45,031 | INFO |   K=20 O5 SSA only: NetAdv=15.960 (A=199.2 B=183.3) BlockedB=15.830 [provisional_blocked_b]
+2026-11-23 20:22:45,171 | INFO |   K=20 O5 SSA + Swap refinement: NetAdv=15.210 (A=198.2 B=183.0) BlockedB=16.120 [provisional_blocked_b]
+2026-11-23 20:22:45,342 | INFO |   K=20 O6: SSA done in 0.16s (score=187.850000, evals=132)
+2026-11-23 20:22:45,382 | INFO |   K=20 O6 SSA only: NetAdv=8.840 (A=197.2 B=188.4) BlockedB=10.730 [provisional_blocked_b]
+2026-11-23 20:22:45,527 | INFO |   K=20 O6 SSA + Swap refinement: NetAdv=8.840 (A=197.2 B=188.4) BlockedB=10.730 [provisional_blocked_b]
+2026-11-23 20:22:45,533 | INFO |   K=30: B seeds=30, pool=300 (ranked=210, random=90)
+2026-11-23 20:22:45,723 | INFO |   K=30 O1: SSA done in 0.18s (score=241.233333, evals=132)
+2026-11-23 20:22:45,766 | INFO |   K=30 O1 SSA only: NetAdv=21.310 (A=204.0 B=182.7) BlockedB=15.120 [provisional_blocked_b]
+2026-11-23 20:22:45,922 | INFO |   K=30 O1 SSA + Swap refinement: NetAdv=22.740 (A=205.8 B=183.0) BlockedB=14.750 [provisional_blocked_b]
+2026-11-23 20:22:46,103 | INFO |   K=30 O2: SSA done in 0.17s (score=31.333333, evals=132)
+2026-11-23 20:22:46,147 | INFO |   K=30 O2 SSA only: NetAdv=26.160 (A=209.4 B=183.3) BlockedB=14.500 [validated]
+2026-11-23 20:22:46,297 | INFO |   K=30 O2 SSA + Swap refinement: NetAdv=23.240 (A=207.7 B=184.5) BlockedB=13.300 [validated]
+2026-11-23 20:22:46,492 | INFO |   K=30 O3: SSA done in 0.19s (score=31.533333, evals=132)
+2026-11-23 20:22:46,531 | INFO |   K=30 O3 SSA only: NetAdv=18.960 (A=195.3 B=176.3) BlockedB=21.490 [provisional_blocked_b]
+2026-11-23 20:22:46,684 | INFO |   K=30 O3 SSA + Swap refinement: NetAdv=22.760 (A=200.2 B=177.5) BlockedB=20.310 [provisional_blocked_b]
+2026-11-23 20:22:46,868 | INFO |   K=30 O4: SSA done in 0.17s (score=250.666667, evals=132)
+2026-11-23 20:22:46,906 | INFO |   K=30 O4 SSA only: NetAdv=20.170 (A=196.0 B=175.9) BlockedB=21.920 [provisional_blocked_b]
+2026-11-23 20:22:47,051 | INFO |   K=30 O4 SSA + Swap refinement: NetAdv=19.900 (A=196.1 B=176.2) BlockedB=21.590 [provisional_blocked_b]
+2026-11-23 20:22:47,235 | INFO |   K=30 O5: SSA done in 0.17s (score=89.666667, evals=132)
+2026-11-23 20:22:47,272 | INFO |   K=30 O5 SSA only: NetAdv=22.240 (A=204.9 B=182.7) BlockedB=15.120 [provisional_blocked_b]
+2026-11-23 20:22:47,424 | INFO |   K=30 O5 SSA + Swap refinement: NetAdv=22.240 (A=204.9 B=182.7) BlockedB=15.120 [provisional_blocked_b]
+2026-11-23 20:22:47,661 | INFO |   K=30 O6: SSA done in 0.23s (score=249.966667, evals=132)
+2026-11-23 20:22:47,708 | INFO |   K=30 O6 SSA only: NetAdv=21.390 (A=206.2 B=184.8) BlockedB=13.010 [provisional_blocked_b]
+2026-11-23 20:22:47,956 | INFO |   K=30 O6 SSA + Swap refinement: NetAdv=23.850 (A=207.4 B=183.6) BlockedB=14.190 [provisional_blocked_b]
+2026-11-23 20:22:47,967 | INFO |   K=40: B seeds=40, pool=400 (ranked=280, random=120)
+2026-11-23 20:22:48,414 | INFO |   K=40 O1: SSA done in 0.44s (score=220.266667, evals=132)
+2026-11-23 20:22:48,460 | INFO |   K=40 O1 SSA only: NetAdv=22.330 (A=202.5 B=180.2) BlockedB=15.760 [provisional_blocked_b]
+2026-11-23 20:22:48,643 | INFO |   K=40 O1 SSA + Swap refinement: NetAdv=24.670 (A=202.7 B=178.0) BlockedB=17.990 [provisional_blocked_b]
+2026-11-23 20:22:48,860 | INFO |   K=40 O2: SSA done in 0.21s (score=36.400000, evals=132)
+2026-11-23 20:22:48,898 | INFO |   K=40 O2 SSA only: NetAdv=32.180 (A=209.1 B=176.9) BlockedB=19.090 [validated]
+2026-11-23 20:22:49,054 | INFO |   K=40 O2 SSA + Swap refinement: NetAdv=30.370 (A=208.1 B=177.8) BlockedB=18.210 [validated]
+2026-11-23 20:22:49,264 | INFO |   K=40 O3: SSA done in 0.20s (score=21.866667, evals=132)
+2026-11-23 20:22:49,333 | INFO |   K=40 O3 SSA only: NetAdv=30.490 (A=209.4 B=178.9) BlockedB=17.030 [provisional_blocked_b]
+2026-11-23 20:22:49,496 | INFO |   K=40 O3 SSA + Swap refinement: NetAdv=29.720 (A=207.8 B=178.1) BlockedB=17.890 [provisional_blocked_b]
+2026-11-23 20:22:49,735 | INFO |   K=40 O4: SSA done in 0.23s (score=230.800000, evals=132)
+2026-11-23 20:22:49,778 | INFO |   K=40 O4 SSA only: NetAdv=26.080 (A=201.2 B=175.1) BlockedB=20.830 [provisional_blocked_b]
+2026-11-23 20:22:49,989 | INFO |   K=40 O4 SSA + Swap refinement: NetAdv=25.820 (A=203.5 B=177.7) BlockedB=18.300 [provisional_blocked_b]
+2026-11-23 20:22:50,197 | INFO |   K=40 O5: SSA done in 0.20s (score=58.000000, evals=132)
+2026-11-23 20:22:50,241 | INFO |   K=40 O5 SSA only: NetAdv=21.690 (A=197.6 B=175.9) BlockedB=20.080 [provisional_blocked_b]
+2026-11-23 20:22:50,395 | INFO |   K=40 O5 SSA + Swap refinement: NetAdv=23.010 (A=199.6 B=176.6) BlockedB=19.360 [provisional_blocked_b]
+2026-11-23 20:22:50,603 | INFO |   K=40 O6: SSA done in 0.20s (score=222.216667, evals=132)
+2026-11-23 20:22:50,644 | INFO |   K=40 O6 SSA only: NetAdv=26.320 (A=211.6 B=185.2) BlockedB=10.730 [provisional_blocked_b]
+2026-11-23 20:22:50,808 | INFO |   K=40 O6 SSA + Swap refinement: NetAdv=27.260 (A=213.3 B=186.1) BlockedB=9.900 [provisional_blocked_b]
+2026-11-23 20:22:50,814 | INFO |   K=50: B seeds=50, pool=500 (ranked=350, random=150)
+2026-11-23 20:22:51,044 | INFO |   K=50 O1: SSA done in 0.22s (score=253.633333, evals=132)
+2026-11-23 20:22:51,088 | INFO |   K=50 O1 SSA only: NetAdv=26.230 (A=210.8 B=184.6) BlockedB=16.260 [provisional_blocked_b]
+2026-11-23 20:22:51,249 | INFO |   K=50 O1 SSA + Swap refinement: NetAdv=26.230 (A=210.8 B=184.6) BlockedB=16.260 [provisional_blocked_b]
+2026-11-23 20:22:51,484 | INFO |   K=50 O2: SSA done in 0.23s (score=33.333333, evals=132)
+2026-11-23 20:22:51,529 | INFO |   K=50 O2 SSA only: NetAdv=20.980 (A=206.3 B=185.3) BlockedB=15.500 [validated]
+2026-11-23 20:22:51,720 | INFO |   K=50 O2 SSA + Swap refinement: NetAdv=20.980 (A=206.3 B=185.3) BlockedB=15.500 [validated]
+2026-11-23 20:22:51,950 | INFO |   K=50 O3: SSA done in 0.22s (score=35.000000, evals=132)
+2026-11-23 20:22:51,988 | INFO |   K=50 O3 SSA only: NetAdv=17.280 (A=198.8 B=181.5) BlockedB=19.340 [provisional_blocked_b]
+2026-11-23 20:22:52,136 | INFO |   K=50 O3 SSA + Swap refinement: NetAdv=17.280 (A=198.8 B=181.5) BlockedB=19.340 [provisional_blocked_b]
+2026-11-23 20:22:52,382 | INFO |   K=50 O4: SSA done in 0.24s (score=272.200000, evals=132)
+2026-11-23 20:22:52,425 | INFO |   K=50 O4 SSA only: NetAdv=21.830 (A=202.0 B=180.2) BlockedB=20.610 [provisional_blocked_b]
+2026-11-23 20:22:52,580 | INFO |   K=50 O4 SSA + Swap refinement: NetAdv=23.720 (A=205.1 B=181.4) BlockedB=19.430 [provisional_blocked_b]
+2026-11-23 20:22:52,818 | INFO |   K=50 O5: SSA done in 0.23s (score=90.800000, evals=132)
+2026-11-23 20:22:52,857 | INFO |   K=50 O5 SSA only: NetAdv=23.420 (A=205.5 B=182.1) BlockedB=18.740 [provisional_blocked_b]
+2026-11-23 20:22:53,012 | INFO |   K=50 O5 SSA + Swap refinement: NetAdv=20.680 (A=203.7 B=183.0) BlockedB=17.840 [provisional_blocked_b]
+2026-11-23 20:22:53,243 | INFO |   K=50 O6: SSA done in 0.22s (score=299.700000, evals=132)
+2026-11-23 20:22:53,284 | INFO |   K=50 O6 SSA only: NetAdv=28.180 (A=213.3 B=185.1) BlockedB=15.700 [provisional_blocked_b]
+2026-11-23 20:22:53,441 | INFO |   K=50 O6 SSA + Swap refinement: NetAdv=25.340 (A=212.0 B=186.7) BlockedB=14.160 [provisional_blocked_b]
+2026-11-23 20:22:53,476 | INFO | Scenario B3 complete: 180/240 configurations
+2026-11-23 20:22:53,663 | INFO | Scenario B4 (Community-concentrated opponent): 0 existing rows
+2026-11-23 20:22:53,670 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-23 20:22:53,844 | INFO |   K=10 O1: SSA done in 0.16s (score=236.166667, evals=132)
+2026-11-23 20:22:53,887 | INFO |   K=10 O1 SSA only: NetAdv=11.870 (A=207.2 B=195.4) BlockedB=9.040 [provisional_blocked_b]
+2026-11-23 20:22:54,043 | INFO |   K=10 O1 SSA + Swap refinement: NetAdv=20.670 (A=209.5 B=188.8) BlockedB=15.590 [provisional_blocked_b]
+2026-11-23 20:22:54,208 | INFO |   K=10 O2: SSA done in 0.16s (score=30.200000, evals=132)
+2026-11-23 20:22:54,243 | INFO |   K=10 O2 SSA only: NetAdv=14.670 (A=203.3 B=188.7) BlockedB=15.750 [validated]
+2026-11-23 20:22:54,387 | INFO |   K=10 O2 SSA + Swap refinement: NetAdv=14.670 (A=203.3 B=188.7) BlockedB=15.750 [validated]
+2026-11-23 20:22:54,546 | INFO |   K=10 O3: SSA done in 0.15s (score=20.133333, evals=132)
+2026-11-23 20:22:54,582 | INFO |   K=10 O3 SSA only: NetAdv=21.060 (A=207.2 B=186.2) BlockedB=18.230 [provisional_blocked_b]
+2026-11-23 20:22:54,733 | INFO |   K=10 O3 SSA + Swap refinement: NetAdv=21.060 (A=207.2 B=186.2) BlockedB=18.230 [provisional_blocked_b]
+2026-11-23 20:22:54,907 | INFO |   K=10 O4: SSA done in 0.16s (score=241.000000, evals=132)
+2026-11-23 20:22:54,944 | INFO |   K=10 O4 SSA only: NetAdv=15.890 (A=203.1 B=187.2) BlockedB=17.160 [provisional_blocked_b]
+2026-11-23 20:22:55,098 | INFO |   K=10 O4 SSA + Swap refinement: NetAdv=16.130 (A=203.5 B=187.3) BlockedB=17.070 [provisional_blocked_b]
+2026-11-23 20:22:55,280 | INFO |   K=10 O5: SSA done in 0.17s (score=53.733333, evals=132)
+2026-11-23 20:22:55,324 | INFO |   K=10 O5 SSA only: NetAdv=7.890 (A=204.3 B=196.4) BlockedB=7.980 [provisional_blocked_b]
+2026-11-23 20:22:55,475 | INFO |   K=10 O5 SSA + Swap refinement: NetAdv=7.890 (A=204.3 B=196.4) BlockedB=7.980 [provisional_blocked_b]
+2026-11-23 20:22:55,640 | INFO |   K=10 O6: SSA done in 0.15s (score=191.950000, evals=132)
+2026-11-23 20:22:55,678 | INFO |   K=10 O6 SSA only: NetAdv=11.710 (A=201.7 B=190.0) BlockedB=14.420 [provisional_blocked_b]
+2026-11-23 20:22:55,821 | INFO |   K=10 O6 SSA + Swap refinement: NetAdv=11.710 (A=201.7 B=190.0) BlockedB=14.420 [provisional_blocked_b]
+2026-11-23 20:22:55,829 | INFO |   K=20: B seeds=20, pool=200 (ranked=140, random=60)
+2026-11-23 20:22:56,007 | INFO |   K=20 O1: SSA done in 0.17s (score=248.166667, evals=132)
+2026-11-23 20:22:56,050 | INFO |   K=20 O1 SSA only: NetAdv=20.000 (A=208.8 B=188.8) BlockedB=19.930 [provisional_blocked_b]
+2026-11-23 20:22:56,200 | INFO |   K=20 O1 SSA + Swap refinement: NetAdv=24.620 (A=214.4 B=189.8) BlockedB=18.980 [provisional_blocked_b]
+2026-11-23 20:22:56,378 | INFO |   K=20 O2: SSA done in 0.17s (score=30.866667, evals=132)
+2026-11-23 20:22:56,424 | INFO |   K=20 O2 SSA only: NetAdv=19.900 (A=216.4 B=196.5) BlockedB=12.230 [validated]
+2026-11-23 20:22:56,574 | INFO |   K=20 O2 SSA + Swap refinement: NetAdv=23.060 (A=218.9 B=195.9) BlockedB=12.880 [validated]
+2026-11-23 20:22:56,740 | INFO |   K=20 O3: SSA done in 0.16s (score=26.200000, evals=132)
+2026-11-23 20:22:56,780 | INFO |   K=20 O3 SSA only: NetAdv=13.030 (A=200.1 B=187.1) BlockedB=21.690 [provisional_blocked_b]
+2026-11-23 20:22:56,931 | INFO |   K=20 O3 SSA + Swap refinement: NetAdv=14.260 (A=201.1 B=186.8) BlockedB=21.950 [provisional_blocked_b]
+2026-11-23 20:22:57,098 | INFO |   K=20 O4: SSA done in 0.16s (score=258.933333, evals=132)
+2026-11-23 20:22:57,137 | INFO |   K=20 O4 SSA only: NetAdv=16.500 (A=209.0 B=192.5) BlockedB=16.280 [provisional_blocked_b]
+2026-11-23 20:22:57,280 | INFO |   K=20 O4 SSA + Swap refinement: NetAdv=16.500 (A=209.0 B=192.5) BlockedB=16.280 [provisional_blocked_b]
+2026-11-23 20:22:57,461 | INFO |   K=20 O5: SSA done in 0.17s (score=76.533333, evals=132)
+2026-11-23 20:22:57,500 | INFO |   K=20 O5 SSA only: NetAdv=17.400 (A=211.1 B=193.7) BlockedB=15.050 [provisional_blocked_b]
+2026-11-23 20:22:57,650 | INFO |   K=20 O5 SSA + Swap refinement: NetAdv=19.810 (A=209.4 B=189.6) BlockedB=19.100 [provisional_blocked_b]
+2026-11-23 20:22:57,819 | INFO |   K=20 O6: SSA done in 0.16s (score=211.950000, evals=132)
+2026-11-23 20:22:57,857 | INFO |   K=20 O6 SSA only: NetAdv=16.970 (A=203.6 B=186.6) BlockedB=22.140 [provisional_blocked_b]
+2026-11-23 20:22:58,013 | INFO |   K=20 O6 SSA + Swap refinement: NetAdv=16.410 (A=203.5 B=187.1) BlockedB=21.620 [provisional_blocked_b]
+2026-11-23 20:22:58,022 | INFO |   K=30: B seeds=30, pool=300 (ranked=210, random=90)
+2026-11-23 20:22:58,209 | INFO |   K=30 O1: SSA done in 0.18s (score=257.500000, evals=132)
+2026-11-23 20:22:58,251 | INFO |   K=30 O1 SSA only: NetAdv=21.060 (A=214.3 B=193.2) BlockedB=18.980 [provisional_blocked_b]
+2026-11-23 20:22:58,397 | INFO |   K=30 O1 SSA + Swap refinement: NetAdv=21.060 (A=214.3 B=193.2) BlockedB=18.980 [provisional_blocked_b]
+2026-11-23 20:22:58,594 | INFO |   K=30 O2: SSA done in 0.19s (score=32.800000, evals=132)
+2026-11-23 20:22:58,635 | INFO |   K=30 O2 SSA only: NetAdv=20.350 (A=212.4 B=192.1) BlockedB=20.150 [validated]
+2026-11-23 20:22:58,797 | INFO |   K=30 O2 SSA + Swap refinement: NetAdv=23.480 (A=212.9 B=189.4) BlockedB=22.780 [validated]
+2026-11-23 20:22:58,982 | INFO |   K=30 O3: SSA done in 0.18s (score=29.733333, evals=132)
+2026-11-23 20:22:59,021 | INFO |   K=30 O3 SSA only: NetAdv=15.850 (A=210.1 B=194.2) BlockedB=18.030 [provisional_blocked_b]
+2026-11-23 20:22:59,188 | INFO |   K=30 O3 SSA + Swap refinement: NetAdv=12.920 (A=207.5 B=194.6) BlockedB=17.680 [provisional_blocked_b]
+2026-11-23 20:22:59,377 | INFO |   K=30 O4: SSA done in 0.18s (score=270.666667, evals=132)
+2026-11-23 20:22:59,414 | INFO |   K=30 O4 SSA only: NetAdv=17.350 (A=210.9 B=193.6) BlockedB=18.680 [provisional_blocked_b]
+2026-11-23 20:22:59,567 | INFO |   K=30 O4 SSA + Swap refinement: NetAdv=17.350 (A=210.9 B=193.6) BlockedB=18.680 [provisional_blocked_b]
+2026-11-23 20:22:59,763 | INFO |   K=30 O5: SSA done in 0.19s (score=97.333333, evals=132)
+2026-11-23 20:22:59,805 | INFO |   K=30 O5 SSA only: NetAdv=21.880 (A=210.3 B=188.4) BlockedB=23.780 [provisional_blocked_b]
+2026-11-23 20:22:59,954 | INFO |   K=30 O5 SSA + Swap refinement: NetAdv=24.380 (A=210.5 B=186.2) BlockedB=26.080 [provisional_blocked_b]
+2026-11-23 20:23:00,154 | INFO |   K=30 O6: SSA done in 0.19s (score=266.383333, evals=132)
+2026-11-23 20:23:00,190 | INFO |   K=30 O6 SSA only: NetAdv=28.120 (A=216.1 B=188.0) BlockedB=24.210 [provisional_blocked_b]
+2026-11-23 20:23:00,348 | INFO |   K=30 O6 SSA + Swap refinement: NetAdv=23.390 (A=212.4 B=189.1) BlockedB=23.180 [provisional_blocked_b]
+2026-11-23 20:23:00,354 | INFO |   K=40: B seeds=40, pool=400 (ranked=280, random=120)
+2026-11-23 20:23:00,596 | INFO |   K=40 O1: SSA done in 0.23s (score=260.766667, evals=132)
+2026-11-23 20:23:00,638 | INFO |   K=40 O1 SSA only: NetAdv=22.030 (A=224.6 B=202.5) BlockedB=17.200 [provisional_blocked_b]
+2026-11-23 20:23:00,804 | INFO |   K=40 O1 SSA + Swap refinement: NetAdv=22.330 (A=223.3 B=201.0) BlockedB=18.720 [provisional_blocked_b]
+2026-11-23 20:23:01,035 | INFO |   K=40 O2: SSA done in 0.22s (score=26.600000, evals=132)
+2026-11-23 20:23:01,074 | INFO |   K=40 O2 SSA only: NetAdv=15.970 (A=214.6 B=198.6) BlockedB=21.130 [validated]
+2026-11-23 20:23:01,235 | INFO |   K=40 O2 SSA + Swap refinement: NetAdv=21.290 (A=218.6 B=197.3) BlockedB=22.460 [validated]
+2026-11-23 20:23:01,456 | INFO |   K=40 O3: SSA done in 0.21s (score=28.866667, evals=132)
+2026-11-23 20:23:01,498 | INFO |   K=40 O3 SSA only: NetAdv=24.420 (A=219.1 B=194.7) BlockedB=25.030 [provisional_blocked_b]
+2026-11-23 20:23:01,691 | INFO |   K=40 O3 SSA + Swap refinement: NetAdv=24.040 (A=216.4 B=192.3) BlockedB=27.380 [provisional_blocked_b]
+2026-11-23 20:23:01,897 | INFO |   K=40 O4: SSA done in 0.20s (score=270.866667, evals=132)
+2026-11-23 20:23:01,943 | INFO |   K=40 O4 SSA only: NetAdv=22.160 (A=218.8 B=196.7) BlockedB=23.040 [provisional_blocked_b]
+2026-11-23 20:23:02,097 | INFO |   K=40 O4 SSA + Swap refinement: NetAdv=23.970 (A=221.3 B=197.3) BlockedB=22.440 [provisional_blocked_b]
+2026-11-23 20:23:02,316 | INFO |   K=40 O5: SSA done in 0.21s (score=93.533333, evals=132)
+2026-11-23 20:23:02,358 | INFO |   K=40 O5 SSA only: NetAdv=27.190 (A=221.9 B=194.8) BlockedB=24.970 [provisional_blocked_b]
+2026-11-23 20:23:02,524 | INFO |   K=40 O5 SSA + Swap refinement: NetAdv=25.130 (A=218.7 B=193.6) BlockedB=26.160 [provisional_blocked_b]
+2026-11-23 20:23:02,734 | INFO |   K=40 O6: SSA done in 0.20s (score=270.983333, evals=132)
+2026-11-23 20:23:02,774 | INFO |   K=40 O6 SSA only: NetAdv=32.140 (A=229.3 B=197.2) BlockedB=22.520 [provisional_blocked_b]
+2026-11-23 20:23:02,929 | INFO |   K=40 O6 SSA + Swap refinement: NetAdv=34.750 (A=231.4 B=196.7) BlockedB=23.060 [provisional_blocked_b]
+2026-11-23 20:23:02,936 | INFO |   K=50: B seeds=50, pool=500 (ranked=350, random=150)
+2026-11-23 20:23:03,186 | INFO |   K=50 O1: SSA done in 0.24s (score=266.533333, evals=132)
+2026-11-23 20:23:03,231 | INFO |   K=50 O1 SSA only: NetAdv=21.620 (A=223.8 B=202.2) BlockedB=20.390 [provisional_blocked_b]
+2026-11-23 20:23:03,388 | INFO |   K=50 O1 SSA + Swap refinement: NetAdv=21.950 (A=226.1 B=204.1) BlockedB=18.460 [provisional_blocked_b]
+2026-11-23 20:23:03,627 | INFO |   K=50 O2: SSA done in 0.23s (score=30.466667, evals=132)
+2026-11-23 20:23:03,666 | INFO |   K=50 O2 SSA only: NetAdv=25.410 (A=227.3 B=201.9) BlockedB=20.700 [validated]
+2026-11-23 20:23:03,829 | INFO |   K=50 O2 SSA + Swap refinement: NetAdv=22.810 (A=225.4 B=202.6) BlockedB=20.030 [validated]
+2026-11-23 20:23:04,064 | INFO |   K=50 O3: SSA done in 0.23s (score=30.933333, evals=132)
+2026-11-23 20:23:04,105 | INFO |   K=50 O3 SSA only: NetAdv=21.400 (A=222.4 B=201.0) BlockedB=21.630 [provisional_blocked_b]
+2026-11-23 20:23:04,261 | INFO |   K=50 O3 SSA + Swap refinement: NetAdv=22.130 (A=221.4 B=199.3) BlockedB=23.340 [provisional_blocked_b]
+2026-11-23 20:23:04,502 | INFO |   K=50 O4: SSA done in 0.24s (score=278.333333, evals=132)
+2026-11-23 20:23:04,543 | INFO |   K=50 O4 SSA only: NetAdv=29.140 (A=233.1 B=204.0) BlockedB=18.610 [provisional_blocked_b]
+2026-11-23 20:23:04,707 | INFO |   K=50 O4 SSA + Swap refinement: NetAdv=30.940 (A=232.5 B=201.6) BlockedB=21.030 [provisional_blocked_b]
+2026-11-23 20:23:04,944 | INFO |   K=50 O5: SSA done in 0.23s (score=75.066667, evals=132)
+2026-11-23 20:23:04,985 | INFO |   K=50 O5 SSA only: NetAdv=20.900 (A=225.4 B=204.5) BlockedB=18.090 [provisional_blocked_b]
+2026-11-23 20:23:05,146 | INFO |   K=50 O5 SSA + Swap refinement: NetAdv=25.140 (A=227.4 B=202.2) BlockedB=20.370 [provisional_blocked_b]
+2026-11-23 20:23:05,382 | INFO |   K=50 O6: SSA done in 0.23s (score=328.950000, evals=132)
+2026-11-23 20:23:05,425 | INFO |   K=50 O6 SSA only: NetAdv=25.260 (A=226.5 B=201.2) BlockedB=21.360 [provisional_blocked_b]
+2026-11-23 20:23:05,598 | INFO |   K=50 O6 SSA + Swap refinement: NetAdv=27.200 (A=228.4 B=201.2) BlockedB=21.400 [provisional_blocked_b]
+2026-11-23 20:23:05,644 | INFO | Scenario B4 complete: 240/240 configurations
+2026-11-23 20:23:05,680 | INFO | Run run_20261123_202600 finished: 240/240 configurations, status=completed
+{
+  "run_id": "run_20261123_202600",
+  "run_kind": "full",
+  "run_dir": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/results/run_20261123_202600",
+  "scenarios": [
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "k_values": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "objective_ids": [
+    "O1",
+    "O2",
+    "O3",
+    "O4",
+    "O5",
+    "O6"
+  ],
+  "modes": [
+    "SSA only",
+    "SSA + Swap refinement"
+  ],
+  "expected_configurations": 240,
+  "ssa_population": 12,
+  "ssa_iterations": 10,
+  "optimization_mc_runs": 15,
+  "final_mc_runs": 100,
+  "swap_max_tests": 100,
+  "n_threads": 0
+}
+{
+  "run_id": "run_20261123_202600",
+  "run_kind": "full",
+  "expected_configurations": 240,
+  "completed_configurations": 240,
+  "per_scenario": {
+    "B1": {
+      "completed": 60,
+      "expected": 60
+    },
+    "B2": {
+      "completed": 60,
+      "expected": 60
+    },
+    "B3": {
+      "completed": 60,
+      "expected": 60
+    },
+    "B4": {
+      "completed": 60,
+      "expected": 60
+    }
+  },
+  "status": "completed"
+}
+Results: /home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/results/run_20261123_202600

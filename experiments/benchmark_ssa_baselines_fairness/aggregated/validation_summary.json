@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "issues": [],
+  "n_cells": 240,
+  "n_methods": 12,
+  "n_reused_ssa": 60,
+  "n_new": 180,
+  "wall_span_hours_between_first_and_last_result": 1.5955555555555556,
+  "generated_utc": "2026-11-24T00:55:21+00:00",
+  "code_fingerprint": {
+    "run_benchmark.py": "cc379a095bdcd299bc1afe3392dfe3129564150f25ec0a98b7458dd3c53e538d",
+    "analyze_benchmark.py": "8f8363f0d403e4a0f57ed1248b05248556eaac034dbc3b944483cd102dff5726",
+    "algorithms/core.py": "7917f9c94ee373f3cf73666455e7394ffdad254924747a30ec1f34f45a309319",
+    "algorithms/notebook_baselines.py": "ecf70e3e92920e85b811975fb733b21264e68ecc3a2f9f471fa9ea0d3f879119",
+    "algorithms/fibmm.py": "2f60577784725e54704f19f7a53a6e255b14bfb009676cb60db5c969d2f321f9",
+    "algorithms/reuse.py": "898d10dce1ddc223dbb50d707498e4e4d219f934b5670bf832ac7c6b518cdd56",
+    "config/benchmark_config.json": "1855f3422f9cb42e948d62621ffb24e781679f2d4230fb6596593476bc7781ce"
+  },
+  "result_timestamp_min_utc": "2026-11-23 23:09:59+00:00",
+  "result_timestamp_max_utc": "2026-11-24 00:45:43+00:00",
+  "network_file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+  "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+  "influence_direction": "reverse_of_trust (target_to_source)",
+  "methods": [
+    "SSA_O1",
+    "SSA_O4",
+    "SSA_O6",
+    "SSA_Notebook",
+    "FIBMM",
+    "Random",
+    "TopDegree",
+    "SignedPageRank",
+    "CRIEG",
+    "NCGE",
+    "SignedGA",
+    "CELF"
+  ],
+  "scenarios": [
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "k_values": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "optimization_mc_runs": 15,
+  "final_mc_runs": 100
+}

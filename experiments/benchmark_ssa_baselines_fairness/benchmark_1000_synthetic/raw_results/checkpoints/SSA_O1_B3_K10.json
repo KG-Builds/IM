@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_1000_synthetic",
+  "method_id": "SSA_O1",
+  "scenario": "B3",
+  "K": 10,
+  "opponent_seed_set": [
+    5,
+    2,
+    8,
+    0,
+    14,
+    11,
+    4,
+    10,
+    21,
+    1
+  ],
+  "seed_set": [
+    724,
+    64,
+    77,
+    87,
+    365,
+    296,
+    142,
+    714,
+    202,
+    97
+  ],
+  "selection_info": {
+    "pool_meta": {
+      "pool_size_target": 100,
+      "pool_size_actual": 100,
+      "n_ranked": 70,
+      "n_random": 30,
+      "random_fraction_requested": 0.3,
+      "random_fraction_actual": 0.3,
+      "n_eligible": 990,
+      "n_opponent_seeds": 10,
+      "truncated": false,
+      "seed": 600045,
+      "pool_ratio": 10,
+      "ranking": "net_then_positive_then_negative_then_id",
+      "random_part_source": "ranked_remainder"
+    },
+    "ssa_score": 246.33333333333331,
+    "ssa_info": {
+      "population_size": 12,
+      "iterations": 10,
+      "mutation_rate": 0.2,
+      "random_seed": 503142,
+      "objective_evaluations": 132,
+      "best_objective_score": 246.33333333333331
+    },
+    "ssa_seed": 503142,
+    "history": [
+      {
+        "iteration": 0,
+        "best_objective_score": 242.03333333333333,
+        "mean_objective_score": 226.81944444444443,
+        "worst_objective_score": 211.33333333333334,
+        "unique_solutions": 12
+      },
+      {
+        "iteration": 1,
+        "best_objective_score": 242.03333333333333,
+        "mean_objective_score": 221.74722222222223,
+        "worst_objective_score": 210.2,
+        "unique_solutions": 12
+      },
+      {
+        "iteration": 2,
+        "best_objective_score": 242.03333333333333,
+        "mean_objective_score": 218.74166666666665,
+        "worst_objective_score": 209.23333333333335,
+        "unique_solutions": 12
+      },
+      {
+        "iteration": 3,
+        "best_objective_score": 244.5,
+        "mean_objective_score": 225.5611111111111,
+        "worst_objective_score": 211.89999999999998,
+        "unique_solutions": 11
+      },
+      {
+        "iteration": 4,
+        "best_objective_score": 244.5,
+        "mean_objective_score": 228.5527777777778,
+        "worst_objective_score": 217.93333333333334,
+        "unique_solutions": 11
+      },
+      {
+        "iteration": 5,
+        "best_objective_score": 244.5,
+        "mean_objective_score": 223.61666666666667,
+        "worst_objective_score": 215.13333333333333,
+        "unique_solutions": 11
+      },
+      {
+        "iteration": 6,
+        "best_objective_score": 244.5,
+        "mean_objective_score": 229.94722222222222,
+        "worst_objective_score": 218.26666666666668,
+        "unique_solutions": 11
+      },
+      {
+        "iteration": 7,
+        "best_objective_score": 244.5,
+        "mean_objective_score": 225.41944444444445,
+        "worst_objective_score": 212.3,
+        "unique_solutions": 11
+      },
+      {
+        "iteration": 8,
+        "best_objective_score": 244.5,
+        "mean_objective_score": 219.87222222222223,
+        "worst_objective_score": 198.16666666666669,
+        "unique_solutions": 11
+      },
+      {
+        "iteration": 9,
+        "best_objective_score": 244.5,
+        "mean_objective_score": 225.65833333333333,
+        "worst_objective_score": 214.63333333333333,
+        "unique_solutions": 11
+      },
+      {
+        "iteration": 10,
+        "best_objective_score": 246.33333333333331,
+        "mean_objective_score": 229.70000000000005,
+        "worst_objective_score": 213.33333333333334,
+        "unique_solutions": 11
+      }
+    ]
+  },
+  "metrics": {
+    "spread_A": 197.96,
+    "spread_B": 192.54,
+    "net_advantage": 5.42,
+    "blocked_B": 8.939999999999998,
+    "baseline_B": 201.48,
+    "spread_A_se": 1.555175133857823,
+    "spread_B_se": 1.6626266185548915,
+    "net_advantage_se": 1.7306611103239937,
+    "net_advantage_ci_low": 2.05,
+    "net_advantage_ci_high": 8.790249999999995,
+    "blocked_B_se": 2.49451195607275,
+    "blocked_B_ci_low": 4.1,
+    "blocked_B_ci_high": 13.84,
+    "ignorant": 609.5,
+    "rounds": 25.28,
+    "from_cache": 0.0
+  },
+  "network_file_sha256": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+  "influence_semantic_sha256": "0c0f4e1f1d8a3abc0e2765941e94cfe233efbe32246c5b56c960f0c1ee7f7197",
+  "config_signature_hash": "df6a670a249e4a1e0800045d53b43563ccb502f6ebc58a4b5cab133a4d3a81a4",
+  "source": "new_computation",
+  "created_utc": "2026-11-24T09:15:44+00:00"
+}

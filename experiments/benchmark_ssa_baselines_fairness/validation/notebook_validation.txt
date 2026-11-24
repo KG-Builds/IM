@@ -1,0 +1,21 @@
+Notebook: /home/kushagragarg/im/IM_Experiment_Starter/IM_Synthetic_Experiment/experiments/benchmark_ssa_baselines_fairness/competitive_im_benchmark_with_fibm.ipynb
+Valid ipynb: True
+Cells: 50 | code: 23 | markdown: 27
+Execution errors: []
+Unresolved TODO markers: 0
+Final summary:
+==============================================================================
+Notebook reproducibility summary
+==============================================================================
+Experiment directory: /home/kushagragarg/im/IM_Experiment_Starter/IM_Synthetic_Experiment/experiments/benchmark_ssa_baselines_fairness
+Network file SHA-256: d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e
+Influence semantic SHA-256: b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9
+Influence direction: reverse_of_trust (target_to_source)
+Rows loaded: 240 | methods: 12
+Expected cells: 240 | present: 240 | missing: 0
+Signature mismatches: 0 | bad MC files: 0
+Execution mode: load_existing
+Simulation launched during this notebook run: False
+Notebook figures: /home/kushagragarg/im/IM_Experiment_Starter/IM_Synthetic_Experiment/experiments/benchmark_ssa_baselines_fairness/figures/notebook
+Final report: /home/kushagragarg/im/IM_Experiment_Starter/IM_Synthetic_Experiment/experiments/benchmark_ssa_baselines_fairness/FINAL_REPORT.md
+

@@ -1,0 +1,3 @@
+Cross-table consistency: PASS
+Raw rows: 240 methods: 12
+Winner rows: 20 FIBMM rows: 20

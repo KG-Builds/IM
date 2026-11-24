@@ -1,0 +1,18 @@
+{
+  "run_id": "SMOKE_TEST_REFERENCE_ALIGNED_20261123_2100",
+  "run_kind": "SMOKE_TEST",
+  "expected_configurations": 4,
+  "completed_configurations": 4,
+  "missing": [],
+  "per_scenario": {
+    "B1": {
+      "completed": 4,
+      "expected": 4
+    }
+  },
+  "network_fingerprint": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+  "network_semantic_fingerprint": "461febf43a90332f04f13d706cf8f34579202aab120a7716886f5f7e9f54fc25",
+  "updated_utc": "2026-11-23T15:27:40+00:00",
+  "status": "completed",
+  "finished_utc": "2026-11-23T15:27:40+00:00"
+}

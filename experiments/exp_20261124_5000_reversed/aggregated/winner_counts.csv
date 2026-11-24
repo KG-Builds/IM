@@ -1,0 +1,25 @@
+mode,candidate,strict_wins,ties,losses,always_wins
+SSA only,O1,6,0,14,False
+SSA only,O3,5,0,15,False
+SSA only,O5,4,0,16,False
+SSA only,O2,3,0,17,False
+SSA only,O4,2,0,18,False
+SSA only,O6,0,0,20,False
+SSA + Swap refinement,O1,5,0,15,False
+SSA + Swap refinement,O4,5,0,15,False
+SSA + Swap refinement,O3,4,0,16,False
+SSA + Swap refinement,O2,3,0,17,False
+SSA + Swap refinement,O6,2,0,18,False
+SSA + Swap refinement,O5,1,0,19,False
+Combined,O1 | SSA only,4,0,16,False
+Combined,O4 | SSA + Swap refinement,3,1,16,False
+Combined,O5 | SSA only,3,0,17,False
+Combined,O1 | SSA + Swap refinement,2,0,18,False
+Combined,O3 | SSA only,1,2,17,False
+Combined,O3 | SSA + Swap refinement,1,2,17,False
+Combined,O2 | SSA only,1,0,19,False
+Combined,O2 | SSA + Swap refinement,1,0,19,False
+Combined,O6 | SSA + Swap refinement,1,0,19,False
+Combined,O4 | SSA only,0,1,19,False
+Combined,O6 | SSA only,0,0,20,False
+Combined,O5 | SSA + Swap refinement,0,0,20,False

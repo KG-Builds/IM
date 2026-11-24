@@ -1,0 +1,202 @@
+{
+  "experiment_id": "benchmark_1000_synthetic",
+  "version": "1.0.0-1000",
+  "created_utc": "2026-11-24T00:00:00+00:00",
+  "master_seed": 42,
+  "scenarios": [
+    "B1",
+    "B2",
+    "B3",
+    "B4"
+  ],
+  "k_values": [
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "optimization_mc_runs": 15,
+  "final_mc_runs": 100,
+  "network": {
+    "path": "data/synthetic_network_1000_7500.csv",
+    "metadata_path": "data/network_metadata_v2.json",
+    "file_sha256": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+    "trust_semantic_sha256": "461febf43a90332f04f13d706cf8f34579202aab120a7716886f5f7e9f54fc25",
+    "influence_semantic_sha256": "0c0f4e1f1d8a3abc0e2765941e94cfe233efbe32246c5b56c960f0c1ee7f7197",
+    "nodes": 1000,
+    "trust_arcs": 7500,
+    "influence_arcs": 7500,
+    "influence_direction": "reverse"
+  },
+  "ssa": {
+    "population": 12,
+    "iterations": 10,
+    "mutation_rate": 0.2,
+    "pool_ratio": 10,
+    "random_pool_fraction": 0.3,
+    "objectives": [
+      "O1",
+      "O4",
+      "O6"
+    ],
+    "objective_formulas": {
+      "O1": "Spread_A + 1.5 * Blocked_B",
+      "O4": "Spread_A + 2.0 * Blocked_B",
+      "O6": "alpha(K) * Spread_A + beta(K) * Blocked_B"
+    },
+    "budget_coefficients": {
+      "10": [
+        0.75,
+        2.25
+      ],
+      "20": [
+        0.75,
+        2.25
+      ],
+      "30": [
+        1.0,
+        1.75
+      ],
+      "40": [
+        1.0,
+        1.75
+      ],
+      "50": [
+        1.25,
+        1.5
+      ]
+    },
+    "reuse_prior_run": "__no_prior_1000_run__",
+    "notebook_ssa_seed_offset": 30000
+  },
+  "baselines": {
+    "random_seed_offset": 50000,
+    "crieg": {
+      "num_sketches": 2000,
+      "seed_offset": 820000
+    },
+    "ncge": {
+      "alpha": 0.5,
+      "beta": 0.3,
+      "gamma": 0.2,
+      "betweenness_samples": 200,
+      "centrality_seed": 42
+    },
+    "signed_ga": {
+      "steps": 30,
+      "damping": 0.92,
+      "ridge": 1e-06
+    },
+    "celf": {
+      "optimization_objective": "O1",
+      "fitness_mc_runs": 15
+    }
+  },
+  "fibmm": {
+    "h": 0.9,
+    "epsilon": 0.1,
+    "l": 1,
+    "community_min_fraction": 0.005,
+    "community_seed": 42,
+    "max_crp_samples_per_config": 100000,
+    "min_samples_per_community": 20,
+    "crp_seed_offset": 900000,
+    "surrogate": "positive_edge_cic",
+    "positive_cascade_wins_ties": true
+  },
+  "evaluation": {
+    "protocol": "paired_b_only_baseline_v1",
+    "final_seed_start": 900000000,
+    "optimization_seed_formula": "master_seed*100000 + scenario_number*10000 + i",
+    "common_random_numbers": true,
+    "primary_metric": "net_advantage",
+    "component_metrics": [
+      "spread_A",
+      "spread_B",
+      "blocked_B",
+      "baseline_B"
+    ]
+  },
+  "methods": [
+    {
+      "id": "SSA_O1",
+      "name": "SSA O1 (Original SSA)",
+      "group": "ssa_variant",
+      "source": "reused"
+    },
+    {
+      "id": "SSA_O4",
+      "name": "SSA O4 (Combined influence-blocking)",
+      "group": "ssa_variant",
+      "source": "reused"
+    },
+    {
+      "id": "SSA_O6",
+      "name": "SSA O6 (Budget-aware)",
+      "group": "ssa_variant",
+      "source": "reused"
+    },
+    {
+      "id": "SSA_Notebook",
+      "name": "SSA-Notebook (O1 fitness, original seed)",
+      "group": "notebook_baseline",
+      "source": "new"
+    },
+    {
+      "id": "Random",
+      "name": "Random",
+      "group": "notebook_baseline",
+      "source": "new"
+    },
+    {
+      "id": "TopDegree",
+      "name": "Top Degree",
+      "group": "notebook_baseline",
+      "source": "new"
+    },
+    {
+      "id": "SignedPageRank",
+      "name": "Signed PageRank",
+      "group": "notebook_baseline",
+      "source": "new"
+    },
+    {
+      "id": "CRIEG",
+      "name": "CRIEG (Hong 2021)",
+      "group": "notebook_baseline",
+      "source": "new"
+    },
+    {
+      "id": "NCGE",
+      "name": "NCGE (Liang 2025)",
+      "group": "notebook_baseline",
+      "source": "new"
+    },
+    {
+      "id": "SignedGA",
+      "name": "Signed-GA (Chakraborty 2025)",
+      "group": "notebook_baseline",
+      "source": "new"
+    },
+    {
+      "id": "CELF",
+      "name": "CELF (lazy greedy, O1 fitness)",
+      "group": "notebook_baseline",
+      "source": "new"
+    },
+    {
+      "id": "FIBMM",
+      "name": "FIBMM (fairness-aware, Xiao et al. 2025)",
+      "group": "fairness_baseline",
+      "source": "new"
+    }
+  ],
+  "excluded_methods": [
+    {
+      "id": "CELF_LocalSearch",
+      "name": "CELF + sampled Local Search",
+      "reason": "The notebook implements this as a one-for-one swap-based post-processing step. The master task explicitly excludes Swap refinement, Local Swap, and Swap-based post-processing from this experiment. The base CELF algorithm is included; this refinement is not."
+    }
+  ]
+}

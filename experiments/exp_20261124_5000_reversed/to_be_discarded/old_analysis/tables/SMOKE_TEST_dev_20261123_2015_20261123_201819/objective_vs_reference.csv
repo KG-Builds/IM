@@ -1,0 +1,3 @@
+scenario,K,mode,objective_id,objective_name,objective_validity,reference,n_pairs,mean_diff_vs_reference,ci_low,ci_high,p_value,fraction_better,p_adjusted,reject
+B1,10,SSA + Swap refinement,O3,Explicit blocking,provisional_blocked_b,O2,10,-1.2,-11.5025,8.125000000000005,0.8340333775523971,0.7,0.8340333775523971,False
+B1,10,SSA only,O3,Explicit blocking,provisional_blocked_b,O2,10,-2.4,-17.414999999999996,16.220000000000002,0.8004061910107949,0.2,0.8004061910107949,False

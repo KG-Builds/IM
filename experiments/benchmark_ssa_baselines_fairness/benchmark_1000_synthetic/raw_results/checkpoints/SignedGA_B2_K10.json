@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_1000_synthetic",
+  "method_id": "SignedGA",
+  "scenario": "B2",
+  "K": 10,
+  "opponent_seed_set": [
+    2,
+    5,
+    7,
+    4,
+    10,
+    16,
+    1,
+    0,
+    8,
+    3
+  ],
+  "seed_set": [
+    854,
+    705,
+    377,
+    564,
+    871,
+    938,
+    598,
+    619,
+    823,
+    351
+  ],
+  "selection_info": {
+    "steps": 30,
+    "linear_solves": 30,
+    "damping": 0.92,
+    "ridge": 1e-06,
+    "permc_spec": "MMD_AT_PLUS_A",
+    "eligible_nodes": 990
+  },
+  "metrics": {
+    "spread_A": 201.46,
+    "spread_B": 200.07,
+    "net_advantage": 1.39,
+    "blocked_B": 0.0,
+    "baseline_B": 197.34,
+    "spread_A_se": 1.7284558414838362,
+    "spread_B_se": 1.6159092258733552,
+    "net_advantage_se": 1.9557165624719939,
+    "net_advantage_ci_low": -2.3902499999999978,
+    "net_advantage_ci_high": 5.310249999999996,
+    "blocked_B_se": 1.9089822239384868,
+    "blocked_B_ci_low": -6.470499999999995,
+    "blocked_B_ci_high": 0.95,
+    "ignorant": 598.47,
+    "rounds": 26.45,
+    "from_cache": 0.0
+  },
+  "network_file_sha256": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+  "influence_semantic_sha256": "0c0f4e1f1d8a3abc0e2765941e94cfe233efbe32246c5b56c960f0c1ee7f7197",
+  "config_signature_hash": "63ba45ccdde43c0e8f4f40ee477176b97332bc56e9feb66eeede588e8fa6e6b4",
+  "source": "new_computation",
+  "created_utc": "2026-11-24T09:16:44+00:00"
+}

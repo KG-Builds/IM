@@ -1,0 +1,2 @@
+scenario,K,objective_id,objective_name,mode,objective_validity,net_advantage,spread_A,spread_B,blocked_B
+B1,10,O2,Competition-aware,SSA only,validated,11.9,209.1,197.2,11.400000000000006

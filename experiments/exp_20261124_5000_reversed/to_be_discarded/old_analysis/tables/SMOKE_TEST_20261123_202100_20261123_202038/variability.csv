@@ -1,0 +1,5 @@
+objective_id,objective_name,mode,n_configs,net_advantage_mean,net_advantage_std,mc_se_mean,mc_ci_width_mean
+O2,Competition-aware,SSA + Swap refinement,1,14.5,,5.142956348249516,19.0
+O2,Competition-aware,SSA only,1,14.5,,5.142956348249516,19.0
+O3,Explicit blocking,SSA + Swap refinement,1,13.3,,4.548626166217663,16.7
+O3,Explicit blocking,SSA only,1,12.1,,6.154402218466605,22.3

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_1000_synthetic",
+  "method_id": "CRIEG",
+  "scenario": "B3",
+  "K": 10,
+  "opponent_seed_set": [
+    5,
+    2,
+    8,
+    0,
+    14,
+    11,
+    4,
+    10,
+    21,
+    1
+  ],
+  "seed_set": [
+    7,
+    16,
+    31,
+    15,
+    32,
+    27,
+    34,
+    3,
+    263,
+    73
+  ],
+  "selection_info": {
+    "num_sketches": 2000,
+    "nonempty_sketches": 1425,
+    "random_seed": 821045,
+    "eligible_nodes": 990,
+    "crieg_seed": 821045
+  },
+  "metrics": {
+    "spread_A": 189.78,
+    "spread_B": 188.78,
+    "net_advantage": 1.0,
+    "blocked_B": 12.699999999999989,
+    "baseline_B": 201.48,
+    "spread_A_se": 1.6758281534811377,
+    "spread_B_se": 1.6447393947880244,
+    "net_advantage_se": 1.9318175876410255,
+    "net_advantage_ci_low": -2.7102499999999976,
+    "net_advantage_ci_high": 4.78,
+    "blocked_B_se": 2.5333133970507413,
+    "blocked_B_ci_low": 7.78,
+    "blocked_B_ci_high": 17.59,
+    "ignorant": 621.44,
+    "rounds": 26.42,
+    "from_cache": 0.0
+  },
+  "network_file_sha256": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+  "influence_semantic_sha256": "0c0f4e1f1d8a3abc0e2765941e94cfe233efbe32246c5b56c960f0c1ee7f7197",
+  "config_signature_hash": "aeada85e6b44d6746f9a0551c2e58367f75e279ed600ee291371183995d63b2f",
+  "source": "new_computation",
+  "created_utc": "2026-11-24T09:16:10+00:00"
+}

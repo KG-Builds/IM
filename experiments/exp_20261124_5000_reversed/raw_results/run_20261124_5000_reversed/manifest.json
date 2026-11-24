@@ -1,0 +1,30 @@
+{
+  "run_id": "run_20261124_5000_reversed",
+  "run_kind": "full_5000_reversed",
+  "expected_configurations": 240,
+  "completed_configurations": 240,
+  "missing": [],
+  "per_scenario": {
+    "B1": {
+      "completed": 60,
+      "expected": 60
+    },
+    "B2": {
+      "completed": 60,
+      "expected": 60
+    },
+    "B3": {
+      "completed": 60,
+      "expected": 60
+    },
+    "B4": {
+      "completed": 60,
+      "expected": 60
+    }
+  },
+  "network_fingerprint": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+  "network_semantic_fingerprint": "576d00314530fc82c86d5a433e13a2ea64dbe135723350d936df21b082e2b20f",
+  "updated_utc": "2026-11-23T20:15:51+00:00",
+  "status": "completed",
+  "finished_utc": "2026-11-23T20:15:51+00:00"
+}

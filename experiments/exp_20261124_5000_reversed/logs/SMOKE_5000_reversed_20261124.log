@@ -1,0 +1,22 @@
+2026-11-24 01:42:41,544 | INFO | Run SMOKE_5000_reversed_20261124 (SMOKE_TEST_5000_REVERSED) starting: 4 expected configurations
+2026-11-24 01:42:41,545 | INFO | Scenario B1 (Random opponent): 0 existing rows
+2026-11-24 01:42:41,588 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-24 01:42:41,644 | INFO |   K=10 O2: SSA done in 0.05s (score=41.200000, evals=12)
+2026-11-24 01:42:41,664 | INFO |   K=10 O2 SSA only: NetAdv=-13.500 (A=980.3 B=993.8) BlockedB=0.000 [validated]
+2026-11-24 01:42:41,723 | INFO |   K=10 O2 SSA + Swap refinement: NetAdv=-13.500 (A=980.3 B=993.8) BlockedB=0.000 [validated]
+2026-11-24 01:42:41,767 | INFO |   K=10 O3: SSA done in 0.04s (score=42.000000, evals=12)
+2026-11-24 01:42:41,782 | INFO |   K=10 O3 SSA only: NetAdv=13.600 (A=985.0 B=971.4) BlockedB=20.400 [validated]
+2026-11-24 01:42:41,832 | INFO |   K=10 O3 SSA + Swap refinement: NetAdv=13.600 (A=985.0 B=971.4) BlockedB=20.400 [validated]
+2026-11-24 01:42:41,845 | INFO | Scenario B1 complete: 4/4 configurations
+2026-11-24 01:42:41,856 | INFO | Run SMOKE_5000_reversed_20261124 finished: 4/4 configurations, status=completed
+2026-11-24 01:42:48,600 | INFO | Run SMOKE_5000_reversed_20261124 (SMOKE_TEST_5000_REVERSED) starting: 4 expected configurations
+2026-11-24 01:42:48,609 | INFO | Scenario B1 (Random opponent): 4 existing rows
+2026-11-24 01:42:48,651 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-24 01:42:48,652 | INFO |   K=10 O2: SSA loaded from checkpoint (score=41.200000)
+2026-11-24 01:42:48,652 | INFO |   K=10 O2 SSA only: already complete, skipping
+2026-11-24 01:42:48,652 | INFO |   K=10 O2 SSA + Swap refinement: already complete, skipping
+2026-11-24 01:42:48,652 | INFO |   K=10 O3: SSA loaded from checkpoint (score=42.000000)
+2026-11-24 01:42:48,652 | INFO |   K=10 O3 SSA only: already complete, skipping
+2026-11-24 01:42:48,652 | INFO |   K=10 O3 SSA + Swap refinement: already complete, skipping
+2026-11-24 01:42:48,667 | INFO | Scenario B1 complete: 4/4 configurations
+2026-11-24 01:42:48,677 | INFO | Run SMOKE_5000_reversed_20261124 finished: 4/4 configurations, status=completed

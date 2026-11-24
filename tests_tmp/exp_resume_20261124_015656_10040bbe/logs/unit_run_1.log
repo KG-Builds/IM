@@ -1,0 +1,16 @@
+2026-11-24 01:56:57,307 | INFO | Run unit_run_1 (unit_test) starting: 2 expected configurations
+2026-11-24 01:56:57,307 | INFO | Scenario B1 (Random opponent): 0 existing rows
+2026-11-24 01:56:57,317 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-24 01:56:57,360 | INFO |   K=10 O2: SSA done in 0.00s (score=23.000000, evals=6)
+2026-11-24 01:56:57,372 | INFO |   K=10 O2 SSA only: NetAdv=19.600 (A=220.2 B=200.6) BlockedB=14.200 [validated]
+2026-11-24 01:56:57,382 | INFO |   K=10 O2 SSA + Swap refinement: NetAdv=19.600 (A=220.2 B=200.6) BlockedB=14.200 [validated]
+2026-11-24 01:56:57,462 | INFO | Scenario B1 complete: 2/2 configurations
+2026-11-24 01:56:57,537 | INFO | Run unit_run_1 finished: 2/2 configurations, status=completed
+2026-11-24 01:56:57,753 | INFO | Run unit_run_1 (unit_test) starting: 2 expected configurations
+2026-11-24 01:56:57,762 | INFO | Scenario B1 (Random opponent): 2 existing rows
+2026-11-24 01:56:57,771 | INFO |   K=10: B seeds=10, pool=100 (ranked=70, random=30)
+2026-11-24 01:56:57,772 | INFO |   K=10 O2: SSA loaded from checkpoint (score=23.000000)
+2026-11-24 01:56:57,772 | INFO |   K=10 O2 SSA only: already complete, skipping
+2026-11-24 01:56:57,772 | INFO |   K=10 O2 SSA + Swap refinement: already complete, skipping
+2026-11-24 01:56:57,840 | INFO | Scenario B1 complete: 2/2 configurations
+2026-11-24 01:56:57,892 | INFO | Run unit_run_1 finished: 2/2 configurations, status=completed

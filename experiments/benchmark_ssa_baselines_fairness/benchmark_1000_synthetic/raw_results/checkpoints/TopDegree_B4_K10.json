@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_1000_synthetic",
+  "method_id": "TopDegree",
+  "scenario": "B4",
+  "K": 10,
+  "opponent_seed_set": [
+    16,
+    1,
+    43,
+    27,
+    22,
+    37,
+    20,
+    24,
+    39,
+    153
+  ],
+  "seed_set": [
+    2,
+    5,
+    7,
+    4,
+    10,
+    0,
+    8,
+    3,
+    9,
+    19
+  ],
+  "selection_info": {
+    "ranking": "influence out-degree descending, ties by node id"
+  },
+  "metrics": {
+    "spread_A": 191.17,
+    "spread_B": 188.08,
+    "net_advantage": 3.09,
+    "blocked_B": 11.619999999999976,
+    "baseline_B": 199.7,
+    "spread_A_se": 1.4946405939390597,
+    "spread_B_se": 1.6962632728763218,
+    "net_advantage_se": 1.4753253364884806,
+    "net_advantage_ci_low": 0.21975000000000222,
+    "net_advantage_ci_high": 5.97,
+    "blocked_B_se": 2.3134555901673943,
+    "blocked_B_ci_low": 7.069750000000003,
+    "blocked_B_ci_high": 16.04,
+    "ignorant": 620.75,
+    "rounds": 27.82,
+    "from_cache": 0.0
+  },
+  "network_file_sha256": "659d4fa65a3904c96e5653c16f3357b95a43a00440844157b203eb0d3e3087b5",
+  "influence_semantic_sha256": "0c0f4e1f1d8a3abc0e2765941e94cfe233efbe32246c5b56c960f0c1ee7f7197",
+  "config_signature_hash": "071395b41a1fa55c1fc71b031bc87186160d3084bd34ad0a9b58b42925338832",
+  "source": "new_computation",
+  "created_utc": "2026-11-24T09:16:06+00:00"
+}

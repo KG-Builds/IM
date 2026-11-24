@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-11-23T20:20:23+05:30",
+  "network": {
+    "nodes": 1000,
+    "directed_arcs": 7500
+  },
+  "openmp": true,
+  "workload": {
+    "A_seeds": 50,
+    "B_seeds": 50
+  },
+  "persistent_engine": {
+    "1": {
+      "simulations": 2000,
+      "seconds": 0.1862366220448166,
+      "simulations_per_second": 10739.026395778985
+    },
+    "2": {
+      "simulations": 2000,
+      "seconds": 0.10741110099479556,
+      "simulations_per_second": 18620.049338260735,
+      "speedup_vs_serial": 1.733867545532751
+    },
+    "4": {
+      "simulations": 2000,
+      "seconds": 0.06840206601191312,
+      "simulations_per_second": 29238.882925724403,
+      "speedup_vs_serial": 2.722675394225389
+    },
+    "8": {
+      "simulations": 2000,
+      "seconds": 0.04968298098538071,
+      "simulations_per_second": 40255.23348907955,
+      "speedup_vs_serial": 3.748499352315776
+    },
+    "checksums_identical": true
+  },
+  "one_shot_engine": {
+    "simulations": 300,
+    "seconds": 0.43327911593951285,
+    "simulations_per_second": 692.3943226515468,
+    "checksum": 59505765278
+  },
+  "python_reference": {
+    "simulations": 30,
+    "seconds": 0.1572476220317185,
+    "simulations_per_second": 190.78189935329314,
+    "spread_A_mean": 197.83333333333334
+  },
+  "estimate": {
+    "configurations_ssa": 120,
+    "configurations_total": 240,
+    "simulations_ssa": 237600,
+    "simulations_swap": 180000,
+    "simulations_final": 24000,
+    "simulations_baseline": 2300,
+    "simulations_total": 443900,
+    "serial_seconds_at_measured_throughput": 41.33521826284705,
+    "parallel8_seconds_at_measured_throughput": 11.02713762970525,
+    "note": "Upper-bound estimate; actual SSA calls are smaller batches and add Python overhead."
+  }
+}

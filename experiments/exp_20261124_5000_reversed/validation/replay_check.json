@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-11-24T01:55:13+05:30",
+  "mc_replays": [
+    {
+      "scenario": "B3",
+      "K": 10,
+      "objective": "O5",
+      "mode": "SSA only",
+      "spread_A_match": true,
+      "spread_B_match": true,
+      "baseline_B_match": true,
+      "n_runs": 100
+    },
+    {
+      "scenario": "B4",
+      "K": 50,
+      "objective": "O2",
+      "mode": "SSA only",
+      "spread_A_match": true,
+      "spread_B_match": true,
+      "baseline_B_match": true,
+      "n_runs": 100
+    },
+    {
+      "scenario": "B4",
+      "K": 40,
+      "objective": "O6",
+      "mode": "SSA + Swap refinement",
+      "spread_A_match": true,
+      "spread_B_match": true,
+      "baseline_B_match": true,
+      "n_runs": 100
+    },
+    {
+      "scenario": "B1",
+      "K": 30,
+      "objective": "O5",
+      "mode": "SSA + Swap refinement",
+      "spread_A_match": true,
+      "spread_B_match": true,
+      "baseline_B_match": true,
+      "n_runs": 100
+    },
+    {
+      "scenario": "B1",
+      "K": 50,
+      "objective": "O2",
+      "mode": "SSA + Swap refinement",
+      "spread_A_match": true,
+      "spread_B_match": true,
+      "baseline_B_match": true,
+      "n_runs": 100
+    }
+  ],
+  "ssa_replay": {
+    "scenario": "B1",
+    "K": 10,
+    "objective": "O1",
+    "seed_set_match": true,
+    "score_match": true,
+    "score": 1078.9666666666667,
+    "stored_score": 1078.9666666666667
+  }
+}

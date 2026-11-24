@@ -1,0 +1,29 @@
+2026-11-24 14:43:41,696 | INFO | Preprocessing cache miss: opponent_orders -> computing
+2026-11-24 14:43:41,956 | INFO | Preprocessing opponent_orders done in 0.24s
+2026-11-24 14:43:41,959 | INFO | Expected cells: 12
+2026-11-24 14:43:41,959 | INFO | Preprocessing cache miss: signed_pagerank -> computing
+2026-11-24 14:43:42,030 | INFO | Preprocessing signed_pagerank done in 0.06s
+2026-11-24 14:43:42,030 | INFO | Preprocessing cache miss: ncge_centrality -> computing
+2026-11-24 14:43:43,148 | INFO | Preprocessing ncge_centrality done in 1.11s
+2026-11-24 14:43:43,148 | INFO | Preprocessing cache miss: fibmm_communities -> computing
+2026-11-24 14:43:43,360 | INFO | Preprocessing fibmm_communities done in 0.20s
+2026-11-24 14:43:43,463 | INFO | RUN SSA_O1 B1 K=10
+2026-11-24 14:43:43,694 | INFO | DONE SSA_O1 B1 K=10: NetAdv=12.430 (A=207.5 B=195.1) sel=0.16s eval=0.03s
+2026-11-24 14:43:43,698 | INFO | RUN SSA_O4 B1 K=10
+2026-11-24 14:43:43,915 | INFO | DONE SSA_O4 B1 K=10: NetAdv=20.570 (A=216.1 B=195.5) sel=0.15s eval=0.04s
+2026-11-24 14:43:43,919 | INFO | RUN SSA_O6 B1 K=10
+2026-11-24 14:43:44,145 | INFO | DONE SSA_O6 B1 K=10: NetAdv=19.550 (A=213.7 B=194.1) sel=0.16s eval=0.03s
+2026-11-24 14:43:44,148 | INFO | RUN SSA_Notebook B1 K=10
+2026-11-24 14:43:44,359 | INFO | DONE SSA_Notebook B1 K=10: NetAdv=16.920 (A=211.4 B=194.5) sel=0.16s eval=0.03s
+2026-11-24 14:43:44,362 | INFO | RUN Random B1 K=10
+2026-11-24 14:43:44,409 | INFO | DONE Random B1 K=10: NetAdv=2.050 (A=201.1 B=199.1) sel=0.00s eval=0.03s
+2026-11-24 14:43:44,412 | INFO | RUN TopDegree B1 K=10
+2026-11-24 14:43:44,456 | INFO | DONE TopDegree B1 K=10: NetAdv=-5.730 (A=190.0 B=195.7) sel=0.00s eval=0.03s
+2026-11-24 14:43:44,460 | INFO | RUN SignedPageRank B1 K=10
+2026-11-24 14:43:44,505 | INFO | DONE SignedPageRank B1 K=10: NetAdv=-9.990 (A=192.2 B=202.2) sel=0.00s eval=0.03s
+2026-11-24 14:43:44,509 | INFO | RUN CRIEG B1 K=10
+2026-11-24 14:43:45,114 | INFO | DONE CRIEG B1 K=10: NetAdv=10.770 (A=205.1 B=194.3) sel=0.55s eval=0.03s
+2026-11-24 14:43:45,117 | INFO | RUN NCGE B1 K=10
+2026-11-24 14:43:45,386 | INFO | DONE NCGE B1 K=10: NetAdv=-0.980 (A=200.6 B=201.5) sel=0.21s eval=0.03s
+2026-11-24 14:43:45,390 | INFO | RUN SignedGA B1 K=10
+2026-11-24 14:43:48,061 | INFO | DONE SignedGA B1 K=10: NetAdv=-3.050 (A=204.9 B=208.0) sel=2.62s eval=0.03s

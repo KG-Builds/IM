@@ -1,0 +1,15 @@
+{
+  "rows": 240,
+  "validation_ok": true,
+  "aggregated_tables": 15,
+  "figures": [
+    "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/final_figures/Net_Advantage_B1_Random.png",
+    "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/final_figures/Net_Advantage_B2_Degree.png",
+    "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/final_figures/Net_Advantage_B3_Positive_PageRank.png",
+    "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/final_figures/Net_Advantage_B4_Community.png"
+  ],
+  "report": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/reports/FINAL_REPORT.md",
+  "winner_summary": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/aggregated/winner_summary.md",
+  "validation_summary": "/home/kushagragarg/im/IM_Synthetic_Experiment_Starter/IM_Synthetic_Experiment/experiments/exp_20261124_5000_reversed/validation/validation_summary.md",
+  "any_always_winner": false
+}

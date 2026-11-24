@@ -1,0 +1,21 @@
+scenario,K,objective_id,objective_name,mode,objective_validity,net_advantage,spread_A,spread_B,blocked_B
+B1,10,O3,Explicit blocking,SSA only,validated,18.58,213.89,195.31,15.439999999999998
+B1,20,O6,Budget-aware,SSA + Swap refinement,validated,26.8,225.45,198.65,32.04999999999998
+B1,30,O3,Explicit blocking,SSA + Swap refinement,validated,20.54,223.22,202.68,32.48999999999998
+B1,40,O2,Competition-aware,SSA only,validated,28.3,243.69,215.39,26.190000000000023
+B1,50,O6,Budget-aware,SSA + Swap refinement,validated,31.57,249.91,218.34,33.03999999999999
+B2,10,O1,Original SSA,SSA + Swap refinement,validated,20.63,205.15,184.52,13.72999999999999
+B2,20,O2,Competition-aware,SSA + Swap refinement,validated,27.35,206.39,179.04,16.24000000000001
+B2,30,O1,Original SSA,SSA + Swap refinement,validated,26.66,204.43,177.77,18.599999999999994
+B2,40,O6,Budget-aware,SSA only,validated,25.4,198.44,173.04,23.930000000000007
+B2,50,O4,Combined influence-blocking,SSA only,validated,28.2,211.36,183.16,20.02000000000001
+B3,10,O2,Competition-aware,SSA only,validated,17.75,205.64,187.89,12.840000000000003
+B3,20,O5,Gain_A + blocking,SSA only,validated,21.95,205.51,183.56,15.53
+B3,30,O2,Competition-aware,SSA + Swap refinement,validated,24.24,205.25,181.01,16.78
+B3,40,O2,Competition-aware,SSA + Swap refinement,validated,27.05,206.15,179.1,16.870000000000005
+B3,50,O1,Original SSA,SSA only,validated,31.83,209.17,177.34,23.47999999999999
+B4,10,O5,Gain_A + blocking,SSA + Swap refinement,validated,27.74,213.94,186.2,18.210000000000008
+B4,20,O6,Budget-aware,SSA only,validated,27.62,213.48,185.86,22.879999999999995
+B4,30,O2,Competition-aware,SSA only,validated,35.12,225.25,190.13,22.099999999999994
+B4,40,O1,Original SSA,SSA + Swap refinement,validated,32.51,224.44,191.93,27.799999999999983
+B4,50,O5,Gain_A + blocking,SSA only,validated,34.34,232.23,197.89,24.710000000000008

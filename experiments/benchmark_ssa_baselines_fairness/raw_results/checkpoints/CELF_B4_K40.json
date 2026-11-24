@@ -1,0 +1,458 @@
+{
+  "schema_version": 1,
+  "experiment_id": "benchmark_ssa_baselines_fairness",
+  "method_id": "CELF",
+  "scenario": "B4",
+  "K": 40,
+  "opponent_seed_set": [
+    11,
+    1,
+    6,
+    2,
+    106,
+    69,
+    12,
+    73,
+    72,
+    39,
+    70,
+    36,
+    54,
+    64,
+    67,
+    49,
+    112,
+    158,
+    209,
+    57,
+    282,
+    89,
+    110,
+    163,
+    190,
+    235,
+    179,
+    77,
+    114,
+    307,
+    529,
+    97,
+    118,
+    213,
+    82,
+    107,
+    173,
+    211,
+    298,
+    352
+  ],
+  "seed_set": [
+    208,
+    1163,
+    1053,
+    4465,
+    857,
+    220,
+    2523,
+    3974,
+    141,
+    544,
+    1108,
+    4373,
+    877,
+    376,
+    3759,
+    3949,
+    960,
+    3318,
+    1025,
+    3615,
+    1408,
+    4527,
+    2891,
+    3828,
+    343,
+    543,
+    2213,
+    606,
+    2326,
+    1247,
+    2343,
+    132,
+    1706,
+    821,
+    1509,
+    1669,
+    386,
+    345,
+    3082,
+    9
+  ],
+  "selection_info": {
+    "candidate_pool_size": 400,
+    "objective_evaluations": 875,
+    "unique_fitness_evaluations": 875,
+    "heap_refreshes": 474,
+    "final_objective": 1064.1000000000001,
+    "history": [
+      {
+        "step": 1,
+        "node": 208,
+        "objective": 978.9333333333332,
+        "marginal_gain_at_acceptance": 54.333333333333144,
+        "heap_refreshes": 0,
+        "unique_fitness_evaluations": 401
+      },
+      {
+        "step": 2,
+        "node": 1163,
+        "objective": 980.6333333333332,
+        "marginal_gain_at_acceptance": 1.7000000000000455,
+        "heap_refreshes": 372,
+        "unique_fitness_evaluations": 773
+      },
+      {
+        "step": 3,
+        "node": 1053,
+        "objective": 978.6666666666667,
+        "marginal_gain_at_acceptance": -1.9666666666664696,
+        "heap_refreshes": 405,
+        "unique_fitness_evaluations": 806
+      },
+      {
+        "step": 4,
+        "node": 4465,
+        "objective": 972.9666666666667,
+        "marginal_gain_at_acceptance": -5.7000000000000455,
+        "heap_refreshes": 413,
+        "unique_fitness_evaluations": 814
+      },
+      {
+        "step": 5,
+        "node": 857,
+        "objective": 970.3666666666666,
+        "marginal_gain_at_acceptance": -2.6000000000001364,
+        "heap_refreshes": 415,
+        "unique_fitness_evaluations": 816
+      },
+      {
+        "step": 6,
+        "node": 220,
+        "objective": 958.0666666666666,
+        "marginal_gain_at_acceptance": -12.299999999999955,
+        "heap_refreshes": 420,
+        "unique_fitness_evaluations": 821
+      },
+      {
+        "step": 7,
+        "node": 2523,
+        "objective": 968.7,
+        "marginal_gain_at_acceptance": 10.63333333333344,
+        "heap_refreshes": 421,
+        "unique_fitness_evaluations": 822
+      },
+      {
+        "step": 8,
+        "node": 3974,
+        "objective": 962.4,
+        "marginal_gain_at_acceptance": -6.300000000000068,
+        "heap_refreshes": 422,
+        "unique_fitness_evaluations": 823
+      },
+      {
+        "step": 9,
+        "node": 141,
+        "objective": 976.4000000000001,
+        "marginal_gain_at_acceptance": 14.000000000000114,
+        "heap_refreshes": 423,
+        "unique_fitness_evaluations": 824
+      },
+      {
+        "step": 10,
+        "node": 544,
+        "objective": 994.8,
+        "marginal_gain_at_acceptance": 18.399999999999864,
+        "heap_refreshes": 424,
+        "unique_fitness_evaluations": 825
+      },
+      {
+        "step": 11,
+        "node": 1108,
+        "objective": 978.8333333333334,
+        "marginal_gain_at_acceptance": -15.966666666666583,
+        "heap_refreshes": 425,
+        "unique_fitness_evaluations": 826
+      },
+      {
+        "step": 12,
+        "node": 4373,
+        "objective": 1003.4666666666666,
+        "marginal_gain_at_acceptance": 24.633333333333212,
+        "heap_refreshes": 426,
+        "unique_fitness_evaluations": 827
+      },
+      {
+        "step": 13,
+        "node": 877,
+        "objective": 1002.1333333333334,
+        "marginal_gain_at_acceptance": -1.3333333333331439,
+        "heap_refreshes": 430,
+        "unique_fitness_evaluations": 831
+      },
+      {
+        "step": 14,
+        "node": 376,
+        "objective": 989.5666666666666,
+        "marginal_gain_at_acceptance": -12.566666666666833,
+        "heap_refreshes": 441,
+        "unique_fitness_evaluations": 842
+      },
+      {
+        "step": 15,
+        "node": 3759,
+        "objective": 973.6333333333332,
+        "marginal_gain_at_acceptance": -15.933333333333394,
+        "heap_refreshes": 442,
+        "unique_fitness_evaluations": 843
+      },
+      {
+        "step": 16,
+        "node": 3949,
+        "objective": 1011.3000000000001,
+        "marginal_gain_at_acceptance": 37.666666666666856,
+        "heap_refreshes": 443,
+        "unique_fitness_evaluations": 844
+      },
+      {
+        "step": 17,
+        "node": 960,
+        "objective": 1000.3,
+        "marginal_gain_at_acceptance": -11.000000000000114,
+        "heap_refreshes": 444,
+        "unique_fitness_evaluations": 845
+      },
+      {
+        "step": 18,
+        "node": 3318,
+        "objective": 1010.4333333333334,
+        "marginal_gain_at_acceptance": 10.13333333333344,
+        "heap_refreshes": 445,
+        "unique_fitness_evaluations": 846
+      },
+      {
+        "step": 19,
+        "node": 1025,
+        "objective": 1019.7,
+        "marginal_gain_at_acceptance": 9.266666666666652,
+        "heap_refreshes": 446,
+        "unique_fitness_evaluations": 847
+      },
+      {
+        "step": 20,
+        "node": 3615,
+        "objective": 999.4000000000001,
+        "marginal_gain_at_acceptance": -20.299999999999955,
+        "heap_refreshes": 448,
+        "unique_fitness_evaluations": 849
+      },
+      {
+        "step": 21,
+        "node": 1408,
+        "objective": 1014.3333333333333,
+        "marginal_gain_at_acceptance": 14.933333333333167,
+        "heap_refreshes": 449,
+        "unique_fitness_evaluations": 850
+      },
+      {
+        "step": 22,
+        "node": 4527,
+        "objective": 1020.2666666666667,
+        "marginal_gain_at_acceptance": 5.933333333333394,
+        "heap_refreshes": 450,
+        "unique_fitness_evaluations": 851
+      },
+      {
+        "step": 23,
+        "node": 2891,
+        "objective": 1014.2333333333333,
+        "marginal_gain_at_acceptance": -6.033333333333303,
+        "heap_refreshes": 452,
+        "unique_fitness_evaluations": 853
+      },
+      {
+        "step": 24,
+        "node": 3828,
+        "objective": 1019.2333333333333,
+        "marginal_gain_at_acceptance": 5.0,
+        "heap_refreshes": 453,
+        "unique_fitness_evaluations": 854
+      },
+      {
+        "step": 25,
+        "node": 343,
+        "objective": 1010.8333333333333,
+        "marginal_gain_at_acceptance": -8.400000000000091,
+        "heap_refreshes": 454,
+        "unique_fitness_evaluations": 855
+      },
+      {
+        "step": 26,
+        "node": 543,
+        "objective": 1004.3999999999999,
+        "marginal_gain_at_acceptance": -6.433333333333394,
+        "heap_refreshes": 455,
+        "unique_fitness_evaluations": 856
+      },
+      {
+        "step": 27,
+        "node": 2213,
+        "objective": 1021.9000000000001,
+        "marginal_gain_at_acceptance": 17.500000000000227,
+        "heap_refreshes": 456,
+        "unique_fitness_evaluations": 857
+      },
+      {
+        "step": 28,
+        "node": 606,
+        "objective": 1009.3,
+        "marginal_gain_at_acceptance": -12.600000000000136,
+        "heap_refreshes": 457,
+        "unique_fitness_evaluations": 858
+      },
+      {
+        "step": 29,
+        "node": 2326,
+        "objective": 1020.6,
+        "marginal_gain_at_acceptance": 11.300000000000068,
+        "heap_refreshes": 458,
+        "unique_fitness_evaluations": 859
+      },
+      {
+        "step": 30,
+        "node": 1247,
+        "objective": 1023.1666666666665,
+        "marginal_gain_at_acceptance": 2.5666666666664923,
+        "heap_refreshes": 460,
+        "unique_fitness_evaluations": 861
+      },
+      {
+        "step": 31,
+        "node": 2343,
+        "objective": 1039.0333333333333,
+        "marginal_gain_at_acceptance": 15.866666666666788,
+        "heap_refreshes": 461,
+        "unique_fitness_evaluations": 862
+      },
+      {
+        "step": 32,
+        "node": 132,
+        "objective": 1037.1666666666665,
+        "marginal_gain_at_acceptance": -1.866666666666788,
+        "heap_refreshes": 462,
+        "unique_fitness_evaluations": 863
+      },
+      {
+        "step": 33,
+        "node": 1706,
+        "objective": 1059.8,
+        "marginal_gain_at_acceptance": 22.63333333333344,
+        "heap_refreshes": 463,
+        "unique_fitness_evaluations": 864
+      },
+      {
+        "step": 34,
+        "node": 821,
+        "objective": 1056.6,
+        "marginal_gain_at_acceptance": -3.2000000000000455,
+        "heap_refreshes": 466,
+        "unique_fitness_evaluations": 867
+      },
+      {
+        "step": 35,
+        "node": 1509,
+        "objective": 1037.1,
+        "marginal_gain_at_acceptance": -19.5,
+        "heap_refreshes": 467,
+        "unique_fitness_evaluations": 868
+      },
+      {
+        "step": 36,
+        "node": 1669,
+        "objective": 1040.7333333333333,
+        "marginal_gain_at_acceptance": 3.6333333333334394,
+        "heap_refreshes": 468,
+        "unique_fitness_evaluations": 869
+      },
+      {
+        "step": 37,
+        "node": 386,
+        "objective": 1054.9666666666667,
+        "marginal_gain_at_acceptance": 14.233333333333348,
+        "heap_refreshes": 469,
+        "unique_fitness_evaluations": 870
+      },
+      {
+        "step": 38,
+        "node": 345,
+        "objective": 1068.3666666666668,
+        "marginal_gain_at_acceptance": 13.400000000000091,
+        "heap_refreshes": 470,
+        "unique_fitness_evaluations": 871
+      },
+      {
+        "step": 39,
+        "node": 3082,
+        "objective": 1055.1000000000001,
+        "marginal_gain_at_acceptance": -13.266666666666652,
+        "heap_refreshes": 473,
+        "unique_fitness_evaluations": 874
+      },
+      {
+        "step": 40,
+        "node": 9,
+        "objective": 1064.1000000000001,
+        "marginal_gain_at_acceptance": 9.0,
+        "heap_refreshes": 474,
+        "unique_fitness_evaluations": 875
+      }
+    ],
+    "pool_meta": {
+      "pool_size_target": 400,
+      "pool_size_actual": 400,
+      "n_ranked": 280,
+      "n_random": 120,
+      "random_fraction_requested": 0.3,
+      "random_fraction_actual": 0.3,
+      "n_eligible": 4960,
+      "n_opponent_seeds": 40,
+      "truncated": false,
+      "seed": 600046,
+      "pool_ratio": 10,
+      "ranking": "net_then_positive_then_negative_then_id",
+      "random_part_source": "ranked_remainder"
+    }
+  },
+  "metrics": {
+    "spread_A": 994.11,
+    "spread_B": 947.34,
+    "net_advantage": 46.77,
+    "blocked_B": 40.15999999999997,
+    "baseline_B": 987.5,
+    "spread_A_se": 3.7089543572606045,
+    "spread_B_se": 3.319888643623549,
+    "net_advantage_se": 4.103259482879237,
+    "net_advantage_ci_low": 38.7,
+    "net_advantage_ci_high": 54.76,
+    "blocked_B_se": 4.800478090668668,
+    "blocked_B_ci_low": 30.799750000000003,
+    "blocked_B_ci_high": 49.63,
+    "ignorant": 3058.55,
+    "rounds": 30.18,
+    "from_cache": 0.0
+  },
+  "network_file_sha256": "d001616cb88d73311874367774cafccc635e14d83f7d008ffcfaabea13e7a18e",
+  "influence_semantic_sha256": "b3911df08912a2356c9ebf12c549b59c49049e877fb61541ab3b9d17108184b9",
+  "config_signature_hash": "08f30ab51d6fa121f979d3398683c7335c37345b6a763442d088330d94e99948",
+  "source": "new_computation",
+  "created_utc": "2026-11-24T00:33:36+00:00"
+}

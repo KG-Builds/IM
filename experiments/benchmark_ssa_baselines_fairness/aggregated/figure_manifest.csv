@@ -1,0 +1,8 @@
+figure,description
+figures/Net_Advantage_B1_Random.png,Primary two-panel Net Advantage vs K chart for B1.
+figures/Net_Advantage_B2_Degree.png,Primary two-panel Net Advantage vs K chart for B2.
+figures/Net_Advantage_B3_Positive_PageRank.png,Primary two-panel Net Advantage vs K chart for B3.
+figures/Net_Advantage_B4_Community.png,Primary two-panel Net Advantage vs K chart for B4.
+figures/Net_Advantage_SSA_and_Fairness_All_Scenarios.png,"Focus chart: SSA O1/O4/O6, SSA-Notebook and FIBMM across all four scenarios."
+figures/Mean_Net_Advantage_by_Algorithm.png,Descriptive mean Net Advantage across the 20 scenario × K cells.
+figures/Selection_Runtime_by_Algorithm.png,Mean seed-selection runtime per configuration (log scale).

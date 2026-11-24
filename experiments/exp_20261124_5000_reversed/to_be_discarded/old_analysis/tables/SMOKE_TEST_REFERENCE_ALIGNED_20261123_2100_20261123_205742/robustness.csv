@@ -1,0 +1,5 @@
+objective_id,objective_name,mode,B1,across_scenario_mean,across_scenario_std,across_scenario_range
+O2,Competition-aware,SSA + Swap refinement,6.1,6.1,,0.0
+O2,Competition-aware,SSA only,11.9,11.9,,0.0
+O3,Explicit blocking,SSA + Swap refinement,-5.0,-5.0,,0.0
+O3,Explicit blocking,SSA only,-0.8,-0.8,,0.0

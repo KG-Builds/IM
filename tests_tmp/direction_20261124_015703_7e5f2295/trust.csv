@@ -1,0 +1,4 @@
+source,target,rating,probability,strength,polarity
+0,1,9,0.9,9,1
+0,2,9,0.9,9,1
+1,2,9,0.9,9,1

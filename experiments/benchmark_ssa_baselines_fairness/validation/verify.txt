@@ -1,0 +1,8 @@
+2026-11-24 06:23:03,938 | INFO | Preprocessing cache hit: opponent_orders
+Network identity: OK
+  nodes: 5000 influence arcs: 37500
+  direction check: {'trust_edges': 37500, 'influence_edges': 37500, 'expected_influence_edges': 37500, 'missing_reversed_edges': 0, 'extra_influence_edges': 0, 'same_direction_edges': 0, 'reciprocal_trust_pairs': 0, 'all_trust_edges_reversed': True, 'influence_direction': 'reverse_of_trust', 'examples_missing': [], 'examples_extra': []}
+Opponent nested orders: OK
+Prior SSA O1/O4/O6 reuse validation: OK (60/60 rows)
+Deterministic SSA reproduction check (B1/K=10/O1): OK
+VERIFY PASSED
